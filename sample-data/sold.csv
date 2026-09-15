@@ -1,0 +1,566 @@
+TRGID,ProgramName,MasterProgramName,CategoryName,Manufacturer,Classification_PHYSICAL CONDITION,Classification_CONDITION,RTVType,OrderNumber,Sale Price (Discount applied),Retail Price On Sale Date,MR_LMR_UPC_AverageCategoryRetail,UPCRetail,Order Type Sold On,Marketplace Sold On,OrderCustomerName,OrderCustomerCompanyName,MarketplacePONumber,SortingIndex,LocationID,OrderCreatedDate
+TRG00001,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Computers,Samsung,Good,A,RTV Approved,ORD-10001,118.51,57.95,233.51,98.13,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-1,,,2026-08-12
+TRG00002,WFS-OVERFLOW,Walmart Computer Parts (Finished),Tablets,Dell,Fair,C,,ORD-10002,62.63,76.59,96.37,203.50,Retail,eBay,Sam Patel,Acme Returns LLC,PO-2,,,2026-09-14
+TRG00003,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Headphones,HP,Damaged,C,Non RTV,ORD-10003,129.75,128.42,215.84,45.74,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-3,,,2026-09-15
+TRG00004,DALLX-HEADPHONES,Open Box Returns,TVs,Samsung,Very Good,B,,ORD-10004,125.58,201.03,167.62,113.38,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-4,3,LOC-31,2026-08-19
+TRG00006,BRTON-WM-FOO,Walmart Monitors (Finished),Headphones,HP,Very Good,B,Non RTV,ORD-10006,26.26,60.12,169.44,175.51,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-6,,,2026-08-10
+TRG00009,MILON-WM-DOTCA-RTV,Specialty,Tablets,Samsung,Fair,A,RTV Liquidate,ORD-10009,161.95,172.11,109.56,37.20,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-9,8,LOC-21,2026-08-07
+TRG00011,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Tablets,Samsung,Fair,B,,ORD-10011,164.89,148.65,211.11,188.54,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-11,,,2026-09-09
+TRG00014,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Samsung,Very Good,A,Non RTV,ORD-10014,137.66,140.75,77.48,237.22,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-14,,,2026-09-08
+TRG00015,BRTON-WM-FOO,Walmart Computers Parts (Finished),Headphones,Samsung,Good,B,,ORD-10015,153.19,160.11,235.12,115.57,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-15,4,LOC-52,2026-08-12
+TRG00018,MILON-WM-DOTCA-RTV,Warehouse Direct,TVs,HP,Good,B,,ORD-10018,65.53,40.11,48.48,204.17,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-18,,,2026-08-14
+TRG00020,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,Good,B,,ORD-10020,137.17,185.66,57.00,84.05,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-20,,,2026-08-31
+TRG00021,BRTON-WM-BAR,Walmart Computer Parts (Finished),Accessories,HP,Very Good,C,Non RTV,ORD-10021,99.40,177.76,199.43,184.70,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-21,,,2026-09-09
+TRG00022,MIAFL-HEAD-OFFICE,Open Box Returns,Headphones,Samsung,Very Good,B,Non RTV,ORD-10022,153.83,53.38,196.41,206.59,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-22,,,2026-09-15
+TRG00023,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,HP,Good,C,,ORD-10023,92.90,175.25,69.68,168.93,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-23,,,2026-08-17
+TRG00024,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Samsung,Good,C,RTV Liquidate,ORD-10024,27.37,152.02,259.70,127.11,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-24,,,2026-08-11
+TRG00025,PHXAZ-RETURNS,Specialty,Tablets,Samsung,Very Good,B,,ORD-10025,189.45,45.48,135.56,57.50,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-25,,,2026-09-01
+TRG00026,BRTON-WM-FOO,Warehouse Direct,Computers,HP,Good,A,Non RTV,ORD-10026,176.98,145.13,166.92,71.29,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-26,,,2026-09-10
+TRG00027,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Computers,Dell,Damaged,B,Non RTV,ORD-10027,18.35,91.24,256.21,244.56,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-27,,,2026-08-27
+TRG00028,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,Damaged,B,Non RTV,ORD-10028,54.80,78.60,76.09,128.42,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-28,,,2026-09-13
+TRG00029,BRTON-WM-BAR,Specialty,Monitors,HP,Very Good,C,Non RTV,ORD-10029,141.72,70.28,175.57,239.56,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-29,,,2026-08-26
+TRG00030,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Tablets,Samsung,Very Good,A,Non RTV,ORD-10030,133.36,117.08,91.23,193.28,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-30,12,LOC-21,2026-09-01
+TRG00032,PHXAZ-RETURNS,Warehouse Direct,Monitors,Samsung,Damaged,A,RTV Liquidate,ORD-10032,171.41,130.12,97.38,137.71,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-32,,,2026-09-09
+TRG00033,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Accessories,Dell,Very Good,A,RTV Liquidate,ORD-10033,105.31,249.51,224.85,41.73,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-33,,,2026-09-14
+TRG00034,MIAFL-HEAD-OFFICE,Open Box Returns,Monitors,Samsung,Fair,C,RTV Liquidate,ORD-10034,95.26,52.84,60.56,60.45,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-34,,,2026-09-03
+TRG00035,MILON-WM-DOTCA-RTV,Warehouse Direct,TVs,Dell,Fair,C,RTV Liquidate,ORD-10035,73.98,109.44,249.20,198.72,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-35,,,2026-08-16
+TRG00038,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Headphones,Samsung,Very Good,C,Non RTV,ORD-10038,44.65,126.56,79.74,100.90,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-38,9,LOC-31,2026-09-13
+TRG00040,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Samsung,Good,C,,ORD-10040,112.84,97.94,225.35,197.46,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-40,,,2026-08-25
+TRG00041,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,HP,Fair,C,Non RTV,ORD-10041,122.89,100.81,246.89,211.26,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-41,2,LOC-7,2026-08-15
+TRG00043,MILON-WM-DOTCA-RTV,Specialty,Computers,Dell,Fair,B,,ORD-10043,136.93,74.16,96.58,54.74,Retail,eBay,Jordan Lee,Acme Returns LLC,PO-43,,,2026-08-14
+TRG00044,MIAFL-HEAD-OFFICE,Specialty,TVs,Dell,Very Good,A,RTV Liquidate,ORD-10044,140.19,117.17,254.37,112.88,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-44,10,LOC-36,2026-08-20
+TRG00046,MIAFL-HEAD-OFFICE,Open Box Returns,Tablets,Samsung,Damaged,B,RTV Liquidate,ORD-10046,112.47,203.25,41.61,84.79,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-46,,,2026-08-14
+TRG00048,BRTON-WM-BAR,Walmart Monitors (Finished),Tablets,HP,Fair,C,RTV Liquidate,ORD-10048,91.20,185.86,105.09,123.87,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-48,,,2026-08-14
+TRG00050,MILON-WM-DOTCA-RTV,Warehouse Direct,Tablets,HP,Fair,A,,ORD-10050,113.42,238.40,222.32,250.38,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-50,,,2026-09-01
+TRG00052,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),TVs,HP,Good,A,Non RTV,ORD-10052,0.00,96.58,127.95,264.84,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-52,,,2026-09-05
+TRG00053,PHXAZ-RETURNS,Open Box Returns,TVs,Samsung,Very Good,C,,ORD-10053,59.39,42.68,117.25,140.44,Liquidation,eBay,Alex Nguyen,The Recon Group LLP,PO-53,6,LOC-55,2026-08-10
+TRG00054,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),TVs,Samsung,Fair,A,,ORD-10054,130.11,240.94,196.55,67.75,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-54,8,LOC-39,2026-08-13
+TRG00055,PHXAZ-RETURNS,Warehouse Direct,Accessories,Dell,Damaged,B,,ORD-10055,48.59,167.34,165.15,104.49,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-55,,,2026-08-14
+TRG00057,DALLX-HEADPHONES,Walmart Monitors (Finished),Tablets,HP,Damaged,A,RTV Liquidate,ORD-10057,17.84,135.57,217.89,201.58,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-57,,,2026-08-29
+TRG00058,MILON-WM-DOTCA-RTV,Specialty,Monitors,Samsung,Very Good,A,RTV Liquidate,ORD-10058,0.00,192.26,84.80,100.70,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-58,,,2026-08-21
+TRG00059,DALLX-HEADPHONES,Walmart Monitors (Finished),Tablets,Samsung,Fair,A,,ORD-10059,62.05,128.19,46.70,91.99,Liquidation,Walmart,Sender Shamiss,Acme Returns LLC,PO-59,,,2026-09-09
+TRG00060,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Headphones,HP,Fair,C,,ORD-10060,59.08,249.78,210.49,236.78,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-60,,,2026-08-13
+TRG00062,PHXAZ-RETURNS,Specialty,Monitors,Dell,Damaged,B,,ORD-10062,148.37,96.81,177.34,68.47,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-62,,,2026-08-21
+TRG00064,BRTON-WM-FOO,Walmart Monitors (Finished),Monitors,HP,Fair,B,Non RTV,ORD-10064,117.98,232.09,179.73,65.07,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-64,,,2026-08-06
+TRG00065,BRTON-WM-BAR,Walmart Computer Parts (Finished),TVs,Dell,Very Good,A,Non RTV,ORD-10065,189.99,53.47,157.82,221.89,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-65,,,2026-08-08
+TRG00067,DALLX-HEADPHONES,Walmart Monitors (Finished),Computers,Samsung,Good,B,Non RTV,ORD-10067,80.56,81.22,159.82,248.05,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-67,10,LOC-25,2026-08-14
+TRG00068,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),TVs,Samsung,Damaged,C,,ORD-10068,66.99,240.36,69.29,141.63,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-68,,,2026-08-20
+TRG00069,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Monitors,Dell,Damaged,C,RTV Approved,ORD-10069,0.00,104.49,65.78,34.99,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-69,,,2026-08-28
+TRG00070,MILON-WM-DOTCA-RTV,Specialty,TVs,Dell,Damaged,B,Research,ORD-10070,168.52,184.10,104.82,49.92,Retail,eBay,Jordan Lee,Acme Returns LLC,PO-70,9,LOC-32,2026-08-30
+TRG00071,WFS-OVERFLOW,Walmart Monitors (Finished),Headphones,Samsung,Damaged,A,Non RTV,ORD-10071,140.77,224.01,222.23,30.09,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-71,7,LOC-50,2026-08-07
+TRG00073,PHXAZ-RETURNS,Open Box Returns,TVs,Dell,Good,C,RTV Liquidate,ORD-10073,23.44,233.15,103.06,163.24,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-73,,,2026-08-15
+TRG00074,BRTON-WM-BAR,Walmart Computer Parts (Finished),Headphones,Dell,Good,B,,ORD-10074,97.50,95.76,151.31,46.05,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-74,6,LOC-4,2026-09-03
+TRG00075,PHXAZ-RETURNS,Specialty,Computers,Samsung,Very Good,C,Non RTV,ORD-10075,109.82,178.52,226.11,186.88,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-75,,,2026-09-13
+TRG00076,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,HP,Good,A,RTV Liquidate,ORD-10076,105.35,85.68,146.63,82.66,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-76,11,LOC-6,2026-09-12
+TRG00077,MILON-WM-DOTCA-RTV,Open Box Returns,TVs,Samsung,Very Good,B,,ORD-10077,76.88,64.26,111.41,177.38,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-77,11,LOC-36,2026-08-31
+TRG00078,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Headphones,Dell,Fair,A,RTV Liquidate,ORD-10078,83.94,191.13,133.82,234.08,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-78,,,2026-09-07
+TRG00079,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Accessories,Samsung,Good,A,,ORD-10079,19.04,175.53,85.24,114.51,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-79,,,2026-08-18
+TRG00080,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Tablets,Samsung,Damaged,B,,ORD-10080,190.05,79.93,210.67,241.59,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-80,,,2026-08-11
+TRG00081,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Tablets,HP,Fair,C,,ORD-10081,159.66,122.98,217.52,52.98,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-81,,,2026-08-31
+TRG00082,BRTON-WM-FOO,Open Box Returns,TVs,HP,Good,B,Non RTV,ORD-10082,127.60,193.08,195.75,232.34,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-82,,,2026-09-04
+TRG00083,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Tablets,HP,Damaged,C,Non RTV,ORD-10083,94.70,102.15,50.33,224.76,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-83,,,2026-08-24
+TRG00084,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Monitors,Dell,Good,A,RTV Liquidate,ORD-10084,179.82,35.05,49.09,40.31,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-84,,,2026-09-01
+TRG00085,BRTON-WM-FOO,Walmart Computer Parts (Finished),TVs,Dell,Damaged,B,Non RTV,ORD-10085,0.00,107.79,80.69,255.13,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-85,,,2026-09-02
+TRG00086,BRTON-WM-BAR,Walmart Computers Parts (Finished),TVs,Samsung,Very Good,C,Non RTV,ORD-10086,182.29,187.24,49.77,170.64,Retail,eBay,Jordan Lee,Acme Returns LLC,PO-86,6,LOC-58,2026-09-06
+TRG00087,MIAFL-HEAD-OFFICE,Open Box Returns,Computers,Dell,Fair,B,Non RTV,ORD-10087,154.25,232.68,228.88,222.02,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-87,,,2026-09-09
+TRG00088,MIAFL-HEAD-OFFICE,Open Box Returns,Computers,HP,Very Good,B,RTV Liquidate,ORD-10088,101.35,101.55,252.31,107.92,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-88,,,2026-08-06
+TRG00090,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Headphones,HP,Very Good,B,,ORD-10090,171.09,88.34,118.35,152.28,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-90,12,LOC-12,2026-09-01
+TRG00091,MILON-WM-DOTCA-RTV,Open Box Returns,Accessories,Dell,Fair,B,RTV Liquidate,ORD-10091,41.33,139.04,158.45,218.47,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-91,,,2026-08-14
+TRG00092,MILON-WM-DOTCA-RTV,Warehouse Direct,Computers,Dell,Good,C,Non RTV,ORD-10092,149.07,161.04,103.21,75.11,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-92,,,2026-08-06
+TRG00093,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Headphones,HP,Very Good,C,,ORD-10093,47.88,191.46,157.53,40.23,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-93,,,2026-08-18
+TRG00094,WFS-OVERFLOW,Walmart Monitors (Finished),Tablets,HP,Good,C,,ORD-10094,39.84,209.05,118.13,128.34,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-94,6,LOC-59,2026-08-23
+TRG00095,PHXAZ-RETURNS,Warehouse Direct,Accessories,HP,Very Good,C,RTV Liquidate,ORD-10095,43.99,56.46,186.83,148.32,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-95,,,2026-08-07
+TRG00096,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,Damaged,B,Non RTV,ORD-10096,150.94,185.01,152.83,109.92,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-96,9,LOC-50,2026-09-05
+TRG00097,BRTON-WM-FOO,Specialty,Monitors,Samsung,Good,B,,ORD-10097,144.90,218.16,125.67,231.92,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-97,,,2026-08-21
+TRG00098,BRTON-WM-BAR,Walmart Monitors (Finished),Headphones,Samsung,Very Good,A,Non RTV,ORD-10098,134.40,48.53,205.67,130.74,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-98,1,LOC-53,2026-09-15
+TRG00099,DALLX-HEADPHONES,Walmart Monitors (Finished),Computers,Dell,Fair,C,Non RTV,ORD-10099,131.20,187.68,50.04,42.05,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-99,12,LOC-40,2026-08-12
+TRG00100,WFS-OVERFLOW,Open Box Returns,Computers,HP,Fair,B,Research,ORD-10100,80.44,70.03,48.84,140.18,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-100,,,2026-08-26
+TRG00102,BRTON-WM-BAR,Walmart Computer Parts (Finished),TVs,Samsung,Fair,C,RTV Approved,ORD-10102,92.97,74.99,97.70,41.30,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-102,4,LOC-53,2026-08-19
+TRG00105,PHXAZ-RETURNS,Open Box Returns,Monitors,Samsung,Fair,B,RTV Liquidate,ORD-10105,50.99,34.99,84.97,131.10,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-105,,,2026-08-30
+TRG00106,WFS-OVERFLOW,Walmart Computers Parts (Finished),Monitors,Dell,Damaged,B,,ORD-10106,0.00,78.19,88.11,240.00,Wholesale,Walmart,Alex Nguyen,The Recon Group LLP,PO-106,,,2026-08-12
+TRG00107,MILON-WM-DOTCA-RTV,Open Box Returns,Computers,Dell,Damaged,B,RTV Liquidate,ORD-10107,158.72,41.97,52.55,153.19,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-107,6,LOC-60,2026-08-24
+TRG00109,WFS-OVERFLOW,Walmart Monitors (Finished),Headphones,Dell,Damaged,A,RTV Approved,ORD-10109,148.59,48.82,131.20,214.27,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-109,1,LOC-13,2026-09-06
+TRG00110,WFS-OVERFLOW,Open Box Returns,Computers,HP,Damaged,A,Non RTV,ORD-10110,174.21,36.49,160.86,101.51,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-110,3,LOC-40,2026-08-13
+TRG00111,DALLX-HEADPHONES,Open Box Returns,TVs,Samsung,Damaged,B,Research,ORD-10111,148.23,135.03,187.25,69.02,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-111,,,2026-09-03
+TRG00114,BRTON-WM-BAR,Specialty,Accessories,Dell,Very Good,C,RTV Liquidate,ORD-10114,0.00,234.08,168.31,79.89,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-114,,,2026-09-10
+TRG00117,BRTON-WM-FOO,Walmart Monitors (Finished),Tablets,Dell,Very Good,B,RTV Approved,ORD-10117,162.82,118.24,86.00,136.86,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-117,,,2026-08-08
+TRG00118,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),TVs,HP,Good,B,RTV Liquidate,ORD-10118,31.19,63.34,132.79,188.09,Wholesale,Shopify,Sender Shamiss,Acme Returns LLC,PO-118,,,2026-08-23
+TRG00119,MILON-WM-DOTCA-RTV,Open Box Returns,Computers,Samsung,Very Good,A,Non RTV,ORD-10119,27.13,97.54,154.49,58.32,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-119,,,2026-09-05
+TRG00120,WFS-OVERFLOW,Walmart Computers Parts (Finished),TVs,Dell,Good,C,RTV Liquidate,ORD-10120,56.63,192.91,90.52,240.88,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-120,,,2026-08-19
+TRG00121,WFS-OVERFLOW,Warehouse Direct,Monitors,Samsung,Good,C,,ORD-10121,59.80,37.00,182.47,70.23,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-121,,,2026-08-25
+TRG00122,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,Good,B,,ORD-10122,97.40,54.11,248.84,221.65,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-122,,,2026-08-16
+TRG00123,BRTON-WM-BAR,Open Box Returns,Computers,Samsung,Damaged,A,,ORD-10123,30.57,193.43,154.42,225.57,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-123,3,LOC-20,2026-09-11
+TRG00124,BRTON-WM-FOO,Warehouse Direct,Accessories,HP,Good,C,Non RTV,ORD-10124,61.90,224.74,196.29,43.61,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-124,,,2026-09-13
+TRG00125,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,Very Good,C,,ORD-10125,132.45,148.07,126.95,191.00,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-125,,,2026-09-11
+TRG00126,BRTON-WM-FOO,Open Box Returns,TVs,HP,Damaged,B,,ORD-10126,128.00,151.71,101.89,114.61,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-126,2,LOC-33,2026-08-19
+TRG00130,BRTON-WM-BAR,Walmart Computers Parts (Finished),Computers,Dell,Fair,C,RTV Approved,ORD-10130,118.03,102.91,119.88,253.38,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-130,,,2026-08-29
+TRG00131,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,Very Good,B,RTV,ORD-10131,17.20,149.26,209.48,221.97,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-131,,,2026-08-24
+TRG00132,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Dell,Damaged,C,Non RTV,ORD-10132,134.63,107.62,171.83,38.40,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-132,,,2026-08-16
+TRG00133,MIAFL-HEAD-OFFICE,Open Box Returns,Accessories,Dell,Damaged,C,,ORD-10133,160.05,123.92,186.13,87.37,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-133,,,2026-08-07
+TRG00134,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Accessories,HP,Fair,B,Non RTV,ORD-10134,139.06,130.74,112.53,189.78,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-134,,,2026-09-01
+TRG00135,WFS-OVERFLOW,Warehouse Direct,Monitors,HP,Very Good,C,Non RTV,ORD-10135,177.04,133.52,184.13,222.06,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-135,,,2026-08-25
+TRG00136,WFS-OVERFLOW,Walmart Monitors (Finished),Computers,HP,Very Good,B,RTV Liquidate,ORD-10136,126.93,179.73,184.82,236.20,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-136,,,2026-09-06
+TRG00137,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Tablets,Samsung,Damaged,C,,ORD-10137,0.00,216.49,145.01,175.76,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-137,,,2026-09-15
+TRG00140,PHXAZ-RETURNS,Walmart Monitors (Finished),Headphones,HP,Good,C,Research,ORD-10140,155.86,94.67,188.99,81.26,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-140,,,2026-08-12
+TRG00143,BRTON-WM-FOO,Specialty,Tablets,Dell,Very Good,C,RTV Approved,ORD-10143,86.70,49.22,138.53,176.56,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-143,,,2026-09-03
+TRG00145,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Tablets,HP,Fair,A,Research,ORD-10145,18.49,123.19,215.36,259.14,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-145,,,2026-09-07
+TRG00147,PHXAZ-RETURNS,Warehouse Direct,Accessories,Dell,Damaged,C,,ORD-10147,113.60,99.18,171.18,139.83,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-147,12,LOC-32,2026-08-10
+TRG00148,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Monitors,Samsung,Good,A,Non RTV,ORD-10148,176.45,74.29,175.32,39.56,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-148,11,LOC-36,2026-08-23
+TRG00149,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Tablets,Dell,Damaged,B,,ORD-10149,54.31,125.16,56.69,95.50,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-149,1,LOC-9,2026-09-14
+TRG00150,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Computers,Dell,Fair,A,Non RTV,ORD-10150,150.76,148.44,40.28,110.62,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-150,,,2026-08-25
+TRG00151,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Samsung,Damaged,B,RTV Liquidate,ORD-10151,66.23,60.46,83.98,232.61,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-151,,,2026-08-18
+TRG00152,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Tablets,Dell,Very Good,C,,ORD-10152,179.49,129.12,61.31,132.81,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-152,,,2026-08-28
+TRG00153,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Headphones,Dell,Damaged,B,Non RTV,ORD-10153,14.37,94.29,66.91,91.19,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-153,5,LOC-28,2026-08-21
+TRG00155,DALLX-HEADPHONES,Walmart Monitors (Finished),Accessories,Samsung,Fair,A,,ORD-10155,139.82,125.50,110.27,112.18,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-155,,,2026-08-27
+TRG00157,BRTON-WM-BAR,Walmart Computer Parts (Finished),Accessories,HP,Good,B,,ORD-10157,48.80,165.68,222.86,179.67,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-157,,,2026-08-09
+TRG00158,WFS-OVERFLOW,Walmart Computer Parts (Finished),TVs,HP,Damaged,B,,ORD-10158,13.64,146.82,41.13,154.24,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-158,,,2026-09-06
+TRG00159,BRTON-WM-FOO,Specialty,Accessories,Dell,Damaged,C,,ORD-10159,76.01,124.20,133.48,73.61,Wholesale,Walmart,Jordan Lee,The Recon Group LLP,PO-159,,,2026-08-11
+TRG00160,MIAFL-HEAD-OFFICE,Open Box Returns,Monitors,Samsung,Good,B,,ORD-10160,98.74,232.90,198.06,265.76,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-160,,,2026-09-02
+TRG00161,BRTON-WM-BAR,Warehouse Direct,Computers,Dell,Very Good,B,,ORD-10161,17.26,186.15,134.40,152.48,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-161,10,LOC-50,2026-09-08
+TRG00162,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,Damaged,A,RTV Liquidate,ORD-10162,0.00,36.89,205.48,69.64,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-162,,,2026-08-19
+TRG00163,WFS-OVERFLOW,Walmart Computer Parts (Finished),Monitors,Dell,Very Good,A,RTV Liquidate,ORD-10163,123.13,81.76,121.43,237.21,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-163,5,LOC-54,2026-09-09
+TRG00164,WFS-OVERFLOW,Open Box Returns,TVs,Samsung,Damaged,A,Non RTV,ORD-10164,190.55,179.14,246.48,190.41,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-164,11,LOC-20,2026-08-19
+TRG00165,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Tablets,Samsung,Fair,B,RTV Liquidate,ORD-10165,145.34,194.35,222.27,114.52,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-165,4,LOC-25,2026-08-14
+TRG00166,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Headphones,Dell,Good,B,,ORD-10166,15.32,148.19,112.82,155.22,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-166,12,LOC-26,2026-08-15
+TRG00167,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Computers,Dell,Damaged,A,RTV Liquidate,ORD-10167,191.18,226.52,249.12,103.04,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-167,12,LOC-60,2026-09-07
+TRG00168,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Monitors,Dell,Fair,C,,ORD-10168,76.42,48.81,230.57,127.08,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-168,,,2026-09-02
+TRG00169,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Samsung,Fair,B,RTV Liquidate,ORD-10169,112.57,233.97,159.37,218.95,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-169,,,2026-09-01
+TRG00170,WFS-OVERFLOW,Warehouse Direct,Accessories,HP,Good,B,RTV Liquidate,ORD-10170,49.27,189.03,133.83,120.00,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-170,10,LOC-27,2026-08-11
+TRG00171,MIAFL-HEAD-OFFICE,Warehouse Direct,Tablets,HP,Good,A,Non RTV,ORD-10171,189.61,36.39,65.80,230.86,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-171,,,2026-08-19
+TRG00172,BRTON-WM-FOO,Walmart Computers Parts (Finished),Accessories,HP,Fair,A,Research,ORD-10172,164.76,151.23,50.92,142.59,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-172,,,2026-08-26
+TRG00173,MILON-WM-DOTCA-RTV,Specialty,Headphones,HP,Good,C,Non RTV,ORD-10173,53.94,210.48,256.66,264.60,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-173,6,LOC-12,2026-09-08
+TRG00174,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,Damaged,B,RTV Liquidate,ORD-10174,87.46,234.18,230.08,183.49,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-174,,,2026-08-28
+TRG00175,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Samsung,Damaged,C,RTV Liquidate,ORD-10175,15.36,105.26,106.32,138.55,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-175,,,2026-09-05
+TRG00176,MILON-WM-DOTCA-RTV,Warehouse Direct,Monitors,HP,Very Good,A,Non RTV,ORD-10176,148.76,181.66,72.25,149.28,Retail,eBay,Jordan Lee,Acme Returns LLC,PO-176,8,LOC-35,2026-09-14
+TRG00177,MILON-WM-DOTCA-RTV,Open Box Returns,Monitors,Samsung,Damaged,C,RTV Liquidate,ORD-10177,137.66,181.87,235.16,233.79,Liquidation,Walmart,Sender Shamiss,Acme Returns LLC,PO-177,,,2026-08-25
+TRG00178,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,Very Good,C,,ORD-10178,185.53,156.79,112.61,110.24,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-178,,,2026-08-30
+TRG00179,DALLX-HEADPHONES,Warehouse Direct,TVs,Samsung,Very Good,B,Non RTV,ORD-10179,154.86,74.08,79.71,210.47,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-179,,,2026-08-06
+TRG00180,MIAFL-HEAD-OFFICE,Warehouse Direct,Accessories,Dell,Damaged,A,Non RTV,ORD-10180,184.02,98.11,178.89,186.93,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-180,,,2026-08-09
+TRG00181,BRTON-WM-BAR,Walmart Monitors (Finished),Monitors,HP,Very Good,A,RTV Liquidate,ORD-10181,53.54,154.09,216.98,171.85,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-181,,,2026-08-31
+TRG00182,MIAFL-HEAD-OFFICE,Open Box Returns,Monitors,HP,Damaged,A,Non RTV,ORD-10182,56.46,108.12,205.46,255.97,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-182,,,2026-09-08
+TRG00183,PHXAZ-RETURNS,Walmart Monitors (Finished),TVs,Samsung,Damaged,A,,ORD-10183,125.84,69.91,187.59,250.02,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-183,10,LOC-48,2026-09-02
+TRG00186,MIAFL-HEAD-OFFICE,Warehouse Direct,Headphones,HP,Damaged,A,RTV Liquidate,ORD-10186,148.68,205.36,104.20,75.52,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-186,,,2026-08-06
+TRG00187,WFS-OVERFLOW,Walmart Monitors (Finished),Tablets,Dell,Damaged,C,RTV Liquidate,ORD-10187,22.33,216.24,172.80,218.16,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-187,6,LOC-57,2026-08-07
+TRG00189,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Headphones,Samsung,Good,A,Non RTV,ORD-10189,26.05,54.75,172.50,268.22,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-189,2,LOC-28,2026-09-03
+TRG00190,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Computers,HP,Good,B,Non RTV,ORD-10190,169.58,224.11,110.33,254.91,Retail,eBay,Sam Patel,Acme Returns LLC,PO-190,,,2026-08-14
+TRG00191,BRTON-WM-BAR,Specialty,TVs,HP,Fair,C,,ORD-10191,77.34,159.41,82.22,42.91,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-191,9,LOC-46,2026-08-28
+TRG00192,WFS-OVERFLOW,Warehouse Direct,Computers,Dell,Good,B,,ORD-10192,151.27,62.47,81.50,53.82,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-192,,,2026-09-08
+TRG00193,MIAFL-HEAD-OFFICE,Specialty,Monitors,HP,Damaged,A,,ORD-10193,40.38,135.97,137.10,188.13,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-193,1,LOC-29,2026-08-21
+TRG00194,WFS-OVERFLOW,Warehouse Direct,Monitors,Samsung,Fair,B,,ORD-10194,0.00,193.12,131.37,97.57,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-194,,,2026-08-08
+TRG00195,WFS-OVERFLOW,Walmart Computers Parts (Finished),Computers,HP,Very Good,B,,ORD-10195,81.08,193.30,63.44,53.85,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-195,,,2026-08-27
+TRG00197,BRTON-WM-BAR,Walmart Computers Parts (Finished),Tablets,Dell,Fair,A,RTV Liquidate,ORD-10197,191.24,206.71,256.33,42.31,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-197,,,2026-08-22
+TRG00198,WFS-OVERFLOW,Open Box Returns,TVs,HP,Good,A,RTV Liquidate,ORD-10198,16.21,205.99,246.97,106.76,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-198,,,2026-08-21
+TRG00199,WFS-OVERFLOW,Walmart Computer Parts (Finished),Monitors,HP,Good,B,,ORD-10199,188.03,145.88,211.65,49.12,Retail,eBay,Jordan Lee,Acme Returns LLC,PO-199,,,2026-09-02
+TRG00200,BRTON-WM-FOO,Walmart Computers Parts (Finished),Accessories,Dell,Fair,A,,ORD-10200,148.68,33.24,77.88,30.67,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-200,7,LOC-29,2026-08-15
+TRG00201,WFS-OVERFLOW,Walmart Computer Parts (Finished),Headphones,HP,Fair,C,Non RTV,ORD-10201,39.26,153.58,89.24,238.74,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-201,,,2026-09-12
+TRG00203,DALLX-HEADPHONES,Walmart Monitors (Finished),Monitors,Dell,Damaged,C,RTV Liquidate,ORD-10203,73.30,204.99,253.72,179.84,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-203,8,LOC-51,2026-08-29
+TRG00204,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Monitors,HP,Fair,C,RTV Liquidate,ORD-10204,167.28,42.62,218.86,182.14,Retail,eBay,Sam Patel,Acme Returns LLC,PO-204,1,LOC-40,2026-09-01
+TRG00206,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Monitors,HP,Damaged,B,RTV Liquidate,ORD-10206,72.09,32.27,73.29,73.41,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-206,,,2026-08-23
+TRG00207,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Accessories,Samsung,Damaged,B,,ORD-10207,69.78,244.35,115.29,232.52,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-207,,,2026-09-15
+TRG00209,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Accessories,Samsung,Fair,B,,ORD-10209,129.07,228.91,96.50,43.20,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-209,,,2026-08-28
+TRG00211,BRTON-WM-BAR,Warehouse Direct,Headphones,HP,Damaged,B,,ORD-10211,180.52,41.94,194.93,197.64,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-211,,,2026-09-02
+TRG00212,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Monitors,HP,Very Good,B,RTV Liquidate,ORD-10212,135.45,103.67,146.15,68.35,Wholesale,Walmart,Alex Nguyen,The Recon Group LLP,PO-212,4,LOC-30,2026-08-14
+TRG00213,MILON-WM-DOTCA-RTV,Specialty,Accessories,Dell,Good,C,Research,ORD-10213,59.45,135.90,61.87,253.50,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-213,1,LOC-9,2026-08-19
+TRG00214,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),TVs,Samsung,Very Good,A,Non RTV,ORD-10214,58.13,68.37,85.43,167.30,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-214,,,2026-08-20
+TRG00215,MILON-WM-DOTCA-RTV,Specialty,Headphones,HP,Fair,A,,ORD-10215,110.67,199.95,71.62,77.57,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-215,2,LOC-54,2026-09-06
+TRG00216,MILON-WM-DOTCA-RTV,Open Box Returns,Tablets,Dell,Fair,C,Non RTV,ORD-10216,119.89,147.53,96.85,234.17,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-216,2,LOC-34,2026-09-09
+TRG00218,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Monitors,HP,Good,A,RTV Liquidate,ORD-10218,139.77,82.20,208.25,71.91,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-218,,,2026-08-12
+TRG00219,BRTON-WM-FOO,Open Box Returns,Headphones,Samsung,Very Good,A,RTV,ORD-10219,0.00,206.57,57.49,77.51,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-219,5,LOC-40,2026-08-24
+TRG00220,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Computers,Samsung,Damaged,A,,ORD-10220,183.91,109.95,67.99,220.71,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-220,5,LOC-24,2026-08-30
+TRG00222,MILON-WM-DOTCA-RTV,Warehouse Direct,Tablets,Dell,Very Good,C,RTV Liquidate,ORD-10222,160.41,91.78,176.71,181.70,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-222,,,2026-08-09
+TRG00223,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,HP,Fair,B,Non RTV,ORD-10223,14.50,233.33,148.03,36.22,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-223,,,2026-09-06
+TRG00224,WFS-OVERFLOW,Walmart Monitors (Finished),Computers,HP,Good,C,RTV Approved,ORD-10224,0.00,41.16,161.50,72.75,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-224,,,2026-08-09
+TRG00225,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),TVs,Samsung,Fair,A,Non RTV,ORD-10225,59.81,114.81,50.48,263.09,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-225,,,2026-09-06
+TRG00227,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Headphones,Samsung,Very Good,B,RTV Liquidate,ORD-10227,156.00,94.55,130.78,212.64,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-227,,,2026-08-28
+TRG00228,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Tablets,HP,Fair,A,,ORD-10228,48.61,173.96,219.31,57.92,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-228,6,LOC-25,2026-08-09
+TRG00229,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Dell,Fair,A,RTV Liquidate,ORD-10229,169.42,94.77,60.72,85.71,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-229,,,2026-09-05
+TRG00230,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Tablets,Dell,Good,B,RTV Liquidate,ORD-10230,65.47,49.25,184.36,79.12,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-230,,,2026-08-19
+TRG00231,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),TVs,Samsung,Good,C,RTV Approved,ORD-10231,126.37,179.12,114.54,103.42,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-231,,,2026-09-12
+TRG00232,BRTON-WM-FOO,Walmart Computers Parts (Finished),Tablets,Samsung,Very Good,C,,ORD-10232,55.40,83.36,219.45,189.03,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-232,11,LOC-49,2026-08-14
+TRG00233,MILON-WM-DOTCA-RTV,Specialty,Computers,Samsung,Fair,A,,ORD-10233,93.62,165.81,160.42,165.47,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-233,5,LOC-32,2026-08-23
+TRG00234,WFS-OVERFLOW,Specialty,TVs,HP,Good,A,,ORD-10234,99.43,195.60,123.88,248.72,Wholesale,eBay,Alex Nguyen,Acme Returns LLC,PO-234,,,2026-09-08
+TRG00235,DALLX-HEADPHONES,Warehouse Direct,Accessories,HP,Fair,C,Non RTV,ORD-10235,78.88,222.52,141.37,182.28,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-235,,,2026-08-15
+TRG00236,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Headphones,HP,Damaged,A,,ORD-10236,0.00,152.33,49.93,263.89,Wholesale,Walmart,Sender Shamiss,Acme Returns LLC,PO-236,6,LOC-46,2026-08-12
+TRG00237,DALLX-HEADPHONES,Specialty,TVs,Dell,Damaged,C,,ORD-10237,157.39,37.36,114.71,137.18,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-237,2,LOC-53,2026-08-25
+TRG00238,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,Damaged,B,,ORD-10238,93.99,208.73,125.76,212.52,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-238,,,2026-09-08
+TRG00239,BRTON-WM-FOO,Walmart Computer Parts (Finished),Computers,HP,Damaged,B,Non RTV,ORD-10239,101.92,176.54,73.47,252.90,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-239,,,2026-09-02
+TRG00240,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Accessories,Samsung,Good,A,Non RTV,ORD-10240,159.03,52.51,256.22,264.16,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-240,,,2026-08-30
+TRG00241,BRTON-WM-FOO,Specialty,Accessories,HP,Good,B,RTV Liquidate,ORD-10241,38.46,238.64,108.70,141.59,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-241,1,LOC-41,2026-08-25
+TRG00242,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Samsung,Damaged,C,,ORD-10242,89.02,224.08,142.62,242.31,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-242,,,2026-08-15
+TRG00244,PHXAZ-RETURNS,Specialty,Tablets,HP,Very Good,A,RTV Liquidate,ORD-10244,225.97,125.54,133.14,264.61,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-244,,,2026-09-10
+TRG00245,DALLX-HEADPHONES,Open Box Returns,Monitors,Dell,Good,C,Non RTV,ORD-10245,180.55,89.49,150.53,48.25,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-245,,,2026-09-15
+TRG00246,WFS-OVERFLOW,Walmart Computer Parts (Finished),Monitors,HP,Damaged,C,,ORD-10246,140.48,187.11,150.58,54.28,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-246,,,2026-08-20
+TRG00247,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Monitors,Samsung,Damaged,A,,ORD-10247,52.60,62.57,84.73,178.25,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-247,,,2026-08-17
+TRG00248,BRTON-WM-FOO,Walmart Computer Parts (Finished),Computers,Samsung,Good,A,,ORD-10248,0.00,51.36,65.78,128.57,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-248,,,2026-09-15
+TRG00249,PHXAZ-RETURNS,Open Box Returns,Headphones,HP,Good,B,,ORD-10249,40.62,47.42,214.42,77.71,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-249,,,2026-08-25
+TRG00250,MIAFL-HEAD-OFFICE,Specialty,TVs,Dell,Very Good,C,,ORD-10250,26.00,118.63,112.56,43.19,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-250,9,LOC-26,2026-08-16
+TRG00251,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,HP,Damaged,A,RTV Liquidate,ORD-10251,108.27,238.70,222.55,156.09,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-251,,,2026-08-28
+TRG00252,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,HP,Fair,A,Non RTV,ORD-10252,188.11,249.96,45.10,267.03,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-252,,,2026-08-19
+TRG00253,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,HP,Fair,B,,ORD-10253,182.01,160.17,49.53,91.22,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-253,2,LOC-8,2026-09-07
+TRG00255,PHXAZ-RETURNS,Walmart Computer Parts (Finished),TVs,HP,Very Good,B,RTV Liquidate,ORD-10255,146.61,147.51,197.82,62.18,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-255,7,LOC-21,2026-08-15
+TRG00256,PHXAZ-RETURNS,Open Box Returns,Headphones,Samsung,Good,C,Return to Stock,ORD-10256,144.67,209.96,74.91,95.17,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-256,11,LOC-46,2026-08-07
+TRG00257,WFS-OVERFLOW,Walmart Computer Parts (Finished),Headphones,Samsung,Damaged,C,Non RTV,ORD-10257,121.50,177.82,237.42,30.60,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-257,10,LOC-31,2026-09-07
+TRG00258,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Monitors,Samsung,Fair,A,RTV Liquidate,ORD-10258,142.30,150.99,127.27,257.97,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-258,9,LOC-7,2026-08-22
+TRG00260,WFS-OVERFLOW,Specialty,Tablets,Dell,Very Good,B,RTV Liquidate,ORD-10260,52.25,177.82,254.06,268.02,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-260,,,2026-08-21
+TRG00261,WFS-OVERFLOW,Walmart Computer Parts (Finished),Monitors,HP,Fair,A,Non RTV,ORD-10261,81.95,210.62,154.06,123.17,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-261,,,2026-08-28
+TRG00262,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Monitors,HP,Fair,C,,ORD-10262,0.00,95.67,238.47,95.98,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-262,,,2026-08-10
+TRG00263,MIAFL-HEAD-OFFICE,Warehouse Direct,Monitors,Dell,Good,C,Return to Stock,ORD-10263,0.00,129.36,223.86,98.79,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-263,,,2026-09-07
+TRG00264,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,Fair,B,Non RTV,ORD-10264,53.63,112.70,208.65,48.19,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-264,4,LOC-53,2026-08-23
+TRG00265,MILON-WM-DOTCA-RTV,Specialty,Computers,HP,Very Good,B,,ORD-10265,112.62,156.18,61.16,30.97,Retail,Walmart,Jordan Lee,The Recon Group LLP,PO-265,7,LOC-34,2026-08-29
+TRG00266,BRTON-WM-BAR,Walmart Computers Parts (Finished),Accessories,HP,Damaged,B,Non RTV,ORD-10266,160.94,48.99,166.64,264.47,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-266,11,LOC-57,2026-08-25
+TRG00267,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Monitors,Samsung,Damaged,B,RTV Liquidate,ORD-10267,142.87,97.99,97.65,146.29,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-267,,,2026-08-25
+TRG00268,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Dell,Very Good,C,RTV Liquidate,ORD-10268,82.83,245.40,232.84,256.42,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-268,6,LOC-15,2026-09-02
+TRG00269,MIAFL-HEAD-OFFICE,Specialty,Monitors,Samsung,Fair,B,Return to Stock,ORD-10269,177.60,182.85,251.41,156.46,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-269,,,2026-09-11
+TRG00270,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Tablets,HP,Fair,B,Non RTV,ORD-10270,69.18,159.84,61.90,183.54,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-270,,,2026-08-25
+TRG00271,BRTON-WM-BAR,Walmart Computers Parts (Finished),Accessories,Samsung,Very Good,C,,ORD-10271,158.46,43.65,197.89,248.89,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-271,,,2026-08-21
+TRG00273,BRTON-WM-BAR,Walmart Monitors (Finished),Monitors,Dell,Fair,A,Return to Stock,ORD-10273,137.78,94.31,212.46,115.57,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-273,,,2026-08-22
+TRG00275,DALLX-HEADPHONES,Specialty,Headphones,HP,Fair,C,RTV Liquidate,ORD-10275,133.16,137.84,107.19,33.16,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-275,,,2026-08-23
+TRG00277,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,HP,Good,B,Non RTV,ORD-10277,13.87,100.48,112.14,243.40,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-277,10,LOC-24,2026-09-11
+TRG00278,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Accessories,HP,Good,A,Non RTV,ORD-10278,0.00,53.27,188.82,53.30,Wholesale,eBay,Alex Nguyen,Acme Returns LLC,PO-278,,,2026-09-01
+TRG00280,WFS-OVERFLOW,Walmart Computer Parts (Finished),Tablets,Samsung,Very Good,C,,ORD-10280,171.80,182.02,222.83,246.25,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-280,9,LOC-13,2026-09-10
+TRG00281,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Monitors,Samsung,Damaged,A,Research,ORD-10281,66.08,180.92,251.16,248.71,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-281,,,2026-09-15
+TRG00282,WFS-OVERFLOW,Open Box Returns,Headphones,Samsung,Good,A,Research,ORD-10282,30.49,106.11,97.01,193.37,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-282,,,2026-09-05
+TRG00283,PHXAZ-RETURNS,Walmart Computer Parts (Finished),TVs,Samsung,Damaged,A,Non RTV,ORD-10283,157.79,73.47,174.82,210.28,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-283,,,2026-09-04
+TRG00284,MILON-WM-DOTCA-RTV,Specialty,Accessories,Dell,Damaged,C,RTV Liquidate,ORD-10284,184.49,98.22,62.57,134.69,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-284,,,2026-08-17
+TRG00285,BRTON-WM-BAR,Walmart Computer Parts (Finished),Computers,HP,Damaged,B,,ORD-10285,189.77,212.15,71.62,200.70,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-285,,,2026-09-13
+TRG00287,BRTON-WM-BAR,Walmart Computers Parts (Finished),Tablets,HP,Fair,B,,ORD-10287,155.07,243.42,173.17,83.47,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-287,,,2026-08-19
+TRG00288,WFS-OVERFLOW,Specialty,Accessories,Samsung,Damaged,A,RTV Liquidate,ORD-10288,85.34,217.78,120.25,89.40,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-288,,,2026-08-23
+TRG00290,PHXAZ-RETURNS,Walmart Monitors (Finished),TVs,Dell,Fair,A,,ORD-10290,99.12,77.13,189.64,45.82,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-290,4,LOC-34,2026-09-14
+TRG00291,BRTON-WM-BAR,Walmart Computer Parts (Finished),Accessories,Dell,Good,C,Non RTV,ORD-10291,109.63,174.08,220.40,163.90,Retail,eBay,Sam Patel,Acme Returns LLC,PO-291,,,2026-08-24
+TRG00293,BRTON-WM-BAR,Specialty,Computers,Samsung,Fair,A,RTV Liquidate,ORD-10293,15.22,47.36,225.57,188.01,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-293,11,LOC-42,2026-08-27
+TRG00294,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,HP,Fair,A,,ORD-10294,146.00,209.70,97.50,42.65,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-294,7,LOC-26,2026-09-09
+TRG00296,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Computers,Dell,Very Good,A,Non RTV,ORD-10296,186.02,192.15,191.46,60.63,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-296,,,2026-08-08
+TRG00297,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Samsung,Very Good,A,RTV Liquidate,ORD-10297,183.50,246.55,188.73,187.42,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-297,,,2026-08-13
+TRG00298,DALLX-HEADPHONES,Specialty,Headphones,HP,Damaged,B,Non RTV,ORD-10298,33.93,234.81,63.91,103.24,Retail,eBay,Sam Patel,Acme Returns LLC,PO-298,,,2026-08-23
+TRG00300,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Tablets,Samsung,Damaged,A,,ORD-10300,45.22,99.46,147.42,68.16,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-300,12,LOC-26,2026-08-31
+TRG00301,BRTON-WM-FOO,Walmart Computer Parts (Finished),Monitors,Dell,Fair,A,RTV Liquidate,ORD-10301,157.27,229.90,48.03,154.89,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-301,6,LOC-15,2026-09-04
+TRG00302,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,Fair,A,Non RTV,ORD-10302,118.07,124.85,167.54,233.38,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-302,,,2026-08-31
+TRG00305,BRTON-WM-BAR,Specialty,Tablets,Dell,Very Good,B,RTV Liquidate,ORD-10305,111.46,61.92,156.11,172.34,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-305,,,2026-09-03
+TRG00306,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Monitors,Samsung,Fair,A,Non RTV,ORD-10306,0.00,198.37,197.97,55.82,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-306,,,2026-09-04
+TRG00307,BRTON-WM-FOO,Warehouse Direct,Monitors,HP,Very Good,C,,ORD-10307,131.04,200.40,167.25,141.98,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-307,3,LOC-33,2026-08-22
+TRG00308,BRTON-WM-FOO,Open Box Returns,Accessories,Samsung,Good,A,Return to Stock,ORD-10308,12.43,74.10,234.44,83.64,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-308,,,2026-09-04
+TRG00311,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Accessories,Samsung,Very Good,A,RTV Liquidate,ORD-10311,43.42,48.96,149.04,118.35,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-311,,,2026-08-18
+TRG00312,BRTON-WM-BAR,Walmart Computers Parts (Finished),Computers,HP,Damaged,C,Research,ORD-10312,172.40,241.34,258.28,131.13,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-312,,,2026-09-12
+TRG00313,BRTON-WM-FOO,Open Box Returns,Headphones,HP,Good,B,,ORD-10313,106.89,238.02,68.64,115.61,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-313,2,LOC-36,2026-08-26
+TRG00314,DALLX-HEADPHONES,Walmart Computers Parts (Finished),TVs,Samsung,Good,A,Return to Stock,ORD-10314,185.70,123.47,103.03,243.96,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-314,,,2026-08-26
+TRG00315,BRTON-WM-FOO,Walmart Monitors (Finished),Computers,Samsung,Very Good,C,Non RTV,ORD-10315,79.72,192.96,92.90,158.63,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-315,8,LOC-36,2026-08-19
+TRG00316,BRTON-WM-BAR,Walmart Computer Parts (Finished),Tablets,Dell,Good,A,Non RTV,ORD-10316,54.18,191.16,98.28,35.44,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-316,11,LOC-38,2026-08-18
+TRG00317,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,HP,Damaged,A,,ORD-10317,44.66,210.11,124.77,116.03,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-317,,,2026-08-13
+TRG00318,BRTON-WM-BAR,Walmart Computer Parts (Finished),Tablets,HP,Good,C,,ORD-10318,166.45,171.59,249.17,182.48,Retail,Amazon,Alex Nguyen,The Recon Group LLP,PO-318,,,2026-09-04
+TRG00319,MIAFL-HEAD-OFFICE,Specialty,Tablets,HP,Very Good,B,RTV Liquidate,ORD-10319,35.19,50.46,90.77,129.83,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-319,,,2026-09-03
+TRG00321,BRTON-WM-FOO,Specialty,Headphones,Dell,Damaged,C,Non RTV,ORD-10321,14.91,215.80,199.74,96.23,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-321,,,2026-08-16
+TRG00322,DALLX-HEADPHONES,Specialty,Accessories,HP,Good,C,Non RTV,ORD-10322,77.09,212.16,132.59,141.75,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-322,,,2026-08-17
+TRG00323,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Dell,Damaged,A,Non RTV,ORD-10323,171.85,84.90,221.66,80.11,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-323,,,2026-08-07
+TRG00324,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,HP,Good,A,RTV Liquidate,ORD-10324,110.33,231.86,57.91,127.34,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-324,,,2026-08-20
+TRG00325,MILON-WM-DOTCA-RTV,Open Box Returns,Monitors,HP,Good,A,RTV Liquidate,ORD-10325,21.04,98.35,242.50,110.85,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-325,,,2026-08-25
+TRG00326,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Accessories,HP,Damaged,A,RTV Liquidate,ORD-10326,190.30,68.57,105.66,78.71,Retail,eBay,Jordan Lee,Acme Returns LLC,PO-326,4,LOC-12,2026-08-30
+TRG00327,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Accessories,Dell,Damaged,C,,ORD-10327,108.65,123.25,75.99,62.40,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-327,,,2026-08-21
+TRG00328,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Computers,Dell,Damaged,C,,ORD-10328,127.70,33.45,221.35,84.43,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-328,,,2026-09-05
+TRG00329,DALLX-HEADPHONES,Open Box Returns,Monitors,Dell,Good,B,RTV Liquidate,ORD-10329,85.75,45.32,158.47,114.93,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-329,,,2026-08-07
+TRG00330,DALLX-HEADPHONES,Walmart Monitors (Finished),Headphones,Samsung,Fair,A,,ORD-10330,185.62,162.31,54.83,87.31,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-330,,,2026-09-02
+TRG00331,WFS-OVERFLOW,Open Box Returns,Computers,HP,Damaged,A,Non RTV,ORD-10331,166.49,181.00,59.43,192.27,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-331,3,LOC-60,2026-08-11
+TRG00333,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Dell,Good,A,RTV Liquidate,ORD-10333,31.87,195.88,150.75,40.94,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-333,,,2026-09-15
+TRG00334,WFS-OVERFLOW,Specialty,Monitors,Samsung,Damaged,B,,ORD-10334,0.00,200.17,79.87,32.10,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-334,10,LOC-47,2026-08-18
+TRG00335,BRTON-WM-BAR,Warehouse Direct,Headphones,Samsung,Good,A,,ORD-10335,149.31,92.92,116.25,58.34,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-335,3,LOC-33,2026-08-16
+TRG00336,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),TVs,HP,Damaged,B,,ORD-10336,132.90,183.63,223.80,174.29,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-336,,,2026-09-13
+TRG00337,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Samsung,Good,C,RTV Liquidate,ORD-10337,129.26,88.20,85.08,101.10,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-337,,,2026-09-10
+TRG00338,WFS-OVERFLOW,Walmart Computer Parts (Finished),Accessories,Samsung,Fair,C,RTV Liquidate,ORD-10338,70.98,119.94,162.16,161.75,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-338,,,2026-08-18
+TRG00339,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,Fair,C,Non RTV,ORD-10339,157.61,201.74,187.97,76.27,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-339,,,2026-09-03
+TRG00340,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Tablets,Dell,Damaged,C,RTV Liquidate,ORD-10340,65.91,77.40,240.45,61.91,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-340,2,LOC-24,2026-08-10
+TRG00341,WFS-OVERFLOW,Warehouse Direct,Headphones,HP,Fair,A,Non RTV,ORD-10341,188.49,30.28,171.75,90.19,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-341,10,LOC-21,2026-08-28
+TRG00342,PHXAZ-RETURNS,Walmart Monitors (Finished),Tablets,Dell,Damaged,C,,ORD-10342,91.71,106.30,71.87,161.52,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-342,,,2026-08-09
+TRG00343,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Dell,Fair,B,Non RTV,ORD-10343,119.35,112.86,128.30,92.99,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-343,,,2026-08-12
+TRG00344,PHXAZ-RETURNS,Open Box Returns,Tablets,Samsung,Damaged,B,Non RTV,ORD-10344,0.00,131.51,59.35,88.76,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-344,12,LOC-44,2026-09-09
+TRG00345,MILON-WM-DOTCA-RTV,Open Box Returns,Computers,Dell,Very Good,C,Non RTV,ORD-10345,104.95,146.82,147.83,127.78,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-345,,,2026-08-28
+TRG00346,WFS-OVERFLOW,Specialty,Computers,Dell,Very Good,C,Non RTV,ORD-10346,154.12,113.34,105.00,114.85,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-346,,,2026-09-15
+TRG00347,MILON-WM-DOTCA-RTV,Warehouse Direct,TVs,Samsung,Very Good,A,Non RTV,ORD-10347,172.36,215.18,69.24,198.51,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-347,,,2026-08-06
+TRG00348,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,Very Good,C,Non RTV,ORD-10348,34.03,196.42,184.85,249.63,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-348,,,2026-08-08
+TRG00349,WFS-OVERFLOW,Walmart Monitors (Finished),Monitors,HP,Fair,B,Non RTV,ORD-10349,116.10,210.49,210.72,40.81,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-349,3,LOC-3,2026-08-06
+TRG00350,WFS-OVERFLOW,Specialty,Accessories,Dell,Good,C,Non RTV,ORD-10350,50.43,76.18,229.41,41.55,Retail,eBay,Sam Patel,Acme Returns LLC,PO-350,,,2026-08-19
+TRG00351,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Headphones,Samsung,Damaged,A,RTV Liquidate,ORD-10351,45.35,135.22,259.89,134.33,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-351,3,LOC-48,2026-08-10
+TRG00352,BRTON-WM-FOO,Walmart Monitors (Finished),Headphones,Dell,Good,C,RTV Liquidate,ORD-10352,20.27,40.45,118.86,100.06,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-352,,,2026-09-11
+TRG00353,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,HP,Good,C,Non RTV,ORD-10353,0.00,134.66,254.52,103.21,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-353,,,2026-08-19
+TRG00354,MILON-WM-DOTCA-RTV,Open Box Returns,Tablets,HP,Very Good,A,RTV Approved,ORD-10354,158.74,112.20,201.22,70.57,Liquidation,Amazon,Sender Shamiss,Acme Returns LLC,PO-354,,,2026-08-26
+TRG00356,WFS-OVERFLOW,Walmart Computers Parts (Finished),TVs,HP,Good,A,RTV Liquidate,ORD-10356,135.00,95.50,129.79,157.64,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-356,4,LOC-56,2026-08-16
+TRG00357,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,Good,C,Non RTV,ORD-10357,160.19,218.92,44.96,63.19,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-357,,,2026-09-08
+TRG00359,BRTON-WM-BAR,Walmart Computer Parts (Finished),Accessories,HP,Fair,A,RTV Liquidate,ORD-10359,0.00,91.41,149.56,33.82,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-359,11,LOC-33,2026-09-01
+TRG00362,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Dell,Very Good,C,Non RTV,ORD-10362,106.68,142.43,104.91,69.88,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-362,,,2026-08-18
+TRG00363,PHXAZ-RETURNS,Specialty,TVs,Samsung,Good,A,,ORD-10363,16.66,91.46,144.16,252.79,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-363,10,LOC-5,2026-09-13
+TRG00364,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Headphones,HP,Very Good,C,Non RTV,ORD-10364,155.41,33.32,65.43,104.40,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-364,,,2026-08-06
+TRG00365,BRTON-WM-FOO,Warehouse Direct,Headphones,Samsung,Damaged,B,Non RTV,ORD-10365,121.37,182.59,145.99,166.72,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-365,8,LOC-14,2026-08-30
+TRG00366,PHXAZ-RETURNS,Open Box Returns,Monitors,HP,Damaged,B,,ORD-10366,432.77,240.43,77.87,152.62,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-366,,,2026-08-07
+TRG00367,WFS-OVERFLOW,Open Box Returns,Accessories,Dell,Good,A,,ORD-10367,128.01,155.45,257.79,142.34,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-367,3,LOC-50,2026-08-14
+TRG00368,BRTON-WM-BAR,Warehouse Direct,Monitors,Samsung,Good,B,RTV Liquidate,ORD-10368,45.21,78.11,253.56,201.00,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-368,4,LOC-2,2026-09-04
+TRG00370,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Headphones,Samsung,Good,C,RTV Liquidate,ORD-10370,46.06,164.45,209.56,196.94,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-370,,,2026-08-30
+TRG00371,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,Fair,A,,ORD-10371,137.26,72.56,43.27,262.14,Wholesale,Shopify,Alex Nguyen,The Recon Group LLP,PO-371,,,2026-09-02
+TRG00372,MIAFL-HEAD-OFFICE,Open Box Returns,Computers,Dell,Fair,A,Non RTV,ORD-10372,27.45,102.11,52.73,169.39,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-372,,,2026-09-12
+TRG00373,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Tablets,Samsung,Damaged,B,RTV Liquidate,ORD-10373,60.80,189.93,96.92,226.80,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-373,,,2026-08-27
+TRG00374,DALLX-HEADPHONES,Specialty,Monitors,Samsung,Fair,B,RTV,ORD-10374,145.13,245.07,73.16,143.30,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-374,,,2026-08-09
+TRG00375,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Tablets,HP,Damaged,C,RTV Liquidate,ORD-10375,79.87,175.08,86.91,97.79,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-375,9,LOC-38,2026-08-10
+TRG00377,MIAFL-HEAD-OFFICE,Specialty,Headphones,Dell,Fair,C,,ORD-10377,14.49,37.93,230.42,250.41,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-377,,,2026-08-15
+TRG00378,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Dell,Damaged,B,Non RTV,ORD-10378,104.60,178.21,81.96,112.57,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-378,,,2026-08-08
+TRG00380,MIAFL-HEAD-OFFICE,Specialty,Tablets,Samsung,Damaged,C,RTV Liquidate,ORD-10380,23.07,81.94,139.58,158.78,Retail,eBay,Sam Patel,Acme Returns LLC,PO-380,12,LOC-27,2026-08-08
+TRG00381,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Tablets,HP,Good,B,Non RTV,ORD-10381,29.39,120.43,157.01,241.90,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-381,,,2026-09-02
+TRG00382,PHXAZ-RETURNS,Specialty,Monitors,HP,Fair,B,RTV Liquidate,ORD-10382,38.63,193.82,149.97,157.79,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-382,,,2026-08-13
+TRG00383,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Monitors,Samsung,Very Good,A,,ORD-10383,108.79,56.58,193.99,261.05,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-383,,,2026-08-14
+TRG00384,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Dell,Good,B,RTV Liquidate,ORD-10384,0.00,32.11,60.07,60.83,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-384,,,2026-08-21
+TRG00385,MIAFL-HEAD-OFFICE,Warehouse Direct,Computers,HP,Damaged,B,,ORD-10385,122.58,118.04,175.95,100.14,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-385,,,2026-08-23
+TRG00386,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Dell,Damaged,C,Non RTV,ORD-10386,70.06,245.56,53.14,193.09,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-386,,,2026-09-06
+TRG00387,BRTON-WM-FOO,Walmart Monitors (Finished),Tablets,Dell,Very Good,C,,ORD-10387,55.04,71.06,45.39,253.50,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-387,,,2026-09-05
+TRG00389,WFS-OVERFLOW,Walmart Computers Parts (Finished),Accessories,Samsung,Damaged,A,Non RTV,ORD-10389,97.83,224.69,71.95,239.52,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-389,10,LOC-24,2026-09-10
+TRG00390,WFS-OVERFLOW,Specialty,Computers,Dell,Fair,C,Non RTV,ORD-10390,157.09,122.30,164.25,59.80,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-390,,,2026-08-29
+TRG00391,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Headphones,Samsung,Fair,B,RTV Liquidate,ORD-10391,95.59,34.69,110.54,262.61,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-391,,,2026-08-28
+TRG00392,DALLX-HEADPHONES,Walmart Computer Parts (Finished),TVs,Dell,Very Good,B,RTV Liquidate,ORD-10392,53.40,237.65,193.15,82.50,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-392,,,2026-08-11
+TRG00393,BRTON-WM-FOO,Walmart Computers Parts (Finished),Tablets,Dell,Very Good,C,RTV Liquidate,ORD-10393,117.52,249.27,59.08,172.87,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-393,9,LOC-8,2026-08-21
+TRG00397,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Monitors,HP,Very Good,B,Non RTV,ORD-10397,98.95,113.05,151.64,94.47,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-397,1,LOC-51,2026-09-02
+TRG00398,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Samsung,Very Good,B,Research,ORD-10398,135.77,191.01,110.94,61.86,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-398,,,2026-08-14
+TRG00399,DALLX-HEADPHONES,Open Box Returns,Accessories,Dell,Damaged,B,,ORD-10399,139.94,148.66,246.83,200.54,Retail,eBay,Sam Patel,Acme Returns LLC,PO-399,,,2026-08-27
+TRG00401,BRTON-WM-BAR,Walmart Computer Parts (Finished),Tablets,Dell,Very Good,B,RTV Liquidate,ORD-10401,91.77,193.59,93.15,197.45,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-401,,,2026-08-28
+TRG00402,DALLX-HEADPHONES,Specialty,Tablets,HP,Good,C,,ORD-10402,90.04,61.81,136.31,204.06,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-402,,,2026-08-24
+TRG00403,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Computers,Dell,Fair,C,Non RTV,ORD-10403,172.67,190.23,52.86,187.89,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-403,,,2026-08-25
+TRG00404,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,Good,B,RTV Liquidate,ORD-10404,148.90,175.41,89.14,37.40,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-404,,,2026-09-03
+TRG00405,BRTON-WM-FOO,Walmart Computers Parts (Finished),Accessories,Dell,Damaged,B,Non RTV,ORD-10405,63.92,131.75,116.59,186.23,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-405,,,2026-08-20
+TRG00406,BRTON-WM-FOO,Walmart Computers Parts (Finished),Computers,Dell,Very Good,A,Non RTV,ORD-10406,190.16,144.69,116.98,132.70,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-406,6,LOC-13,2026-09-05
+TRG00407,PHXAZ-RETURNS,Warehouse Direct,Monitors,Samsung,Very Good,B,,ORD-10407,74.67,165.32,132.83,116.00,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-407,,,2026-09-04
+TRG00408,BRTON-WM-BAR,Walmart Monitors (Finished),Monitors,HP,Very Good,C,Non RTV,ORD-10408,30.68,218.65,124.64,197.02,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-408,,,2026-08-15
+TRG00409,DALLX-HEADPHONES,Specialty,Headphones,Samsung,Damaged,A,Return to Stock,ORD-10409,120.25,200.20,90.45,67.58,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-409,,,2026-08-20
+TRG00410,BRTON-WM-FOO,Specialty,TVs,Dell,Good,A,Non RTV,ORD-10410,41.20,155.04,105.17,128.69,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-410,,,2026-08-26
+TRG00411,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Dell,Fair,C,,ORD-10411,112.54,93.87,177.30,254.62,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-411,,,2026-09-05
+TRG00412,MIAFL-HEAD-OFFICE,Specialty,Monitors,HP,Good,C,Return to Stock,ORD-10412,21.13,116.19,175.14,227.48,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-412,8,LOC-2,2026-08-26
+TRG00413,BRTON-WM-BAR,Open Box Returns,Monitors,Dell,Fair,B,Non RTV,ORD-10413,187.71,182.92,45.50,221.10,Liquidation,Shopify,Sender Shamiss,Acme Returns LLC,PO-413,,,2026-08-28
+TRG00414,DALLX-HEADPHONES,Walmart Monitors (Finished),Accessories,Samsung,Fair,B,,ORD-10414,166.97,231.04,205.03,213.23,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-414,2,LOC-41,2026-09-14
+TRG00415,DALLX-HEADPHONES,Walmart Computer Parts (Finished),TVs,Samsung,Damaged,A,Return to Stock,ORD-10415,62.54,201.61,185.83,68.88,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-415,,,2026-08-09
+TRG00416,BRTON-WM-FOO,Specialty,Monitors,Dell,Very Good,C,,ORD-10416,156.14,70.82,180.03,265.21,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-416,,,2026-08-13
+TRG00417,PHXAZ-RETURNS,Specialty,Headphones,Dell,Good,B,RTV Liquidate,ORD-10417,131.97,194.28,101.05,228.18,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-417,7,LOC-3,2026-08-08
+TRG00418,PHXAZ-RETURNS,Specialty,Computers,Dell,Good,B,Non RTV,ORD-10418,29.43,44.02,116.00,192.81,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-418,,,2026-09-10
+TRG00419,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Headphones,HP,Damaged,B,RTV Approved,ORD-10419,0.00,62.60,129.67,171.23,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-419,,,2026-09-03
+TRG00420,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Tablets,Samsung,Damaged,C,Non RTV,ORD-10420,169.30,136.13,115.78,60.84,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-420,1,LOC-6,2026-08-10
+TRG00421,BRTON-WM-BAR,Walmart Monitors (Finished),Headphones,HP,Very Good,A,Non RTV,ORD-10421,103.94,211.18,141.48,75.55,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-421,10,LOC-50,2026-09-13
+TRG00422,DALLX-HEADPHONES,Specialty,Computers,Dell,Fair,A,Non RTV,ORD-10422,96.61,202.74,143.22,99.87,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-422,,,2026-09-15
+TRG00423,PHXAZ-RETURNS,Walmart Monitors (Finished),TVs,Dell,Good,B,Non RTV,ORD-10423,83.54,189.97,152.82,40.50,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-423,,,2026-08-20
+TRG00424,BRTON-WM-FOO,Walmart Computers Parts (Finished),Headphones,HP,Very Good,A,,ORD-10424,133.16,84.77,246.29,133.37,Retail,Amazon,Jordan Lee,The Recon Group LLP,PO-424,,,2026-09-04
+TRG00425,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Headphones,Dell,Fair,C,Non RTV,ORD-10425,19.38,36.46,45.96,105.81,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-425,2,LOC-56,2026-08-12
+TRG00426,MILON-WM-DOTCA-RTV,Warehouse Direct,TVs,HP,Good,C,RTV,ORD-10426,81.62,41.16,194.86,244.14,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-426,4,LOC-5,2026-09-12
+TRG00427,PHXAZ-RETURNS,Open Box Returns,Computers,HP,Very Good,C,RTV Liquidate,ORD-10427,178.34,99.08,41.68,180.02,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-427,,,2026-08-28
+TRG00429,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,HP,Very Good,A,Non RTV,ORD-10429,24.94,95.11,131.40,203.77,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-429,11,LOC-41,2026-09-15
+TRG00430,PHXAZ-RETURNS,Walmart Monitors (Finished),Accessories,Dell,Good,B,Non RTV,ORD-10430,189.50,56.55,151.91,259.47,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-430,,,2026-09-11
+TRG00431,BRTON-WM-BAR,Specialty,Monitors,Dell,Damaged,C,Non RTV,ORD-10431,153.21,104.29,196.48,42.97,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-431,8,LOC-43,2026-08-25
+TRG00432,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Monitors,HP,Damaged,B,Non RTV,ORD-10432,149.17,74.89,225.77,143.58,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-432,,,2026-08-22
+TRG00433,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Tablets,HP,Very Good,A,RTV Liquidate,ORD-10433,163.94,55.64,146.21,35.82,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-433,,,2026-09-02
+TRG00435,PHXAZ-RETURNS,Warehouse Direct,Accessories,Dell,Damaged,A,Non RTV,ORD-10435,35.88,156.31,100.37,252.06,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-435,,,2026-08-10
+TRG00436,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Computers,Samsung,Fair,A,,ORD-10436,37.98,94.59,141.10,173.22,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-436,4,LOC-48,2026-09-08
+TRG00437,MILON-WM-DOTCA-RTV,Open Box Returns,Accessories,Dell,Damaged,C,Non RTV,ORD-10437,0.00,185.95,182.87,50.76,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-437,8,LOC-10,2026-08-06
+TRG00438,DALLX-HEADPHONES,Walmart Monitors (Finished),TVs,Dell,Fair,C,Non RTV,ORD-10438,126.33,111.74,114.12,44.70,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-438,,,2026-08-27
+TRG00439,BRTON-WM-BAR,Warehouse Direct,Accessories,Dell,Very Good,B,Non RTV,ORD-10439,97.16,239.05,102.17,32.40,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-439,9,LOC-56,2026-08-21
+TRG00441,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Tablets,HP,Good,B,,ORD-10441,58.75,40.45,84.36,158.85,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-441,,,2026-09-06
+TRG00442,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,HP,Fair,B,,ORD-10442,50.12,63.34,163.18,228.73,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-442,,,2026-08-21
+TRG00443,BRTON-WM-BAR,Walmart Computers Parts (Finished),Accessories,Dell,Fair,B,,ORD-10443,123.70,167.16,149.40,232.07,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-443,2,LOC-31,2026-09-10
+TRG00444,WFS-OVERFLOW,Open Box Returns,TVs,Dell,Very Good,C,Return to Stock,ORD-10444,135.18,81.95,170.62,81.07,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-444,5,LOC-15,2026-08-27
+TRG00445,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,Fair,C,,ORD-10445,44.94,202.39,116.59,231.91,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-445,,,2026-08-22
+TRG00446,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Monitors,HP,Fair,C,RTV Liquidate,ORD-10446,116.84,217.47,189.20,259.77,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-446,4,LOC-50,2026-09-09
+TRG00448,MIAFL-HEAD-OFFICE,Open Box Returns,Tablets,Dell,Good,C,Non RTV,ORD-10448,179.65,211.42,46.35,166.19,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-448,6,LOC-24,2026-09-05
+TRG00449,PHXAZ-RETURNS,Warehouse Direct,Accessories,Samsung,Good,A,RTV Liquidate,ORD-10449,92.27,214.56,46.38,239.59,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-449,11,LOC-57,2026-09-02
+TRG00450,MILON-WM-DOTCA-RTV,Open Box Returns,TVs,HP,Good,C,RTV Liquidate,ORD-10450,111.90,167.51,51.90,132.27,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-450,,,2026-08-13
+TRG00452,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Dell,Very Good,B,RTV Liquidate,ORD-10452,42.18,81.09,254.55,269.13,Wholesale,eBay,Alex Nguyen,Acme Returns LLC,PO-452,,,2026-09-12
+TRG00454,PHXAZ-RETURNS,Specialty,Accessories,HP,Very Good,B,RTV Approved,ORD-10454,40.90,151.03,114.43,257.09,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-454,8,LOC-11,2026-08-23
+TRG00457,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Tablets,Dell,Very Good,B,Non RTV,ORD-10457,116.92,39.59,187.86,268.39,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-457,12,LOC-38,2026-09-04
+TRG00458,BRTON-WM-FOO,Open Box Returns,TVs,Dell,Damaged,B,RTV Liquidate,ORD-10458,21.03,173.90,80.50,104.80,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-458,6,LOC-12,2026-09-08
+TRG00460,BRTON-WM-FOO,Open Box Returns,Computers,HP,Fair,A,Non RTV,ORD-10460,89.18,77.82,114.54,128.83,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-460,,,2026-08-17
+TRG00461,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,Damaged,C,Non RTV,ORD-10461,157.97,192.24,149.91,72.62,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-461,,,2026-09-13
+TRG00462,PHXAZ-RETURNS,Walmart Monitors (Finished),Monitors,HP,Very Good,B,Non RTV,ORD-10462,86.14,91.12,42.82,204.23,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-462,,,2026-08-10
+TRG00463,WFS-OVERFLOW,Warehouse Direct,Tablets,HP,Damaged,B,Non RTV,ORD-10463,89.74,178.26,87.72,140.91,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-463,,,2026-08-13
+TRG00464,PHXAZ-RETURNS,Warehouse Direct,Accessories,HP,Damaged,C,Non RTV,ORD-10464,41.71,206.29,240.75,89.41,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-464,,,2026-09-13
+TRG00465,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Dell,Fair,C,Non RTV,ORD-10465,158.58,206.14,187.39,194.02,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-465,12,LOC-59,2026-09-14
+TRG00467,WFS-OVERFLOW,Specialty,Accessories,HP,Fair,C,,ORD-10467,137.38,124.06,172.98,83.75,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-467,,,2026-08-21
+TRG00469,DALLX-HEADPHONES,Specialty,Computers,Samsung,Good,A,RTV Liquidate,ORD-10469,113.70,248.99,254.80,207.85,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-469,,,2026-08-14
+TRG00470,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Accessories,Samsung,Good,B,,ORD-10470,169.90,68.62,134.01,170.42,Retail,eBay,Sam Patel,Acme Returns LLC,PO-470,7,LOC-38,2026-08-15
+TRG00471,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,Fair,A,,ORD-10471,118.11,46.89,171.71,123.55,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-471,,,2026-08-29
+TRG00472,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Computers,HP,Good,C,Non RTV,ORD-10472,65.04,46.37,239.02,71.50,Liquidation,Shopify,Sender Shamiss,Acme Returns LLC,PO-472,,,2026-08-29
+TRG00473,WFS-OVERFLOW,Walmart Computers Parts (Finished),Tablets,Dell,Fair,A,,ORD-10473,119.25,93.65,169.80,42.56,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-473,,,2026-08-13
+TRG00474,BRTON-WM-BAR,Walmart Computer Parts (Finished),Monitors,Samsung,Very Good,B,RTV,ORD-10474,158.25,158.49,41.04,202.62,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-474,10,LOC-11,2026-08-22
+TRG00475,BRTON-WM-BAR,Specialty,Tablets,Dell,Very Good,A,RTV Liquidate,ORD-10475,0.00,151.39,54.29,269.12,Wholesale,eBay,Alex Nguyen,Acme Returns LLC,PO-475,,,2026-08-19
+TRG00476,MIAFL-HEAD-OFFICE,Specialty,Headphones,Samsung,Good,B,,ORD-10476,110.61,221.29,117.98,253.06,Wholesale,eBay,Alex Nguyen,Acme Returns LLC,PO-476,5,LOC-42,2026-09-06
+TRG00477,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Dell,Fair,A,,ORD-10477,107.18,62.66,251.90,53.59,Liquidation,Walmart,Sam Patel,The Recon Group LLP,PO-477,,,2026-08-29
+TRG00478,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Headphones,HP,Damaged,C,,ORD-10478,137.47,156.22,156.45,96.12,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-478,,,2026-09-02
+TRG00479,BRTON-WM-BAR,Walmart Monitors (Finished),Computers,Dell,Good,A,Non RTV,ORD-10479,29.27,46.71,62.41,253.01,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-479,,,2026-08-27
+TRG00480,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Tablets,Dell,Good,A,RTV Liquidate,ORD-10480,118.02,93.05,158.76,218.19,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-480,,,2026-08-21
+TRG00481,BRTON-WM-BAR,Specialty,Accessories,HP,Damaged,B,Non RTV,ORD-10481,61.47,132.67,88.51,263.32,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-481,6,LOC-24,2026-09-11
+TRG00483,MILON-WM-DOTCA-RTV,Warehouse Direct,TVs,Samsung,Fair,A,RTV Liquidate,ORD-10483,14.42,152.81,221.57,267.71,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-483,,,2026-09-10
+TRG00484,PHXAZ-RETURNS,Warehouse Direct,Tablets,Samsung,Damaged,C,Non RTV,ORD-10484,131.08,194.27,228.35,63.13,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-484,,,2026-08-24
+TRG00485,BRTON-WM-FOO,Walmart Monitors (Finished),Headphones,HP,Damaged,A,,ORD-10485,122.53,224.64,95.11,206.39,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-485,,,2026-08-26
+TRG00486,MILON-WM-DOTCA-RTV,Open Box Returns,Monitors,Dell,Very Good,C,RTV Liquidate,ORD-10486,127.31,132.06,196.19,74.07,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-486,4,LOC-3,2026-08-26
+TRG00487,MILON-WM-DOTCA-RTV,Warehouse Direct,Headphones,HP,Damaged,A,Non RTV,ORD-10487,128.99,93.42,89.71,143.26,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-487,9,LOC-2,2026-09-09
+TRG00488,MILON-WM-DOTCA-RTV,Open Box Returns,Monitors,Dell,Fair,A,Non RTV,ORD-10488,382.43,212.46,142.75,254.35,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-488,,,2026-09-07
+TRG00489,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Tablets,Samsung,Damaged,C,,ORD-10489,74.24,60.96,110.18,164.71,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-489,,,2026-09-03
+TRG00490,BRTON-WM-FOO,Open Box Returns,Computers,Samsung,Fair,B,RTV Liquidate,ORD-10490,134.81,111.94,168.60,164.12,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-490,3,LOC-12,2026-09-05
+TRG00492,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),TVs,Dell,Fair,C,Non RTV,ORD-10492,54.19,54.85,91.85,171.95,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-492,,,2026-09-08
+TRG00493,PHXAZ-RETURNS,Specialty,Monitors,HP,Very Good,C,Non RTV,ORD-10493,85.33,44.95,138.47,249.75,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-493,8,LOC-42,2026-08-07
+TRG00494,PHXAZ-RETURNS,Warehouse Direct,Accessories,HP,Damaged,C,Non RTV,ORD-10494,121.06,126.00,173.84,165.58,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-494,4,LOC-9,2026-09-13
+TRG00495,MILON-WM-DOTCA-RTV,Open Box Returns,Accessories,Dell,Very Good,C,RTV,ORD-10495,24.56,230.84,212.32,52.83,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-495,7,LOC-5,2026-09-10
+TRG00496,PHXAZ-RETURNS,Walmart Monitors (Finished),TVs,Dell,Damaged,B,Non RTV,ORD-10496,189.79,49.15,43.30,169.63,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-496,,,2026-09-15
+TRG00497,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,Fair,B,RTV Liquidate,ORD-10497,157.54,241.41,83.43,55.91,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-497,6,LOC-47,2026-08-20
+TRG00498,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Accessories,HP,Fair,A,RTV Liquidate,ORD-10498,150.27,123.39,235.17,70.17,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-498,,,2026-09-04
+TRG00499,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Dell,Fair,C,,ORD-10499,31.69,197.67,149.20,120.63,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-499,,,2026-08-24
+TRG00500,BRTON-WM-FOO,Walmart Computer Parts (Finished),Monitors,Dell,Very Good,B,Non RTV,ORD-10500,191.87,231.94,147.47,115.05,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-500,,,2026-08-20
+TRG00501,PHXAZ-RETURNS,Walmart Computers Parts (Finished),TVs,Dell,Very Good,B,RTV Liquidate,ORD-10501,184.94,127.00,165.63,124.17,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-501,2,LOC-46,2026-08-14
+TRG00503,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Samsung,Fair,C,Non RTV,ORD-10503,124.17,160.57,219.42,265.63,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-503,,,2026-08-20
+TRG00506,WFS-OVERFLOW,Walmart Computer Parts (Finished),Headphones,HP,Very Good,A,RTV Liquidate,ORD-10506,161.95,67.45,67.27,199.09,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-506,,,2026-08-14
+TRG00507,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Dell,Very Good,B,,ORD-10507,190.49,187.79,139.83,78.89,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-507,3,LOC-30,2026-09-08
+TRG00508,DALLX-HEADPHONES,Walmart Monitors (Finished),Tablets,Samsung,Good,B,Non RTV,ORD-10508,60.26,202.42,95.38,69.76,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-508,6,LOC-26,2026-08-20
+TRG00509,MILON-WM-DOTCA-RTV,Specialty,Tablets,Dell,Fair,C,RTV Liquidate,ORD-10509,181.02,146.36,78.35,90.84,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-509,5,LOC-35,2026-08-22
+TRG00511,WFS-OVERFLOW,Open Box Returns,Monitors,Dell,Damaged,C,RTV Liquidate,ORD-10511,54.27,208.69,180.00,160.21,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-511,,,2026-09-14
+TRG00512,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,HP,Good,C,,ORD-10512,104.96,239.98,159.77,94.30,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-512,,,2026-09-08
+TRG00513,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Accessories,Dell,Fair,C,Non RTV,ORD-10513,106.10,184.60,217.42,62.69,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-513,5,LOC-55,2026-08-24
+TRG00514,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Headphones,Samsung,Good,C,,ORD-10514,62.76,214.64,246.53,128.72,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-514,,,2026-08-28
+TRG00515,WFS-OVERFLOW,Specialty,TVs,HP,Very Good,A,Non RTV,ORD-10515,131.88,113.08,231.51,201.95,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-515,2,LOC-13,2026-09-06
+TRG00517,BRTON-WM-FOO,Specialty,Accessories,Dell,Very Good,C,Non RTV,ORD-10517,155.59,183.54,193.16,188.45,Wholesale,eBay,Alex Nguyen,Acme Returns LLC,PO-517,,,2026-09-12
+TRG00518,DALLX-HEADPHONES,Walmart Monitors (Finished),Headphones,HP,Very Good,C,Non RTV,ORD-10518,40.06,90.75,135.22,234.48,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-518,9,LOC-14,2026-08-07
+TRG00521,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,Very Good,C,,ORD-10521,67.33,229.69,111.93,219.54,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-521,,,2026-08-08
+TRG00523,WFS-OVERFLOW,Open Box Returns,TVs,Samsung,Damaged,A,Non RTV,ORD-10523,151.71,63.68,85.84,64.00,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-523,,,2026-08-07
+TRG00524,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,Fair,B,RTV Liquidate,ORD-10524,138.84,44.88,93.66,224.04,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-524,,,2026-09-08
+TRG00525,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Tablets,Samsung,Very Good,B,RTV Liquidate,ORD-10525,171.13,63.33,243.80,101.01,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-525,,,2026-08-30
+TRG00526,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Monitors,HP,Very Good,B,RTV Liquidate,ORD-10526,0.00,212.71,239.17,249.56,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-526,,,2026-08-07
+TRG00527,MILON-WM-DOTCA-RTV,Specialty,Computers,HP,Very Good,A,RTV,ORD-10527,17.51,132.33,132.73,81.40,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-527,,,2026-08-21
+TRG00529,DALLX-HEADPHONES,Walmart Computers Parts (Finished),TVs,HP,Fair,B,Non RTV,ORD-10529,33.56,178.60,182.58,96.77,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-529,3,LOC-56,2026-08-21
+TRG00530,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,HP,Fair,C,Research,ORD-10530,36.25,38.16,240.30,182.91,Retail,Amazon,Alex Nguyen,The Recon Group LLP,PO-530,10,LOC-27,2026-08-30
+TRG00531,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,HP,Fair,C,,ORD-10531,137.54,128.27,128.66,202.75,Liquidation,Walmart,Sender Shamiss,Acme Returns LLC,PO-531,3,LOC-50,2026-08-17
+TRG00532,MILON-WM-DOTCA-RTV,Warehouse Direct,Accessories,Dell,Very Good,A,Non RTV,ORD-10532,74.78,114.51,127.48,88.91,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-532,,,2026-08-23
+TRG00533,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Headphones,Dell,Good,A,RTV Liquidate,ORD-10533,184.39,85.87,223.92,138.68,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-533,,,2026-08-16
+TRG00534,PHXAZ-RETURNS,Specialty,Computers,Samsung,Good,C,Non RTV,ORD-10534,179.19,126.89,155.53,98.51,Retail,eBay,Jordan Lee,Acme Returns LLC,PO-534,,,2026-08-13
+TRG00535,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Computers,Samsung,Damaged,A,,ORD-10535,132.10,216.08,71.72,209.03,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-535,,,2026-08-30
+TRG00536,DALLX-HEADPHONES,Specialty,TVs,HP,Good,B,Non RTV,ORD-10536,97.36,170.67,157.33,129.51,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-536,12,LOC-30,2026-08-21
+TRG00537,BRTON-WM-FOO,Walmart Monitors (Finished),TVs,HP,Fair,A,,ORD-10537,101.42,128.59,61.50,200.66,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-537,11,LOC-32,2026-08-31
+TRG00538,DALLX-HEADPHONES,Open Box Returns,TVs,Samsung,Fair,A,Non RTV,ORD-10538,134.54,109.12,233.51,54.24,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-538,,,2026-08-29
+TRG00539,BRTON-WM-BAR,Open Box Returns,TVs,Dell,Damaged,A,Non RTV,ORD-10539,87.77,229.17,251.53,211.27,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-539,,,2026-08-22
+TRG00541,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Monitors,HP,Very Good,A,Non RTV,ORD-10541,18.97,246.11,215.91,245.66,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-541,,,2026-09-12
+TRG00542,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Headphones,HP,Good,B,RTV Liquidate,ORD-10542,144.47,138.53,227.47,92.23,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-542,,,2026-09-02
+TRG00544,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Tablets,HP,Damaged,C,Non RTV,ORD-10544,135.77,137.68,166.19,249.55,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-544,,,2026-09-09
+TRG00547,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Tablets,Samsung,Damaged,B,RTV Liquidate,ORD-10547,109.78,182.15,144.91,61.89,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-547,,,2026-09-05
+TRG00548,WFS-OVERFLOW,Walmart Monitors (Finished),Tablets,Dell,Damaged,C,,ORD-10548,100.25,55.68,231.42,105.70,Retail,eBay,Sam Patel,Acme Returns LLC,PO-548,,,2026-08-07
+TRG00549,MILON-WM-DOTCA-RTV,Warehouse Direct,Tablets,HP,Very Good,B,,ORD-10549,339.19,188.44,52.72,206.06,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-549,,,2026-08-16
+TRG00551,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Tablets,Samsung,Very Good,B,,ORD-10551,89.46,162.35,122.22,105.10,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-551,3,LOC-51,2026-08-20
+TRG00552,PHXAZ-RETURNS,Walmart Monitors (Finished),Computers,HP,Very Good,B,,ORD-10552,137.22,138.53,98.56,189.95,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-552,,,2026-08-09
+TRG00553,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),TVs,HP,Damaged,B,RTV Liquidate,ORD-10553,23.96,171.72,196.79,125.44,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-553,,,2026-08-24
+TRG00554,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,Fair,B,RTV Liquidate,ORD-10554,88.33,212.94,113.84,185.15,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-554,,,2026-08-31
+TRG00555,MILON-WM-DOTCA-RTV,Specialty,Tablets,HP,Very Good,B,Non RTV,ORD-10555,0.00,52.49,117.59,64.44,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-555,,,2026-08-20
+TRG00556,MILON-WM-DOTCA-RTV,Open Box Returns,TVs,HP,Good,B,Non RTV,ORD-10556,26.63,90.67,87.49,267.65,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-556,1,LOC-19,2026-09-13
+TRG00557,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Accessories,Dell,Fair,C,RTV Liquidate,ORD-10557,24.04,135.88,251.74,188.41,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-557,,,2026-08-25
+TRG00558,WFS-OVERFLOW,Specialty,Monitors,Samsung,Fair,C,,ORD-10558,108.92,206.51,235.98,114.58,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-558,,,2026-09-04
+TRG00559,BRTON-WM-FOO,Walmart Monitors (Finished),Accessories,Dell,Good,C,Non RTV,ORD-10559,141.78,162.61,142.66,195.70,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-559,,,2026-09-11
+TRG00560,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Computers,HP,Damaged,C,,ORD-10560,74.91,109.38,68.74,146.18,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-560,,,2026-08-27
+TRG00561,MIAFL-HEAD-OFFICE,Open Box Returns,Monitors,Samsung,Very Good,A,RTV Liquidate,ORD-10561,96.90,100.25,258.31,258.90,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-561,,,2026-09-05
+TRG00562,BRTON-WM-BAR,Walmart Computers Parts (Finished),Tablets,Samsung,Good,B,,ORD-10562,0.00,72.34,206.88,134.29,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-562,,,2026-08-20
+TRG00564,WFS-OVERFLOW,Walmart Computer Parts (Finished),Headphones,Dell,Good,B,RTV Liquidate,ORD-10564,104.40,109.74,151.52,176.78,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-564,,,2026-08-09
+TRG00566,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Samsung,Damaged,B,Non RTV,ORD-10566,0.00,162.47,63.70,213.86,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-566,,,2026-08-22
+TRG00567,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Headphones,Samsung,Good,B,Non RTV,ORD-10567,36.06,139.95,96.62,245.40,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-567,,,2026-09-01
+TRG00570,BRTON-WM-BAR,Open Box Returns,Headphones,Samsung,Good,A,RTV Liquidate,ORD-10570,133.50,219.73,172.11,155.92,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-570,8,LOC-6,2026-08-15
+TRG00571,BRTON-WM-BAR,Walmart Monitors (Finished),Monitors,Dell,Good,B,Non RTV,ORD-10571,155.67,182.32,130.38,168.22,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-571,,,2026-09-14
+TRG00573,BRTON-WM-FOO,Warehouse Direct,Monitors,Dell,Damaged,B,Non RTV,ORD-10573,62.69,223.53,225.42,198.11,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-573,,,2026-08-09
+TRG00574,DALLX-HEADPHONES,Warehouse Direct,Monitors,Dell,Fair,C,Non RTV,ORD-10574,40.80,198.38,122.37,192.84,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-574,,,2026-08-25
+TRG00575,DALLX-HEADPHONES,Open Box Returns,TVs,HP,Fair,B,RTV,ORD-10575,66.75,52.26,243.65,175.96,Retail,eBay,Sam Patel,Acme Returns LLC,PO-575,,,2026-09-11
+TRG00576,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),TVs,HP,Good,C,,ORD-10576,0.00,204.57,118.32,209.41,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-576,12,LOC-32,2026-09-04
+TRG00577,BRTON-WM-FOO,Walmart Computer Parts (Finished),Computers,HP,Fair,B,,ORD-10577,71.18,43.18,229.78,128.84,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-577,8,LOC-2,2026-08-15
+TRG00578,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Dell,Good,C,Non RTV,ORD-10578,104.23,41.56,220.48,40.02,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-578,,,2026-08-26
+TRG00579,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Computers,Samsung,Good,A,Return to Stock,ORD-10579,116.28,44.25,232.55,41.54,Wholesale,eBay,Alex Nguyen,Acme Returns LLC,PO-579,,,2026-08-26
+TRG00582,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Dell,Damaged,B,Non RTV,ORD-10582,152.56,57.29,104.66,142.19,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-582,,,2026-08-22
+TRG00583,DALLX-HEADPHONES,Specialty,TVs,Dell,Damaged,A,,ORD-10583,67.88,158.56,106.20,201.87,Retail,Walmart,Alex Nguyen,The Recon Group LLP,PO-583,,,2026-09-06
+TRG00584,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Samsung,Very Good,C,Non RTV,ORD-10584,105.40,204.11,131.73,175.74,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-584,9,LOC-4,2026-08-28
+TRG00585,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,Damaged,A,Non RTV,ORD-10585,68.99,68.45,207.45,169.73,Liquidation,eBay,Sam Patel,Acme Returns LLC,PO-585,,,2026-09-08
+TRG00586,BRTON-WM-FOO,Walmart Monitors (Finished),Monitors,HP,Good,C,Non RTV,ORD-10586,139.37,172.85,143.72,122.38,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-586,,,2026-09-01
+TRG00588,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Monitors,Samsung,Damaged,B,,ORD-10588,136.19,163.58,233.25,256.52,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-588,,,2026-09-09
+TRG00589,WFS-OVERFLOW,Open Box Returns,Headphones,Samsung,Damaged,B,,ORD-10589,30.34,130.93,174.70,182.91,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-589,7,LOC-19,2026-08-18
+TRG00590,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Computers,Samsung,Damaged,A,RTV Liquidate,ORD-10590,25.76,147.79,192.60,217.00,Wholesale,Amazon,Sender Shamiss,Acme Returns LLC,PO-590,4,LOC-54,2026-08-19
+TRG00591,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Headphones,HP,Very Good,A,Non RTV,ORD-10591,65.33,107.67,224.65,238.96,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-591,,,2026-08-16
+TRG00593,DALLX-HEADPHONES,Walmart Monitors (Finished),Tablets,HP,Very Good,B,Non RTV,ORD-10593,55.25,174.16,197.63,232.52,Liquidation,Amazon,Alex Nguyen,Acme Returns LLC,PO-593,8,LOC-51,2026-09-07
+TRG00594,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Tablets,Samsung,Damaged,C,Non RTV,ORD-10594,161.09,42.51,153.76,252.95,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-594,7,LOC-14,2026-08-24
+TRG00597,BRTON-WM-BAR,Warehouse Direct,Computers,HP,Fair,B,Non RTV,ORD-10597,181.93,123.12,148.78,189.84,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-597,,,2026-08-28
+TRG00598,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Dell,Fair,C,Non RTV,ORD-10598,91.24,140.94,100.36,150.20,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-598,,,2026-08-28
+TRG00599,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Headphones,Samsung,Damaged,C,,ORD-10599,133.79,71.74,231.63,178.01,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-599,,,2026-08-18
+TRG00600,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Headphones,Samsung,Very Good,C,Non RTV,ORD-10600,52.36,67.64,110.61,134.45,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-600,,,2026-08-06
+TRG00601,DALLX-HEADPHONES,Open Box Returns,Tablets,Dell,Damaged,C,RTV Liquidate,ORD-10601,61.12,68.40,151.95,92.44,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-601,7,LOC-7,2026-08-11
+TRG00602,MILON-WM-DOTCA-RTV,Open Box Returns,Headphones,Dell,Fair,A,,ORD-10602,156.04,142.74,95.55,240.05,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-602,,,2026-09-04
+TRG00603,WFS-OVERFLOW,Open Box Returns,Headphones,Dell,Very Good,A,,ORD-10603,173.98,198.61,73.05,204.58,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-603,,,2026-08-09
+TRG00605,PHXAZ-RETURNS,Warehouse Direct,Computers,HP,Fair,C,,ORD-10605,73.94,204.05,49.82,105.16,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-605,,,2026-09-12
+TRG00606,MILON-WM-DOTCA-RTV,Open Box Returns,Tablets,Samsung,Good,C,Non RTV,ORD-10606,132.48,95.92,189.54,112.73,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-606,,,2026-09-02
+TRG00607,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),TVs,HP,Very Good,B,RTV Liquidate,ORD-10607,22.05,79.44,131.26,114.50,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-607,,,2026-09-02
+TRG00608,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Monitors,Samsung,Very Good,B,RTV Liquidate,ORD-10608,60.82,42.33,119.87,150.72,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-608,2,LOC-43,2026-08-31
+TRG00609,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Dell,Damaged,A,RTV Liquidate,ORD-10609,52.35,166.60,184.25,143.95,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-609,10,LOC-42,2026-08-11
+TRG00610,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Monitors,HP,Damaged,B,,ORD-10610,308.30,171.28,151.59,221.84,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-610,4,LOC-49,2026-09-07
+TRG00611,BRTON-WM-FOO,Open Box Returns,Accessories,Samsung,Very Good,A,,ORD-10611,47.97,138.70,142.76,258.18,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-611,,,2026-08-12
+TRG00612,DALLX-HEADPHONES,Warehouse Direct,Accessories,Samsung,Damaged,A,RTV Liquidate,ORD-10612,0.00,118.87,169.56,102.59,Retail,Shopify,Sam Patel,Acme Returns LLC,PO-612,7,LOC-31,2026-08-15
+TRG00614,WFS-OVERFLOW,Walmart Monitors (Finished),Monitors,Samsung,Fair,C,Non RTV,ORD-10614,144.08,195.26,206.60,221.27,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-614,,,2026-08-07
+TRG00615,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Samsung,Good,B,Non RTV,ORD-10615,127.05,244.68,44.08,195.23,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-615,7,LOC-54,2026-08-06
+TRG00616,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,Very Good,A,Non RTV,ORD-10616,0.00,164.58,240.10,95.57,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-616,,,2026-08-11
+TRG00617,MIAFL-HEAD-OFFICE,Specialty,Monitors,Samsung,Damaged,C,RTV Liquidate,ORD-10617,152.31,186.96,141.52,63.54,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-617,,,2026-09-04
+TRG00618,MILON-WM-DOTCA-RTV,Open Box Returns,Tablets,HP,Fair,C,Non RTV,ORD-10618,110.44,217.43,197.61,139.21,Liquidation,eBay,Alex Nguyen,Acme Returns LLC,PO-618,,,2026-09-12
+TRG00620,PHXAZ-RETURNS,Walmart Computer Parts (Finished),TVs,Dell,Damaged,B,Non RTV,ORD-10620,132.92,214.73,211.71,262.55,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-620,,,2026-08-07
+TRG00622,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Accessories,Samsung,Good,C,Non RTV,ORD-10622,67.87,195.16,207.66,149.48,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-622,,,2026-09-08
+TRG00626,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Tablets,Dell,Fair,C,Non RTV,ORD-10626,0.00,92.27,224.10,90.27,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-626,,,2026-09-04
+TRG00628,BRTON-WM-FOO,Warehouse Direct,TVs,HP,Good,B,Non RTV,ORD-10628,84.92,141.06,204.42,81.85,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-628,12,LOC-15,2026-08-16
+TRG00629,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Computers,Samsung,Damaged,C,RTV Liquidate,ORD-10629,163.68,120.85,188.16,207.28,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-629,,,2026-08-25
+TRG00631,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Accessories,HP,Good,A,RTV,ORD-10631,171.99,117.24,166.27,182.31,Retail,Shopify,Alex Nguyen,Acme Returns LLC,PO-631,,,2026-08-08
+TRG00632,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,Damaged,A,,ORD-10632,23.43,243.75,127.30,258.76,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-632,,,2026-08-16
+TRG00633,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Monitors,HP,Good,A,,ORD-10633,13.60,117.21,103.01,197.35,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-633,,,2026-09-05
+TRG00636,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Tablets,Dell,Damaged,A,Non RTV,ORD-10636,100.83,204.07,126.00,70.20,Wholesale,Walmart,Sam Patel,The Recon Group LLP,PO-636,,,2026-08-06
+TRG00638,MILON-WM-DOTCA-RTV,Warehouse Direct,Monitors,Samsung,Damaged,C,RTV Liquidate,ORD-10638,172.90,219.10,70.78,234.80,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-638,6,LOC-30,2026-09-12
+TRG00639,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Computers,Dell,Fair,A,RTV Liquidate,ORD-10639,176.91,78.22,219.40,76.36,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-639,9,LOC-50,2026-08-25
+TRG00640,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Monitors,HP,Fair,C,Non RTV,ORD-10640,78.02,61.68,101.49,160.09,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-640,,,2026-09-01
+TRG00641,PHXAZ-RETURNS,Walmart Computers Parts (Finished),TVs,HP,Good,B,,ORD-10641,162.07,129.52,117.44,180.41,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-641,,,2026-08-31
+TRG00642,PHXAZ-RETURNS,Warehouse Direct,Tablets,Samsung,Damaged,C,Non RTV,ORD-10642,170.40,136.82,91.06,104.20,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-642,2,LOC-30,2026-08-22
+TRG00643,MILON-WM-DOTCA-RTV,Warehouse Direct,Headphones,Dell,Damaged,A,RTV Liquidate,ORD-10643,167.84,210.61,245.79,253.33,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-643,10,LOC-32,2026-09-15
+TRG00644,DALLX-HEADPHONES,Walmart Monitors (Finished),Accessories,Dell,Very Good,C,,ORD-10644,177.26,128.69,232.01,124.13,Wholesale,Shopify,Sam Patel,Acme Returns LLC,PO-644,,,2026-08-18
+TRG00645,MIAFL-HEAD-OFFICE,Open Box Returns,Headphones,Dell,Damaged,A,RTV Liquidate,ORD-10645,64.02,127.69,240.56,125.81,Wholesale,Amazon,Sam Patel,Acme Returns LLC,PO-645,11,LOC-47,2026-08-18
+TRG00647,WFS-OVERFLOW,Walmart Monitors (Finished),Tablets,HP,Good,C,,ORD-10647,84.08,34.60,108.15,219.23,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-647,,,2026-08-11
+TRG00648,WFS-OVERFLOW,Walmart Computers Parts (Finished),Tablets,Samsung,Fair,A,Non RTV,ORD-10648,184.62,140.81,150.45,181.41,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-648,,,2026-09-08
+TRG00649,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Monitors,HP,Fair,C,,ORD-10649,36.01,204.89,117.55,192.50,Liquidation,Shopify,Sender Shamiss,Acme Returns LLC,PO-649,,,2026-08-11
+TRG00650,BRTON-WM-BAR,Walmart Monitors (Finished),Monitors,Samsung,Very Good,A,Non RTV,ORD-10650,181.80,231.91,211.86,33.63,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-650,,,2026-09-08
+TRG00651,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Monitors,Samsung,Very Good,C,Non RTV,ORD-10651,184.32,99.66,156.53,31.25,Retail,eBay,Jordan Lee,Acme Returns LLC,PO-651,,,2026-08-27
+TRG00652,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),TVs,Samsung,Good,C,,ORD-10652,0.00,123.32,137.53,70.26,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-652,,,2026-08-28
+TRG00653,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Tablets,HP,Very Good,A,,ORD-10653,0.00,167.46,161.82,110.22,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-653,,,2026-08-12
+TRG00654,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Headphones,Dell,Fair,B,RTV Liquidate,ORD-10654,101.89,163.24,208.50,48.52,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-654,,,2026-08-27
+TRG00655,PHXAZ-RETURNS,Warehouse Direct,Monitors,Samsung,Damaged,C,Non RTV,ORD-10655,91.54,181.05,74.76,166.40,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-655,,,2026-08-18
+TRG00656,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,Samsung,Very Good,C,,ORD-10656,85.59,128.79,42.63,104.41,Wholesale,eBay,Alex Nguyen,Acme Returns LLC,PO-656,,,2026-08-06
+TRG00657,PHXAZ-RETURNS,Walmart Monitors (Finished),TVs,Samsung,Very Good,C,,ORD-10657,52.06,109.30,105.34,235.31,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-657,,,2026-08-27
+TRG00658,PHXAZ-RETURNS,Warehouse Direct,Computers,HP,Fair,B,Non RTV,ORD-10658,0.00,137.28,112.19,153.39,Wholesale,Shopify,Jordan Lee,Acme Returns LLC,PO-658,,,2026-09-04
+TRG00659,BRTON-WM-FOO,Walmart Computers Parts (Finished),Headphones,Dell,Damaged,A,,ORD-10659,45.80,240.33,100.90,141.73,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-659,,,2026-08-10
+TRG00660,PHXAZ-RETURNS,Walmart Computers Parts (Finished),TVs,Dell,Damaged,C,Non RTV,ORD-10660,92.37,40.32,249.80,137.74,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-660,,,2026-08-31
+TRG00661,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),TVs,HP,Good,B,RTV Liquidate,ORD-10661,163.53,217.37,84.23,269.89,Retail,Amazon,Jordan Lee,Acme Returns LLC,PO-661,,,2026-08-09
+TRG00662,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Monitors,Dell,Fair,C,,ORD-10662,56.59,155.53,68.47,159.20,Wholesale,Shopify,Alex Nguyen,Acme Returns LLC,PO-662,,,2026-08-25
+TRG00663,PHXAZ-RETURNS,Walmart Computers Parts (Finished),TVs,Samsung,Fair,C,RTV Liquidate,ORD-10663,0.00,118.84,225.62,263.96,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-663,,,2026-08-10
+TRG00664,BRTON-WM-FOO,Walmart Computer Parts (Finished),Tablets,Dell,Damaged,B,Non RTV,ORD-10664,118.80,188.15,236.90,136.38,Retail,Walmart,Jordan Lee,Acme Returns LLC,PO-664,,,2026-08-20
+TRG00667,BRTON-WM-FOO,Walmart Computers Parts (Finished),Headphones,HP,Fair,B,Non RTV,ORD-10667,102.16,150.68,128.02,185.49,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-667,,,2026-08-26
+TRG00669,MILON-WM-DOTCA-RTV,Open Box Returns,TVs,Dell,Good,C,Return to Stock,ORD-10669,66.98,234.72,68.23,72.15,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-669,,,2026-09-10
+TRG00670,MILON-WM-DOTCA-RTV,Warehouse Direct,Computers,Samsung,Damaged,B,,ORD-10670,0.00,196.51,64.73,242.13,Retail,Shopify,Jordan Lee,Acme Returns LLC,PO-670,,,2026-08-30
+TRG00671,DALLX-HEADPHONES,Walmart Monitors (Finished),TVs,Dell,Very Good,A,RTV Liquidate,ORD-10671,141.34,78.52,59.04,77.05,Wholesale,Amazon,Alex Nguyen,Acme Returns LLC,PO-671,7,LOC-6,2026-08-20
+TRG00672,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Accessories,HP,Very Good,A,Non RTV,ORD-10672,85.03,140.25,183.86,67.63,Wholesale,eBay,Alex Nguyen,Acme Returns LLC,PO-672,,,2026-08-09
+TRG00673,PHXAZ-RETURNS,Walmart Monitors (Finished),TVs,HP,Fair,B,,ORD-10673,0.00,171.63,169.81,201.54,Liquidation,Walmart,Sam Patel,Acme Returns LLC,PO-673,,,2026-09-03
+TRG00676,MILON-WM-DOTCA-RTV,Warehouse Direct,Accessories,Samsung,Damaged,A,,ORD-10676,44.45,195.08,131.54,45.31,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-676,,,2026-09-02
+TRG00677,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Dell,Fair,B,RTV Liquidate,ORD-10677,30.94,115.99,252.61,204.78,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-677,,,2026-08-24
+TRG00678,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),TVs,Dell,Good,A,RTV Liquidate,ORD-10678,186.57,37.21,224.91,227.63,Wholesale,Walmart,Alex Nguyen,Acme Returns LLC,PO-678,,,2026-09-03
+TRG00679,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Computers,Samsung,Very Good,A,Non RTV,ORD-10679,168.79,108.97,167.87,186.51,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-679,,,2026-09-13
+TRG00681,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Accessories,HP,Damaged,C,RTV Liquidate,ORD-10681,166.12,66.17,125.42,100.38,Wholesale,eBay,Sam Patel,Acme Returns LLC,PO-681,,,2026-09-05
+TRG00682,WFS-OVERFLOW,Open Box Returns,Accessories,Dell,Fair,B,Non RTV,ORD-10682,156.95,248.10,59.24,54.26,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-682,,,2026-09-01
+TRG00684,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Accessories,Dell,Fair,B,,ORD-10684,154.59,66.82,69.08,252.38,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-684,,,2026-09-11
+TRG00685,BRTON-WM-BAR,Walmart Monitors (Finished),Headphones,Samsung,Damaged,C,Non RTV,ORD-10685,179.79,85.30,170.30,135.47,Liquidation,Amazon,Sam Patel,Acme Returns LLC,PO-685,,,2026-08-29
+TRG00686,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,Good,C,Research,ORD-10686,124.60,176.98,63.80,163.53,Liquidation,Walmart,Alex Nguyen,Acme Returns LLC,PO-686,,,2026-08-11
+TRG00687,BRTON-WM-FOO,Walmart Computers Parts (Finished),Accessories,Samsung,Fair,A,RTV Liquidate,ORD-10687,154.38,145.93,120.61,129.92,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-687,,,2026-08-11
+TRG00688,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Dell,Fair,B,,ORD-10688,89.73,246.64,240.23,70.10,Liquidation,Walmart,Jordan Lee,Acme Returns LLC,PO-688,,,2026-09-06
+TRG00689,PHXAZ-RETURNS,Warehouse Direct,Computers,HP,Damaged,C,,ORD-10689,166.19,110.56,119.65,117.07,Liquidation,Walmart,Alex Nguyen,The Recon Group LLP,PO-689,,,2026-08-06
+TRG00690,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Headphones,Dell,Good,C,,ORD-10690,0.00,87.93,235.14,154.03,Retail,Walmart,Sam Patel,Acme Returns LLC,PO-690,2,LOC-25,2026-08-19
+TRG00691,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Monitors,Samsung,Very Good,C,,ORD-10691,39.83,227.94,227.07,105.93,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-691,,,2026-08-26
+TRG00694,DALLX-HEADPHONES,Warehouse Direct,Computers,Dell,Good,A,RTV Liquidate,ORD-10694,158.30,158.86,50.90,137.98,Retail,Amazon,Alex Nguyen,Acme Returns LLC,PO-694,,,2026-09-03
+TRG00695,BRTON-WM-FOO,Open Box Returns,Accessories,Dell,Very Good,C,Non RTV,ORD-10695,123.90,109.96,182.51,80.52,Retail,Amazon,Sam Patel,Acme Returns LLC,PO-695,6,LOC-39,2026-08-16
+TRG00696,PHXAZ-RETURNS,Specialty,Accessories,Dell,Fair,C,RTV Liquidate,ORD-10696,66.47,163.21,130.48,129.04,Wholesale,Walmart,Jordan Lee,Acme Returns LLC,PO-696,8,LOC-40,2026-08-14
+TRG00697,WFS-OVERFLOW,Open Box Returns,TVs,Dell,Very Good,A,,ORD-10697,161.17,166.46,223.50,161.69,Liquidation,eBay,Jordan Lee,Acme Returns LLC,PO-697,,,2026-08-25
+TRG00699,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Samsung,Fair,B,RTV Liquidate,ORD-10699,107.02,61.86,91.88,51.62,Wholesale,eBay,Jordan Lee,Acme Returns LLC,PO-699,,,2026-09-12
+TRG00702,BRTON-WM-FOO,Walmart Computer Parts (Finished),TVs,Dell,Damaged,C,,ORD-10702,135.47,130.54,92.28,108.94,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-702,12,LOC-32,2026-09-15
+TRG00703,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),TVs,HP,Damaged,B,RTV Liquidate,ORD-10703,119.87,80.01,192.65,138.22,Liquidation,Shopify,Jordan Lee,Acme Returns LLC,PO-703,,,2026-08-30
+TRG00704,BRTON-WM-FOO,Walmart Computer Parts (Finished),Headphones,HP,Fair,A,RTV Liquidate,ORD-10704,154.75,245.38,216.01,152.33,Liquidation,Shopify,Alex Nguyen,Acme Returns LLC,PO-704,,,2026-08-27
+TRG00706,MIAFL-HEAD-OFFICE,Open Box Returns,TVs,Dell,Good,B,,ORD-10706,154.72,173.91,140.81,219.16,Retail,eBay,Alex Nguyen,Acme Returns LLC,PO-706,10,LOC-33,2026-08-19
+TRG00707,WFS-OVERFLOW,Specialty,Monitors,Samsung,Good,B,Non RTV,ORD-10707,107.27,159.46,181.02,108.87,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-707,,,2026-09-03
+TRG00708,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),TVs,HP,Fair,C,,ORD-10708,187.80,141.16,198.10,203.02,Retail,Shopify,Sender Shamiss,Acme Returns LLC,PO-708,,,2026-08-09
+TRG00709,BRTON-WM-BAR,Specialty,Accessories,Dell,Very Good,C,Non RTV,ORD-10709,149.10,127.63,147.40,223.71,Retail,Walmart,Alex Nguyen,Acme Returns LLC,PO-709,,,2026-08-19
+TRG00710,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Monitors,Samsung,Very Good,A,RTV Liquidate,ORD-10710,119.16,218.33,82.15,139.32,Liquidation,Amazon,Jordan Lee,Acme Returns LLC,PO-710,,,2026-08-25
+TRG00716,BRTON-WM-FOO,Walmart Monitors (Finished),Computers,Samsung,Fair,C,,ORD-10716,141.87,30.02,91.43,183.72,Wholesale,Amazon,Jordan Lee,Acme Returns LLC,PO-716,,,2026-08-29
+TRG00717,WFS-OVERFLOW,Specialty,Accessories,Dell,Fair,B,,ORD-10717,138.47,31.86,65.78,39.91,Liquidation,Shopify,Sam Patel,Acme Returns LLC,PO-717,,,2026-08-22
+TRG00720,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),TVs,Dell,Very Good,A,Non RTV,ORD-10720,141.37,83.08,227.57,267.38,Wholesale,Walmart,Sam Patel,Acme Returns LLC,PO-720,,,2026-08-24

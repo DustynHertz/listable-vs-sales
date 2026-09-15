@@ -1,0 +1,12 @@
+{
+  "name": "listable-vs-sales",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev:api & npm run dev:web; wait",
+    "dev:api": "npm run dev --prefix api",
+    "dev:web": "npm run dev --prefix web",
+    "test": "npm test --prefix api",
+    "generate:sample": "npm run generate:sample --prefix api"
+  }
+}

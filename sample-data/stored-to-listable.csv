@@ -1,0 +1,764 @@
+TRGID,UPC,Title,ProgramName,MasterProgramName,CategoryName,Manufacturer,LocationNotListable,ProductStatus,MR_LMR_UPC_AverageCategoryRetail,UPCRetail,Classification_PHYSICAL CONDITION,Classification_CONDITION,Classification_TECHNICAL FUNCTIONALITY,PalletLocationID,RTVType,Tag_NotListedReason,Tag_VenueExclusivity,Serialized,FirstStoredOnListableLocationOn
+TRG00001,00100000001,Item 1 Accessories,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,HP,FALSE,Active,$230.40,$143.36,Damaged,C,Functional,PAL-43,,,,Y,2026-08-16
+TRG00002,00100000002,Item 2 Monitors,PHXAZ-RETURNS,Specialty,Monitors,Sony,TRUE,Active,$170.31,$37.57,Good,A,Functional,,Non RTV,,,N,2026-08-16
+TRG00003,00100000003,Item 3 Accessories,BRTON-WM-FOO,Walmart Computers Parts (Finished),Accessories,Sony,FALSE,Active,$48.24,$42.33,Fair,A,Functional,,,,,N,2026-08-28
+TRG00004,00100000004,Item 4 Accessories,DALLX-HEADPHONES,Specialty,Accessories,Lenovo,FALSE,Active,$185.17,$193.38,Damaged,A,Functional,PAL-23,Non RTV,,,N,2026-09-03
+TRG00005,00100000005,Item 5 Computers,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Computers,Sony,TRUE,Active,$237.90,$48.62,Damaged,A,Functional,,,,,Y,2026-09-04
+TRG00006,00100000006,Item 6 Computers,PHXAZ-RETURNS,Open Box Returns,Computers,HP,FALSE,Active,$167.26,$110.87,Very Good,C,Functional,,,,,N,2026-08-30
+TRG00007,00100000007,Item 7 Accessories,MIAFL-HEAD-OFFICE,Specialty,Accessories,Dell,FALSE,Active,$62.19,$197.21,Damaged,C,Functional,,Non RTV,,,N,2026-08-18
+TRG00008,00100000008,Item 8 Accessories,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Accessories,Sony,FALSE,Active,$130.83,$69.22,Very Good,A,Functional,,Non RTV,,,N,2026-09-01
+TRG00009,00100000009,Item 9 Headphones,DALLX-HEADPHONES,Open Box Returns,Headphones,Sony,FALSE,Active,$202.23,$182.46,Damaged,A,Functional,,Non RTV,,,N,2026-09-10
+TRG00010,00100000010,Item 10 Tablets,BRTON-WM-BAR,Walmart Computer Parts (Finished),Tablets,Dell,FALSE,Active,$46.40,$83.01,Fair,C,Functional,,,,,Y,2026-09-15
+TRG00011,00100000011,Item 11 Headphones,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Headphones,Samsung,FALSE,Active,$113.95,$244.95,Very Good,B,Functional,,,,,N,2026-08-19
+TRG00012,00100000012,Item 12 TVs,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),TVs,Samsung,FALSE,Active,$192.90,$105.41,Very Good,A,Functional,,Non RTV,,,N,2026-08-11
+TRG00013,00100000013,Item 13 Tablets,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Dell,FALSE,Active,$230.88,$156.16,Damaged,B,Functional,,Non RTV,,,N,2026-09-09
+TRG00014,00100000014,Item 14 Headphones,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Headphones,Samsung,FALSE,Active,$225.50,$208.47,Good,A,Functional,,RTV Liquidate,,,N,2026-08-08
+TRG00015,00100000015,Item 15 Tablets,MIAFL-HEAD-OFFICE,Warehouse Direct,Tablets,Lenovo,FALSE,Active,$117.24,$137.26,Fair,B,Functional,,,,,N,2026-09-11
+TRG00016,00100000016,Item 16 Computers,DALLX-HEADPHONES,Open Box Returns,Computers,HP,FALSE,Active,$250.31,$241.07,Fair,A,Functional,PAL-7,RTV Liquidate,,,Y,2026-08-25
+TRG00017,00100000017,Item 17 Headphones,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Headphones,Samsung,FALSE,Active,$83.10,$189.93,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-27
+TRG00017,00100000017,Item 17 duplicate last,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Headphones,Dell,FALSE,Active,$83.10,$189.93,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-27
+TRG00018,00100000018,Item 18 Computers,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Computers,Dell,FALSE,Active,$136.18,$62.36,Good,C,Functional,PAL-43,,,,N,2026-08-06
+TRG00019,00100000019,Item 19 Computers,PHXAZ-RETURNS,Walmart Monitors (Finished),Computers,Sony,FALSE,Active,$164.09,$52.71,Damaged,B,Functional,PAL-30,RTV Liquidate,,,N,2026-09-14
+TRG00020,00100000020,Item 20 TVs,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),TVs,HP,FALSE,Active,$187.04,$164.64,Good,B,Functional,PAL-5,RTV Liquidate,,,N,2026-09-15
+TRG00021,00100000021,Item 21 TVs,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),TVs,HP,FALSE,Active,$229.20,$254.48,Fair,C,Functional,,,,,N,2026-09-03
+TRG00022,00100000022,Item 22 Tablets,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Tablets,HP,FALSE,Active,$208.64,$104.09,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-31
+TRG00023,00100000023,Item 23 Headphones,DALLX-HEADPHONES,Warehouse Direct,Headphones,Samsung,FALSE,Active,$230.90,$195.96,Very Good,C,Functional,,,,,N,2026-08-12
+TRG00024,00100000024,Item 24 Tablets,WFS-OVERFLOW,Open Box Returns,Tablets,Samsung,FALSE,Active,$143.69,$47.40,Damaged,C,Functional,PAL-68,,,,N,2026-08-26
+TRG00025,00100000025,Item 25 Monitors,WFS-OVERFLOW,Specialty,Monitors,HP,TRUE,Active,$222.20,$231.09,Good,A,Functional,PAL-8,,,,N,2026-09-03
+TRG00026,00100000026,Item 26 Monitors,BRTON-WM-BAR,Open Box Returns,Monitors,Sony,FALSE,Active,$177.99,$87.55,Very Good,A,Functional,,Non RTV,,,N,2026-08-25
+TRG00027,00100000027,Item 27 Computers,PHXAZ-RETURNS,Walmart Monitors (Finished),Computers,Lenovo,FALSE,Active,$52.93,$37.96,Good,A,Functional,,Non RTV,,,N,2026-08-19
+TRG00028,00100000028,Item 28 Monitors,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Monitors,Sony,TRUE,Active,$84.98,$218.52,Good,A,Functional,,,,,N,2026-08-26
+TRG00029,00100000029,Item 29 Headphones,MILON-WM-DOTCA-RTV,Open Box Returns,Headphones,Sony,FALSE,Active,$85.44,$214.84,Good,B,Functional,PAL-12,RTV Liquidate,,,N,2026-08-15
+TRG00030,00100000030,Item 30 Monitors,BRTON-WM-BAR,Warehouse Direct,Monitors,Lenovo,FALSE,Active,$50.35,$108.31,Damaged,A,Functional,PAL-77,Non RTV,,,N,2026-09-04
+TRG00031,00100000031,Item 31 Monitors,BRTON-WM-BAR,Specialty,Monitors,Samsung,FALSE,Active,$258.90,$80.80,Fair,B,Functional,,RTV,,,N,2026-08-25
+TRG00032,00100000032,Item 32 Tablets,BRTON-WM-BAR,Warehouse Direct,Tablets,HP,FALSE,Active,$146.74,$90.52,Good,C,Functional,PAL-42,,,,N,2026-08-26
+TRG00033,00100000033,Item 33 Computers,BRTON-WM-BAR,Walmart Monitors (Finished),Computers,Samsung,FALSE,Active,$218.22,$42.90,Fair,B,Functional,PAL-73,,,,N,2026-08-30
+TRG00034,00100000034,Item 34 Computers,PHXAZ-RETURNS,Walmart Monitors (Finished),Computers,Samsung,FALSE,Active,$199.67,$253.47,Fair,C,Functional,PAL-56,,,,Y,2026-08-17
+TRG00034,00100000034,Item 34 duplicate last,PHXAZ-RETURNS,Walmart Monitors (Finished),Computers,Dell,FALSE,Active,$199.67,$253.47,Fair,C,Functional,PAL-56,,,,N,2026-08-17
+TRG00035,00100000035,Item 35 Headphones,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Lenovo,FALSE,Active,$170.92,$256.94,Very Good,A,Functional,,RTV Liquidate,,,Y,2026-09-09
+TRG00036,00100000036,Item 36 Tablets,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Lenovo,FALSE,Active,$256.53,$265.07,Damaged,C,Functional,,,,,Y,2026-09-14
+TRG00037,00100000037,Item 37 Accessories,BRTON-LENOVO-DC-400,Walmart Computer Parts (Finished),Accessories,Sony,TRUE,Active,$210.74,$108.63,Very Good,C,Functional,,RTV Liquidate,,,N,2026-09-09
+TRG00038,00100000038,Item 38 Tablets,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Tablets,Dell,TRUE,Active,$179.79,$263.87,Damaged,C,Functional,PAL-20,,,,N,2026-08-22
+TRG00039,00100000039,Item 39 Monitors,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,FALSE,Active,$178.86,$105.63,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-25
+TRG00040,00100000040,Item 40 Tablets,BRTON-WM-FOO,Specialty,Tablets,Sony,FALSE,Active,$169.54,$70.57,Good,C,Functional,,,,,N,2026-09-15
+TRG00041,00100000041,Item 41 Monitors,DS-MONTERREY,Walmart Monitors (Finished),Monitors,Dell,FALSE,Active,$61.02,$248.30,Good,B,Functional,,RTV,,,N,2026-08-06
+TRG00042,00100000042,Item 42 Headphones,WFS-OVERFLOW,Walmart Computer Parts (Finished),Headphones,Samsung,FALSE,Active,$183.59,$41.98,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-31
+TRG00043,00100000043,Item 43 Monitors,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Sony,FALSE,Active,$243.13,$256.40,Fair,B,Functional,PAL-57,Non RTV,,,N,2026-08-23
+TRG00044,00100000044,Item 44 Headphones,MILON-WM-DOTCA-RTV,Specialty,Headphones,Dell,FALSE,Active,$73.17,$106.77,Fair,C,Functional,,Non RTV,,,N,2026-09-15
+TRG00045,00100000045,Item 45 TVs,WFS-OVERFLOW,Warehouse Direct,TVs,HP,FALSE,Active,$125.76,$82.05,Damaged,B,Functional,PAL-76,,,,N,2026-08-17
+TRG00046,00100000046,Item 46 TVs,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Samsung,FALSE,Active,$235.48,$170.96,Very Good,B,Functional,,,,,N,2026-09-10
+TRG00047,00100000047,Item 47 Headphones,WFS-OVERFLOW,Specialty,Headphones,Samsung,FALSE,Active,$44.17,$60.03,Very Good,A,Functional,PAL-57,Non RTV,,,N,2026-09-01
+TRG00048,00100000048,Item 48 TVs,BRTON-WM-FOO,Specialty,TVs,HP,FALSE,Active,$175.50,$142.27,Good,A,Functional,,,,,N,2026-09-08
+TRG00049,00100000049,Item 49 Headphones,MILON-WM-DOTCA-RTV,Warehouse Direct,Headphones,Samsung,FALSE,Active,$246.87,$127.26,Good,C,Functional,,RTV Liquidate,,,Y,2026-08-21
+TRG00050,00100000050,Item 50 Computers,BRTON-WM-FOO,Open Box Returns,Computers,Dell,FALSE,Active,$155.69,$192.02,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-27
+TRG00051,00100000051,Item 51 Tablets,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Samsung,FALSE,Active,$113.93,$184.78,Damaged,A,Functional,,,,,N,2026-09-10
+TRG00051,00100000051,Item 51 duplicate last,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Dell,FALSE,Active,$113.93,$184.78,Damaged,A,Functional,,,,,N,2026-09-10
+TRG00052,00100000052,Item 52 Monitors,PHXAZ-RETURNS,Specialty,Monitors,Sony,FALSE,Active,$49.31,$67.09,Good,B,Functional,,,,,N,2026-08-07
+TRG00053,00100000053,Item 53 Accessories,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,HP,FALSE,Active,$104.13,$170.22,Good,C,Functional,,RTV Liquidate,,,Y,2026-08-16
+TRG00054,00100000054,Item 54 Tablets,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Tablets,Dell,FALSE,Active,$225.40,$82.69,Very Good,B,Functional,PAL-50,Non RTV,,,N,2026-09-14
+TRG00055,00100000055,Item 55 Headphones,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Lenovo,FALSE,Active,$67.38,$75.60,Damaged,C,Functional,PAL-77,Non RTV,,,N,2026-09-03
+TRG00056,00100000056,Item 56 Monitors,BRTON-WM-BAR,Specialty,Monitors,Sony,FALSE,Active,$245.03,$84.37,Good,C,Functional,PAL-1,RTV Liquidate,,,N,2026-08-11
+TRG00057,00100000057,Item 57 Tablets,BRTON-WM-FOO,Specialty,Tablets,Samsung,FALSE,Active,$121.26,$48.67,Damaged,C,Functional,PAL-68,,,,N,2026-08-17
+TRG00058,00100000058,Item 58 Computers,BRTON-WM-FOO,Open Box Returns,Computers,Sony,FALSE,Active,$209.06,$65.37,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-20
+TRG00059,00100000059,Item 59 Monitors,WFS-OVERFLOW,Specialty,Monitors,Lenovo,FALSE,Active,$131.84,$223.96,Very Good,A,Functional,,,,,Y,2026-08-15
+TRG00060,00100000060,Item 60 Monitors,BRTON-WM-BAR,Walmart Monitors (Finished),Monitors,Sony,FALSE,Active,$134.39,$203.84,Fair,B,Functional,,,,,N,2026-08-09
+TRG00061,00100000061,Item 61 Tablets,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Lenovo,FALSE,Active,$82.83,$264.94,Very Good,C,Functional,,,,,Y,2026-09-12
+TRG00062,00100000062,Item 62 TVs,PHXAZ-RETURNS,Open Box Returns,TVs,Samsung,FALSE,Active,$118.17,$259.74,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-08
+TRG00063,00100000063,Item 63 TVs,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),TVs,Samsung,FALSE,Active,$48.42,$221.40,Fair,B,Functional,PAL-57,Non RTV,,,N,2026-08-09
+TRG00064,00100000064,Item 64 TVs,WFS-OVERFLOW,Walmart Monitors (Finished),TVs,Samsung,FALSE,Active,$145.92,$118.21,Damaged,A,Functional,,,,,N,2026-08-30
+TRG00065,00100000065,Item 65 Headphones,DALLX-HEADPHONES,Specialty,Headphones,HP,FALSE,Active,$257.47,$238.87,Fair,B,Functional,,,,,N,2026-09-12
+TRG00066,00100000066,Item 66 Monitors,BRTON-WM-BAR,Walmart Computer Parts (Finished),Monitors,Lenovo,TRUE,Active,$78.00,$121.94,Very Good,C,Functional,PAL-59,Non RTV,,,N,2026-09-14
+TRG00067,00100000067,Item 67 Headphones,BRTON-WM-BAR,Open Box Returns,Headphones,Lenovo,FALSE,Active,$147.66,$90.61,Fair,A,Functional,PAL-58,RTV Liquidate,,,N,2026-08-31
+TRG00068,00100000068,Item 68 Monitors,WFS-OVERFLOW,Specialty,Monitors,Dell,FALSE,Active,$58.94,$240.20,Damaged,A,Functional,,RTV Liquidate,,,N,2026-09-04
+TRG00068,00100000068,Item 68 duplicate last,WFS-OVERFLOW,Specialty,Monitors,Dell,FALSE,Active,$58.94,$240.20,Damaged,A,Functional,,RTV Liquidate,,,N,2026-09-04
+TRG00069,00100000069,Item 69 Accessories,DALLX-HEADPHONES,Walmart Monitors (Finished),Accessories,Dell,FALSE,Active,$103.31,$261.94,Fair,B,Functional,,Non RTV,,,Y,2026-09-14
+TRG00070,00100000070,Item 70 TVs,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),TVs,HP,FALSE,Active,$85.65,$84.07,Damaged,B,Functional,,Non RTV,,,N,2026-09-11
+TRG00071,00100000071,Item 71 Headphones,BRTON-WM-BAR,Walmart Monitors (Finished),Headphones,Sony,FALSE,Active,$147.76,$188.39,Fair,C,Functional,,,,,Y,2026-08-14
+TRG00072,00100000072,Item 72 Accessories,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Accessories,HP,FALSE,Active,$46.43,$149.75,Damaged,B,Functional,,Non RTV,,,N,2026-08-08
+TRG00073,00100000073,Item 73 Accessories,PHXAZ-RETURNS,Walmart Monitors (Finished),Accessories,Samsung,FALSE,Active,$155.14,$49.40,Good,C,Functional,PAL-1,RTV Liquidate,,,Y,2026-08-17
+TRG00074,00100000074,Item 74 Monitors,BRTON-LENOVO-DC-400,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,FALSE,Active,$228.83,$248.85,Damaged,B,Functional,,,,,Y,2026-09-03
+TRG00075,00100000075,Item 75 TVs,PHXAZ-RETURNS,Walmart Monitors (Finished),TVs,Sony,FALSE,Active,$93.38,$220.92,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-08
+TRG00076,00100000076,Item 76 Tablets,MIAFL-HEAD-OFFICE,Specialty,Tablets,HP,FALSE,Active,$239.08,$119.92,Good,B,Functional,,,,,N,2026-08-28
+TRG00077,00100000077,Item 77 TVs,BRTON-WM-BAR,Specialty,TVs,Lenovo,FALSE,Active,$81.73,$256.40,Very Good,A,Functional,,RTV,,,N,2026-09-14
+TRG00078,00100000078,Item 78 TVs,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),TVs,Samsung,FALSE,Active,$224.29,$196.90,Good,A,Functional,,RTV Liquidate,,,N,2026-09-04
+TRG00079,00100000079,Item 79 Monitors,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Monitors,Samsung,FALSE,Active,$197.34,$74.14,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00080,00100000080,Item 80 Monitors,BRTON-WM-FOO,Walmart Computer Parts (Finished),Monitors,Lenovo,FALSE,Active,$56.82,$38.25,Good,C,Functional,PAL-51,Non RTV,,,N,2026-08-13
+TRG00081,00100000081,Item 81 Monitors,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Monitors,Sony,FALSE,Active,$254.31,$158.48,Damaged,B,Functional,PAL-56,,,,Y,2026-08-08
+TRG00082,00100000082,Item 82 Monitors,DS-MONTERREY,Walmart Computers Parts (Finished),Monitors,Dell,FALSE,Active,$145.79,$126.83,Fair,B,Functional,,Non RTV,,,N,2026-08-19
+TRG00083,00100000083,Item 83 Computers,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Computers,Dell,FALSE,Active,$178.60,$129.98,Good,C,Functional,PAL-35,RTV Liquidate,,,N,2026-08-31
+TRG00084,00100000084,Item 84 Monitors,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Monitors,Samsung,FALSE,Active,$147.89,$84.47,Very Good,A,Functional,,Non RTV,,,N,2026-08-21
+TRG00085,00100000085,Item 85 TVs,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,FALSE,Active,$221.31,$188.88,Good,B,Functional,,Research,,,Y,2026-08-24
+TRG00085,00100000085,Item 85 duplicate last,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,FALSE,Active,$221.31,$188.88,Good,B,Functional,,Research,,,N,2026-08-24
+TRG00086,00100000086,Item 86 Monitors,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Monitors,Lenovo,FALSE,Active,$221.42,$179.26,Good,C,Functional,,,,,N,2026-08-21
+TRG00087,00100000087,Item 87 Monitors,MIAFL-HEAD-OFFICE,Open Box Returns,Monitors,HP,FALSE,Active,$146.43,$161.50,Fair,C,Functional,PAL-10,RTV Liquidate,,,N,2026-08-17
+TRG00088,00100000088,Item 88 Tablets,MILON-WM-DOTCA-RTV,Warehouse Direct,Tablets,Lenovo,TRUE,Active,$63.46,$43.04,Very Good,C,Functional,,Non RTV,,,N,2026-08-23
+TRG00089,00100000089,Item 89 Headphones,BRTON-WM-FOO,Warehouse Direct,Headphones,Samsung,FALSE,Active,$200.96,$233.82,Good,A,Functional,,RTV Liquidate,,,N,2026-08-18
+TRG00090,00100000090,Item 90 Monitors,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Monitors,Dell,FALSE,Active,$74.93,$42.97,Damaged,A,Functional,,Non RTV,,,Y,2026-08-06
+TRG00091,00100000091,Item 91 Headphones,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Dell,FALSE,Active,$143.80,$120.22,Damaged,B,Functional,,,,,Y,2026-08-09
+TRG00092,00100000092,Item 92 TVs,BRTON-WM-FOO,Walmart Computer Parts (Finished),TVs,Lenovo,FALSE,Active,$129.15,$211.11,Good,B,Functional,,Non RTV,,,N,2026-08-10
+TRG00093,00100000093,Item 93 Accessories,BRTON-WM-FOO,Walmart Computer Parts (Finished),Accessories,Lenovo,FALSE,Active,$131.00,$54.57,Fair,A,Functional,,,,,N,2026-09-07
+TRG00094,00100000094,Item 94 TVs,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,FALSE,Active,$123.60,$255.49,Damaged,B,Functional,PAL-15,RTV Liquidate,,,N,2026-08-13
+TRG00095,00100000095,Item 95 Accessories,DALLX-HEADPHONES,Walmart Monitors (Finished),Accessories,Sony,FALSE,Active,$60.71,$222.06,Good,C,Functional,,RTV,,,N,2026-08-27
+TRG00096,00100000096,Item 96 Tablets,PHXAZ-RETURNS,Specialty,Tablets,Dell,FALSE,Active,$253.10,$218.11,Good,B,Functional,PAL-64,,,,N,2026-08-29
+TRG00097,00100000097,Item 97 Accessories,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Accessories,Samsung,FALSE,Active,$74.70,$159.16,Damaged,C,Functional,PAL-58,Non RTV,,,N,2026-08-11
+TRG00098,00100000098,Item 98 TVs,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Samsung,FALSE,Active,$69.80,$142.95,Good,C,Functional,,RTV Approved,,,N,2026-08-08
+TRG00099,00100000099,Item 99 Headphones,WFS-OVERFLOW,Warehouse Direct,Headphones,Samsung,FALSE,Active,$105.38,$58.27,Damaged,C,Functional,,Non RTV,,,N,2026-09-12
+TRG00100,00100000100,Item 100 Tablets,DALLX-HEADPHONES,Walmart Monitors (Finished),Tablets,Lenovo,FALSE,Active,$115.62,$239.94,Good,A,Functional,,Non RTV,,,N,2026-08-28
+TRG00101,00100000101,Item 101 TVs,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),TVs,Lenovo,FALSE,Active,$120.65,$61.21,Good,A,Functional,PAL-22,Non RTV,,,N,2026-08-13
+TRG00102,00100000102,Item 102 TVs,DALLX-HEADPHONES,Specialty,TVs,Dell,FALSE,Active,$236.14,$151.85,Damaged,B,Functional,,Non RTV,,,Y,2026-08-12
+TRG00102,00100000102,Item 102 duplicate last,DALLX-HEADPHONES,Specialty,TVs,Dell,FALSE,Active,$236.14,$151.85,Damaged,B,Functional,,Non RTV,,,N,2026-08-12
+TRG00103,00100000103,Item 103 Tablets,BRTON-WM-FOO,Warehouse Direct,Tablets,Samsung,FALSE,Active,$65.93,$230.22,Very Good,C,Functional,,Non RTV,,,N,2026-08-19
+TRG00104,00100000104,Item 104 Monitors,BRTON-WM-FOO,Walmart Monitors (Finished),Monitors,Sony,FALSE,Active,$145.26,$196.17,Damaged,B,Functional,,Research,,,N,2026-08-09
+TRG00105,00100000105,Item 105 TVs,PHXAZ-RETURNS,Warehouse Direct,TVs,HP,TRUE,Active,$229.00,$153.45,Damaged,C,Functional,,RTV Approved,,,Y,2026-08-06
+TRG00106,00100000106,Item 106 Computers,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,HP,FALSE,Active,$241.93,$245.26,Damaged,B,Functional,,Non RTV,,,N,2026-08-07
+TRG00107,00100000107,Item 107 Accessories,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Accessories,HP,FALSE,Active,$91.79,$224.79,Fair,B,Functional,,RTV Liquidate,,,Y,2026-09-11
+TRG00108,00100000108,Item 108 Computers,MIAFL-HEAD-OFFICE,Warehouse Direct,Computers,Dell,FALSE,Active,$70.68,$188.47,Fair,A,Functional,,RTV Liquidate,,,Y,2026-08-20
+TRG00109,00100000109,Item 109 Headphones,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Headphones,HP,FALSE,Active,$244.00,$40.51,Good,A,Functional,PAL-52,RTV,,,N,2026-09-07
+TRG00110,00100000110,Item 110 Tablets,PHXAZ-RETURNS,Warehouse Direct,Tablets,Lenovo,FALSE,Active,$56.90,$181.32,Good,A,Functional,,,,,N,2026-09-13
+TRG00111,00100000111,Item 111 Computers,BRTON-LENOVO-DC-400,Walmart Computers Parts (Finished),Computers,Lenovo,FALSE,Active,$54.98,$229.70,Good,C,Functional,,RTV Liquidate,,,N,2026-08-23
+TRG00112,00100000112,Item 112 Headphones,MIAFL-HEAD-OFFICE,Specialty,Headphones,Samsung,TRUE,Active,$189.56,$204.26,Good,C,Functional,,Non RTV,,,N,2026-09-02
+TRG00113,00100000113,Item 113 Accessories,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Accessories,HP,FALSE,Active,$99.18,$163.70,Fair,A,Functional,PAL-16,RTV Liquidate,,,N,2026-08-19
+TRG00114,00100000114,Item 114 TVs,BRTON-WM-FOO,Walmart Computers Parts (Finished),TVs,Dell,FALSE,Active,$110.23,$43.57,Fair,C,Functional,PAL-14,,,,N,2026-08-30
+TRG00115,00100000115,Item 115 Tablets,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Tablets,Samsung,TRUE,Active,$109.94,$45.62,Very Good,C,Functional,,,,,N,2026-08-25
+TRG00116,00100000116,Item 116 Monitors,WFS-OVERFLOW,Open Box Returns,Monitors,Samsung,FALSE,Active,$238.80,$38.91,Damaged,B,Functional,,RTV Liquidate,,,N,2026-08-22
+TRG00117,00100000117,Item 117 Headphones,BRTON-WM-BAR,Walmart Monitors (Finished),Headphones,Lenovo,FALSE,Active,$81.29,$201.43,Fair,B,Functional,PAL-22,,,,N,2026-08-19
+TRG00118,00100000118,Item 118 TVs,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),TVs,Sony,FALSE,Active,$96.08,$40.52,Damaged,B,Functional,,RTV Liquidate,,,N,2026-08-29
+TRG00119,00100000119,Item 119 Headphones,WFS-OVERFLOW,Specialty,Headphones,Samsung,FALSE,Active,$199.79,$41.91,Fair,B,Functional,PAL-70,Research,,,Y,2026-09-05
+TRG00119,00100000119,Item 119 duplicate last,WFS-OVERFLOW,Specialty,Headphones,Dell,FALSE,Active,$199.79,$41.91,Fair,B,Functional,PAL-70,Research,,,N,2026-09-05
+TRG00120,00100000120,Item 120 Accessories,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Accessories,Dell,FALSE,Active,$199.74,$184.78,Damaged,A,Functional,PAL-66,RTV Approved,,,Y,2026-08-06
+TRG00121,00100000121,Item 121 Accessories,BRTON-WM-BAR,Warehouse Direct,Accessories,Sony,FALSE,Active,$233.08,$256.11,Damaged,C,Functional,PAL-2,RTV Liquidate,,,Y,2026-08-21
+TRG00122,00100000122,Item 122 Monitors,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Monitors,Sony,FALSE,Active,$130.51,$70.75,Damaged,C,Functional,,Non RTV,,,N,2026-09-05
+TRG00123,00100000123,Item 123 Monitors,DS-MONTERREY,Specialty,Monitors,Sony,FALSE,Active,$78.65,$86.23,Damaged,B,Functional,PAL-17,Non RTV,,,N,2026-08-10
+TRG00124,00100000124,Item 124 Accessories,PHXAZ-RETURNS,Open Box Returns,Accessories,Samsung,FALSE,Active,$82.93,$147.24,Very Good,C,Functional,,RTV Liquidate,,,N,2026-08-19
+TRG00125,00100000125,Item 125 Headphones,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Sony,FALSE,Active,$254.30,$108.71,Fair,A,Functional,PAL-16,Non RTV,,,Y,2026-08-15
+TRG00126,00100000126,Item 126 Tablets,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Tablets,Dell,FALSE,Active,$148.94,$62.41,Good,A,Functional,,,,,N,2026-09-08
+TRG00127,00100000127,Item 127 Tablets,DALLX-HEADPHONES,Walmart Monitors (Finished),Tablets,HP,FALSE,Active,$120.93,$73.70,Good,C,Functional,PAL-27,RTV Liquidate,,,N,2026-08-13
+TRG00128,00100000128,Item 128 Accessories,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Lenovo,FALSE,Active,$46.76,$184.78,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-31
+TRG00129,00100000129,Item 129 Headphones,BRTON-WM-BAR,Warehouse Direct,Headphones,Sony,FALSE,Active,$69.69,$195.27,Good,C,Functional,PAL-7,,,,Y,2026-08-24
+TRG00130,00100000130,Item 130 Headphones,MIAFL-HEAD-OFFICE,Warehouse Direct,Headphones,Sony,FALSE,Active,$140.35,$50.47,Fair,A,Functional,,Non RTV,,,N,2026-08-30
+TRG00131,00100000131,Item 131 Computers,BRTON-WM-FOO,Warehouse Direct,Computers,Sony,FALSE,Active,$182.46,$253.90,Fair,A,Functional,PAL-22,Non RTV,,,N,2026-09-14
+TRG00132,00100000132,Item 132 TVs,PHXAZ-RETURNS,Walmart Computer Parts (Finished),TVs,Samsung,FALSE,Active,$177.99,$64.60,Fair,A,Functional,,Non RTV,,,Y,2026-08-10
+TRG00133,00100000133,Item 133 Headphones,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,FALSE,Active,$81.70,$240.94,Very Good,C,Functional,,,,,N,2026-09-07
+TRG00134,00100000134,Item 134 Accessories,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Samsung,FALSE,Active,$41.18,$52.04,Good,C,Functional,,RTV Liquidate,,,N,2026-08-07
+TRG00135,00100000135,Item 135 Tablets,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Tablets,Dell,TRUE,Active,$144.94,$35.18,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-31
+TRG00136,00100000136,Item 136 Accessories,PHXAZ-RETURNS,Specialty,Accessories,Samsung,FALSE,Active,$54.45,$251.13,Good,C,Functional,,Return to Stock,,,N,2026-08-18
+TRG00136,00100000136,Item 136 duplicate last,PHXAZ-RETURNS,Specialty,Accessories,Dell,FALSE,Active,$54.45,$251.13,Good,C,Functional,,Return to Stock,,,N,2026-08-18
+TRG00137,00100000137,Item 137 Monitors,MILON-WM-DOTCA-RTV,Warehouse Direct,Monitors,Lenovo,FALSE,Active,$77.44,$142.70,Good,C,Functional,,,,,Y,2026-08-18
+TRG00138,00100000138,Item 138 Computers,BRTON-WM-BAR,Open Box Returns,Computers,Dell,FALSE,Active,$255.82,$120.48,Good,A,Functional,,Non RTV,,,N,2026-09-15
+TRG00139,00100000139,Item 139 Monitors,BRTON-WM-FOO,Warehouse Direct,Monitors,Dell,FALSE,Active,$232.51,$196.78,Very Good,B,Functional,,,,,N,2026-09-01
+TRG00140,00100000140,Item 140 Accessories,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Accessories,Sony,FALSE,Active,$226.00,$45.81,Fair,B,Functional,,RTV Liquidate,,,N,2026-08-16
+TRG00141,00100000141,Item 141 TVs,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,FALSE,Active,$190.04,$194.67,Very Good,A,Functional,PAL-79,Return to Stock,,,Y,2026-09-12
+TRG00142,00100000142,Item 142 Computers,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Computers,Dell,FALSE,Active,$73.21,$55.35,Good,A,Functional,,,,,Y,2026-08-31
+TRG00143,00100000143,Item 143 Tablets,BRTON-WM-BAR,Walmart Computers Parts (Finished),Tablets,HP,TRUE,Active,$59.87,$35.90,Very Good,C,Functional,,RTV Liquidate,,,N,2026-08-28
+TRG00144,00100000144,Item 144 Computers,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Computers,Samsung,FALSE,Active,$171.53,$158.65,Damaged,A,Functional,PAL-79,Research,,,Y,2026-09-07
+TRG00145,00100000145,Item 145 Tablets,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Tablets,HP,FALSE,Active,$78.50,$225.94,Good,A,Functional,,,,,Y,2026-08-29
+TRG00146,00100000146,Item 146 Monitors,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Samsung,FALSE,Active,$229.93,$138.90,Damaged,C,Functional,,Non RTV,,,N,2026-09-05
+TRG00147,00100000147,Item 147 TVs,BRTON-WM-BAR,Walmart Monitors (Finished),TVs,Lenovo,FALSE,Active,$172.01,$262.14,Good,C,Functional,,,,,N,2026-09-03
+TRG00148,00100000148,Item 148 Headphones,BRTON-LENOVO-DC-400,Open Box Returns,Headphones,Dell,FALSE,Active,$126.60,$261.14,Damaged,C,Functional,,RTV Liquidate,,,N,2026-09-11
+TRG00149,00100000149,Item 149 Tablets,BRTON-WM-BAR,Open Box Returns,Tablets,Sony,FALSE,Active,$120.20,$200.72,Damaged,B,Functional,,,,,N,2026-09-13
+TRG00150,00100000150,Item 150 Tablets,BRTON-WM-BAR,Specialty,Tablets,Lenovo,FALSE,Active,$125.61,$197.45,Good,B,Functional,PAL-25,,,,N,2026-09-06
+TRG00151,00100000151,Item 151 Tablets,BRTON-WM-FOO,Walmart Computer Parts (Finished),Tablets,Lenovo,FALSE,Active,$47.60,$192.10,Damaged,C,Functional,,,,,N,2026-09-03
+TRG00152,00100000152,Item 152 Tablets,BRTON-WM-FOO,Walmart Monitors (Finished),Tablets,Samsung,FALSE,Active,$96.87,$198.13,Good,C,Functional,PAL-66,,,,N,2026-08-09
+TRG00153,00100000153,Item 153 Tablets,BRTON-WM-FOO,Open Box Returns,Tablets,Lenovo,FALSE,Active,$112.00,$73.24,Fair,A,Functional,,Non RTV,,,N,2026-09-09
+TRG00153,00100000153,Item 153 duplicate last,BRTON-WM-FOO,Open Box Returns,Tablets,Dell,FALSE,Active,$112.00,$73.24,Fair,A,Functional,,Non RTV,,,N,2026-09-09
+TRG00154,00100000154,Item 154 Computers,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Computers,Dell,FALSE,Active,$58.55,$257.13,Fair,A,Functional,PAL-6,RTV Liquidate,,,N,2026-09-11
+TRG00155,00100000155,Item 155 Monitors,MIAFL-HEAD-OFFICE,Specialty,Monitors,Sony,FALSE,Active,$224.19,$118.91,Very Good,C,Functional,,,,,N,2026-09-03
+TRG00156,00100000156,Item 156 Computers,WFS-OVERFLOW,Warehouse Direct,Computers,HP,TRUE,Active,$172.74,$65.73,Fair,B,Functional,,Non RTV,,,N,2026-09-14
+TRG00157,00100000157,Item 157 Accessories,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Lenovo,FALSE,Active,$150.84,$210.10,Good,C,Functional,,RTV Liquidate,,,N,2026-09-02
+TRG00158,00100000158,Item 158 Computers,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Computers,Dell,FALSE,Active,$57.18,$264.85,Fair,A,Functional,,,,,N,2026-08-28
+TRG00159,00100000159,Item 159 Computers,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Computers,Samsung,FALSE,Active,$133.89,$102.46,Fair,A,Functional,,,,,Y,2026-08-23
+TRG00160,00100000160,Item 160 TVs,BRTON-WM-FOO,Walmart Computers Parts (Finished),TVs,Lenovo,FALSE,Active,$123.18,$98.69,Damaged,A,Functional,,Non RTV,,,Y,2026-08-18
+TRG00161,00100000161,Item 161 TVs,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),TVs,Sony,FALSE,Active,$234.47,$44.62,Damaged,C,Functional,,,,,N,2026-08-15
+TRG00162,00100000162,Item 162 Headphones,WFS-OVERFLOW,Warehouse Direct,Headphones,HP,FALSE,Active,$155.68,$45.17,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-18
+TRG00163,00100000163,Item 163 Headphones,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Headphones,Lenovo,FALSE,Active,$217.51,$50.41,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-07
+TRG00164,00100000164,Item 164 TVs,DS-MONTERREY,Walmart Computers Parts (Finished),TVs,Samsung,FALSE,Active,$125.51,$144.78,Good,C,Functional,,Non RTV,,,N,2026-08-09
+TRG00165,00100000165,Item 165 Headphones,BRTON-WM-FOO,Specialty,Headphones,Lenovo,FALSE,Active,$163.38,$58.42,Very Good,B,Functional,PAL-41,RTV Liquidate,,,Y,2026-09-05
+TRG00166,00100000166,Item 166 Computers,DALLX-HEADPHONES,Specialty,Computers,Sony,FALSE,Active,$252.32,$60.94,Very Good,A,Functional,,Non RTV,,,N,2026-08-15
+TRG00167,00100000167,Item 167 Monitors,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Samsung,FALSE,Active,$259.35,$241.02,Very Good,B,Functional,,RTV Liquidate,,,Y,2026-08-11
+TRG00168,00100000168,Item 168 Tablets,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Samsung,FALSE,Active,$171.39,$69.39,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-21
+TRG00169,00100000169,Item 169 Headphones,BRTON-WM-BAR,Warehouse Direct,Headphones,HP,FALSE,Active,$120.97,$207.02,Damaged,A,Functional,PAL-56,Non RTV,,,Y,2026-08-08
+TRG00170,00100000170,Item 170 Headphones,PHXAZ-RETURNS,Open Box Returns,Headphones,Lenovo,FALSE,Active,$196.63,$100.84,Fair,C,Functional,,RTV Liquidate,,,N,2026-09-07
+TRG00170,00100000170,Item 170 duplicate last,PHXAZ-RETURNS,Open Box Returns,Headphones,Dell,FALSE,Active,$196.63,$100.84,Fair,C,Functional,,RTV Liquidate,,,N,2026-09-07
+TRG00171,00100000171,Item 171 Accessories,BRTON-WM-BAR,Walmart Computers Parts (Finished),Accessories,Sony,FALSE,Active,$98.10,$127.41,Very Good,A,Functional,,RTV Approved,,,N,2026-08-13
+TRG00172,00100000172,Item 172 Monitors,DALLX-HEADPHONES,Specialty,Monitors,Samsung,FALSE,Active,$222.21,$152.39,Damaged,C,Functional,,Non RTV,,,Y,2026-08-16
+TRG00173,00100000173,Item 173 Headphones,BRTON-WM-BAR,Specialty,Headphones,Lenovo,FALSE,Active,$232.27,$128.90,Fair,A,Functional,,,,,Y,2026-08-22
+TRG00174,00100000174,Item 174 Tablets,BRTON-WM-FOO,Walmart Monitors (Finished),Tablets,HP,FALSE,Active,$147.50,$265.44,Very Good,A,Functional,,Non RTV,,,N,2026-08-08
+TRG00175,00100000175,Item 175 Monitors,MILON-WM-DOTCA-RTV,Open Box Returns,Monitors,HP,FALSE,Active,$232.81,$202.75,Very Good,B,Functional,PAL-9,Non RTV,,,Y,2026-08-06
+TRG00176,00100000176,Item 176 Headphones,BRTON-WM-BAR,Open Box Returns,Headphones,Dell,FALSE,Active,$183.25,$67.83,Damaged,C,Functional,,RTV,,,Y,2026-09-08
+TRG00177,00100000177,Item 177 Accessories,WFS-OVERFLOW,Open Box Returns,Accessories,Dell,FALSE,Active,$132.88,$51.08,Good,C,Functional,,Non RTV,,,N,2026-08-25
+TRG00178,00100000178,Item 178 Accessories,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Accessories,Sony,FALSE,Active,$217.30,$63.72,Fair,A,Functional,,RTV Liquidate,,,N,2026-08-12
+TRG00179,00100000179,Item 179 Accessories,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Accessories,Dell,FALSE,Active,$258.63,$213.96,Very Good,A,Functional,,Non RTV,,,Y,2026-08-15
+TRG00180,00100000180,Item 180 Computers,BRTON-WM-FOO,Warehouse Direct,Computers,Samsung,FALSE,Active,$156.99,$57.56,Fair,C,Functional,,RTV Liquidate,,,N,2026-09-01
+TRG00181,00100000181,Item 181 Monitors,WFS-OVERFLOW,Walmart Computer Parts (Finished),Monitors,Sony,FALSE,Active,$76.48,$236.06,Damaged,A,Functional,,,,,Y,2026-08-16
+TRG00182,00100000182,Item 182 Tablets,BRTON-WM-FOO,Walmart Computer Parts (Finished),Tablets,Sony,FALSE,Active,$185.93,$217.05,Good,A,Functional,PAL-80,,,,N,2026-08-14
+TRG00183,00100000183,Item 183 Headphones,MILON-WM-DOTCA-RTV,Warehouse Direct,Headphones,Sony,FALSE,Active,$154.56,$218.66,Good,A,Functional,,RTV Liquidate,,,N,2026-09-15
+TRG00184,00100000184,Item 184 Tablets,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Tablets,Sony,FALSE,Active,$87.62,$108.67,Fair,B,Functional,PAL-17,Return to Stock,,,N,2026-08-26
+TRG00185,00100000185,Item 185 Accessories,BRTON-LENOVO-DC-400,Specialty,Accessories,Sony,FALSE,Active,$194.71,$182.87,Damaged,A,Functional,,,,,N,2026-08-10
+TRG00186,00100000186,Item 186 Tablets,PHXAZ-RETURNS,Walmart Monitors (Finished),Tablets,Lenovo,FALSE,Active,$151.55,$121.67,Fair,A,Functional,,RTV Liquidate,,,N,2026-09-09
+TRG00187,00100000187,Item 187 Monitors,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Monitors,Sony,TRUE,Active,$189.23,$109.01,Very Good,A,Functional,,Non RTV,,,N,2026-09-13
+TRG00187,00100000187,Item 187 duplicate last,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Monitors,Dell,TRUE,Active,$189.23,$109.01,Very Good,A,Functional,,Non RTV,,,N,2026-09-13
+TRG00188,00100000188,Item 188 TVs,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),TVs,HP,FALSE,Active,$255.35,$267.80,Fair,C,Functional,,Non RTV,,,N,2026-08-24
+TRG00189,00100000189,Item 189 Computers,WFS-OVERFLOW,Open Box Returns,Computers,HP,FALSE,Active,$111.77,$97.25,Good,A,Functional,,,,,N,2026-09-05
+TRG00190,00100000190,Item 190 Tablets,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Tablets,HP,FALSE,Active,$218.80,$32.42,Very Good,A,Functional,PAL-36,,,,N,2026-09-10
+TRG00191,00100000191,Item 191 TVs,BRTON-WM-BAR,Open Box Returns,TVs,Dell,FALSE,Active,$140.98,$142.83,Fair,C,Functional,,RTV Liquidate,,,Y,2026-09-08
+TRG00192,00100000192,Item 192 Tablets,BRTON-WM-FOO,Walmart Monitors (Finished),Tablets,Samsung,FALSE,Active,$173.84,$50.46,Very Good,A,Functional,,Non RTV,,,N,2026-08-18
+TRG00193,00100000193,Item 193 TVs,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),TVs,Lenovo,FALSE,Active,$215.06,$207.01,Fair,A,Functional,,RTV Liquidate,,,N,2026-09-02
+TRG00194,00100000194,Item 194 Tablets,PHXAZ-RETURNS,Open Box Returns,Tablets,Samsung,FALSE,Active,$125.71,$93.18,Fair,B,Functional,,,,,N,2026-09-08
+TRG00195,00100000195,Item 195 Headphones,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Dell,FALSE,Active,$72.52,$258.89,Very Good,C,Functional,,Non RTV,,,N,2026-08-27
+TRG00196,00100000196,Item 196 Tablets,DALLX-HEADPHONES,Open Box Returns,Tablets,Samsung,FALSE,Active,$95.18,$171.30,Very Good,B,Functional,,,,,N,2026-08-19
+TRG00197,00100000197,Item 197 TVs,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),TVs,HP,FALSE,Active,$178.22,$155.92,Very Good,C,Functional,,Non RTV,,,N,2026-09-03
+TRG00198,00100000198,Item 198 Headphones,BRTON-WM-BAR,Specialty,Headphones,Dell,FALSE,Active,$207.78,$75.63,Damaged,A,Functional,,Non RTV,,,N,2026-08-18
+TRG00199,00100000199,Item 199 Headphones,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,FALSE,Active,$253.13,$64.82,Damaged,C,Functional,PAL-4,RTV Liquidate,,,N,2026-08-29
+TRG00200,00100000200,Item 200 Headphones,MIAFL-HEAD-OFFICE,Open Box Returns,Headphones,Lenovo,FALSE,Active,$259.77,$198.42,Very Good,B,Functional,PAL-47,,,,N,2026-08-08
+TRG00201,00100000201,Item 201 Accessories,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Sony,FALSE,Active,$55.88,$213.24,Fair,C,Functional,,,,,N,2026-08-17
+TRG00202,00100000202,Item 202 Computers,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Computers,Samsung,FALSE,Active,$88.99,$82.00,Fair,C,Functional,,,,,N,2026-09-01
+TRG00203,00100000203,Item 203 Computers,MIAFL-HEAD-OFFICE,Warehouse Direct,Computers,Sony,FALSE,Active,$159.74,$105.14,Very Good,A,Functional,,,,,N,2026-08-22
+TRG00204,00100000204,Item 204 Headphones,BRTON-WM-FOO,Open Box Returns,Headphones,Samsung,FALSE,Active,$99.35,$227.69,Damaged,C,Functional,,Non RTV,,,N,2026-08-29
+TRG00204,00100000204,Item 204 duplicate last,BRTON-WM-FOO,Open Box Returns,Headphones,Dell,FALSE,Active,$99.35,$227.69,Damaged,C,Functional,,Non RTV,,,N,2026-08-29
+TRG00205,00100000205,Item 205 Accessories,DS-MONTERREY,Open Box Returns,Accessories,HP,FALSE,Active,$132.81,$157.10,Very Good,B,Functional,,,,,N,2026-08-28
+TRG00206,00100000206,Item 206 TVs,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),TVs,Samsung,FALSE,Active,$257.03,$203.24,Very Good,A,Functional,PAL-72,RTV Liquidate,,,Y,2026-09-13
+TRG00207,00100000207,Item 207 Tablets,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Lenovo,TRUE,Active,$245.33,$184.34,Fair,A,Functional,PAL-39,,,,Y,2026-08-26
+TRG00208,00100000208,Item 208 Computers,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Computers,Lenovo,FALSE,Active,$86.06,$223.91,Good,B,Functional,,RTV Liquidate,,,Y,2026-09-10
+TRG00209,00100000209,Item 209 Monitors,WFS-OVERFLOW,Open Box Returns,Monitors,HP,FALSE,Active,$181.10,$93.56,Good,C,Functional,,,,,N,2026-09-07
+TRG00210,00100000210,Item 210 TVs,DALLX-HEADPHONES,Open Box Returns,TVs,Dell,FALSE,Active,$85.61,$102.91,Good,A,Functional,PAL-34,,,,Y,2026-08-11
+TRG00211,00100000211,Item 211 Monitors,MIAFL-HEAD-OFFICE,Open Box Returns,Monitors,Samsung,FALSE,Active,$158.85,$91.35,Very Good,B,Functional,,Non RTV,,,N,2026-08-10
+TRG00212,00100000212,Item 212 TVs,BRTON-WM-FOO,Walmart Monitors (Finished),TVs,Samsung,TRUE,Active,$215.49,$140.44,Damaged,A,Functional,,Non RTV,,,N,2026-08-09
+TRG00213,00100000213,Item 213 Monitors,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Monitors,HP,FALSE,Active,$173.82,$119.68,Fair,A,Functional,PAL-21,RTV Liquidate,,,N,2026-08-31
+TRG00214,00100000214,Item 214 Headphones,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Headphones,Dell,FALSE,Active,$198.57,$225.00,Good,C,Functional,,Non RTV,,,Y,2026-08-14
+TRG00215,00100000215,Item 215 Headphones,MILON-WM-DOTCA-RTV,Warehouse Direct,Headphones,HP,FALSE,Active,$78.63,$123.90,Damaged,C,Functional,,RTV,,,Y,2026-08-28
+TRG00216,00100000216,Item 216 Computers,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Sony,FALSE,Active,$226.20,$177.17,Damaged,B,Functional,,Return to Stock,,,N,2026-09-13
+TRG00217,00100000217,Item 217 Headphones,BRTON-WM-FOO,Open Box Returns,Headphones,Dell,FALSE,Active,$168.77,$83.42,Damaged,B,Functional,PAL-50,Non RTV,,,N,2026-08-28
+TRG00218,00100000218,Item 218 Monitors,MIAFL-HEAD-OFFICE,Specialty,Monitors,Sony,FALSE,Active,$55.92,$144.84,Fair,C,Functional,PAL-44,RTV Liquidate,,,N,2026-09-08
+TRG00219,00100000219,Item 219 Headphones,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Headphones,Dell,FALSE,Active,$242.61,$108.91,Fair,C,Functional,PAL-78,,,,N,2026-08-30
+TRG00220,00100000220,Item 220 Computers,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Lenovo,FALSE,Active,$157.07,$184.54,Very Good,B,Functional,,RTV Approved,,,Y,2026-09-02
+TRG00221,00100000221,Item 221 Headphones,WFS-OVERFLOW,Walmart Monitors (Finished),Headphones,Lenovo,FALSE,Active,$160.22,$167.87,Fair,A,Functional,,,,,Y,2026-08-28
+TRG00221,00100000221,Item 221 duplicate last,WFS-OVERFLOW,Walmart Monitors (Finished),Headphones,Dell,FALSE,Active,$160.22,$167.87,Fair,A,Functional,,,,,N,2026-08-28
+TRG00222,00100000222,Item 222 Headphones,BRTON-LENOVO-DC-400,Walmart Computers Parts (Finished),Headphones,HP,FALSE,Active,$101.78,$181.16,Very Good,C,Functional,,,,,N,2026-08-22
+TRG00223,00100000223,Item 223 Tablets,BRTON-WM-BAR,Walmart Monitors (Finished),Tablets,HP,FALSE,Active,$45.00,$150.40,Good,A,Functional,,,,,N,2026-08-29
+TRG00224,00100000224,Item 224 Tablets,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,HP,FALSE,Active,$45.93,$246.42,Damaged,C,Functional,,Research,,,N,2026-08-25
+TRG00225,00100000225,Item 225 TVs,MILON-WM-DOTCA-RTV,Specialty,TVs,Dell,FALSE,Active,$132.04,$201.48,Very Good,C,Functional,,RTV Liquidate,,,N,2026-08-08
+TRG00226,00100000226,Item 226 TVs,BRTON-WM-BAR,Open Box Returns,TVs,HP,FALSE,Active,$94.27,$232.68,Damaged,C,Functional,PAL-62,RTV Liquidate,,,N,2026-08-30
+TRG00227,00100000227,Item 227 Computers,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Computers,Samsung,FALSE,Active,$249.22,$105.68,Very Good,B,Functional,,RTV Liquidate,,,N,2026-09-07
+TRG00228,00100000228,Item 228 Headphones,BRTON-WM-FOO,Specialty,Headphones,Dell,FALSE,Active,$228.25,$125.41,Very Good,A,Functional,,Return to Stock,,,N,2026-09-13
+TRG00229,00100000229,Item 229 TVs,WFS-OVERFLOW,Walmart Computer Parts (Finished),TVs,Sony,FALSE,Active,$188.04,$102.02,Good,B,Functional,,RTV Liquidate,,,N,2026-08-21
+TRG00230,00100000230,Item 230 Accessories,BRTON-WM-BAR,Walmart Monitors (Finished),Accessories,Lenovo,FALSE,Active,$171.23,$152.78,Damaged,B,Functional,PAL-4,,,,N,2026-09-01
+TRG00231,00100000231,Item 231 Computers,PHXAZ-RETURNS,Open Box Returns,Computers,HP,FALSE,Active,$77.63,$195.46,Good,B,Functional,,,,,N,2026-08-25
+TRG00232,00100000232,Item 232 Computers,MILON-WM-DOTCA-RTV,Specialty,Computers,HP,FALSE,Active,$156.08,$248.99,Fair,A,Functional,,RTV Liquidate,,,N,2026-09-14
+TRG00233,00100000233,Item 233 Computers,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Sony,FALSE,Active,$115.23,$197.70,Damaged,C,Functional,,RTV,,,N,2026-08-14
+TRG00234,00100000234,Item 234 Computers,BRTON-WM-BAR,Walmart Computers Parts (Finished),Computers,Samsung,FALSE,Active,$205.37,$248.64,Very Good,B,Functional,,Non RTV,,,N,2026-08-06
+TRG00235,00100000235,Item 235 Headphones,PHXAZ-RETURNS,Warehouse Direct,Headphones,Sony,FALSE,Active,$59.78,$165.92,Good,A,Functional,PAL-27,Non RTV,,,N,2026-08-07
+TRG00236,00100000236,Item 236 Headphones,MILON-WM-DOTCA-RTV,Open Box Returns,Headphones,Lenovo,FALSE,Active,$167.93,$146.53,Damaged,A,Functional,,,,,N,2026-08-29
+TRG00237,00100000237,Item 237 Computers,MIAFL-HEAD-OFFICE,Warehouse Direct,Computers,Sony,TRUE,Active,$164.13,$238.23,Good,B,Functional,,,,,N,2026-08-06
+TRG00238,00100000238,Item 238 Headphones,BRTON-WM-BAR,Walmart Computers Parts (Finished),Headphones,Dell,FALSE,Active,$202.50,$241.74,Very Good,A,Functional,,,,,Y,2026-09-04
+TRG00238,00100000238,Item 238 duplicate last,BRTON-WM-BAR,Walmart Computers Parts (Finished),Headphones,Dell,FALSE,Active,$202.50,$241.74,Very Good,A,Functional,,,,,N,2026-09-04
+TRG00239,00100000239,Item 239 TVs,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,FALSE,Active,$236.51,$193.54,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-25
+TRG00240,00100000240,Item 240 Tablets,PHXAZ-RETURNS,Warehouse Direct,Tablets,Lenovo,FALSE,Active,$212.94,$122.02,Good,B,Functional,,Non RTV,,,Y,2026-08-10
+TRG00241,00100000241,Item 241 Headphones,PHXAZ-RETURNS,Specialty,Headphones,HP,FALSE,Active,$178.73,$118.01,Damaged,A,Functional,,RTV Liquidate,,,Y,2026-09-12
+TRG00242,00100000242,Item 242 Accessories,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,FALSE,Active,$142.27,$69.19,Damaged,A,Functional,PAL-26,Non RTV,,,Y,2026-08-28
+TRG00243,00100000243,Item 243 TVs,BRTON-WM-FOO,Open Box Returns,TVs,Sony,FALSE,Active,$112.06,$231.63,Very Good,C,Functional,PAL-51,,,,N,2026-08-17
+TRG00244,00100000244,Item 244 TVs,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),TVs,HP,FALSE,Active,$85.96,$166.67,Fair,C,Functional,,RTV Liquidate,,,N,2026-09-10
+TRG00245,00100000245,Item 245 Monitors,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,Dell,FALSE,Active,$209.67,$116.75,Very Good,A,Functional,,RTV,,,N,2026-08-29
+TRG00246,00100000246,Item 246 Tablets,DS-MONTERREY,Walmart Finished Goods Wide Sku (Finished),Tablets,Sony,FALSE,Active,$105.38,$143.35,Damaged,B,Functional,,Non RTV,,,N,2026-08-12
+TRG00247,00100000247,Item 247 Monitors,MIAFL-HEAD-OFFICE,Specialty,Monitors,Sony,FALSE,Active,$217.17,$221.89,Good,B,Functional,,Non RTV,,,N,2026-08-17
+TRG00248,00100000248,Item 248 Accessories,MILON-WM-DOTCA-RTV,Warehouse Direct,Accessories,HP,FALSE,Active,$258.97,$43.83,Very Good,A,Functional,,Non RTV,,,N,2026-09-12
+TRG00249,00100000249,Item 249 Headphones,BRTON-WM-BAR,Open Box Returns,Headphones,Sony,FALSE,Active,$235.78,$106.82,Good,C,Functional,,Return to Stock,,,N,2026-08-08
+TRG00250,00100000250,Item 250 TVs,DALLX-HEADPHONES,Specialty,TVs,Samsung,FALSE,Active,$75.28,$121.75,Very Good,B,Functional,,,,,N,2026-08-31
+TRG00251,00100000251,Item 251 Headphones,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Headphones,Samsung,FALSE,Active,$124.59,$224.97,Very Good,C,Functional,,RTV Liquidate,,,N,2026-09-02
+TRG00252,00100000252,Item 252 Computers,BRTON-WM-FOO,Warehouse Direct,Computers,Samsung,FALSE,Active,$239.89,$209.90,Good,A,Functional,,,,,N,2026-08-14
+TRG00253,00100000253,Item 253 Tablets,PHXAZ-RETURNS,Open Box Returns,Tablets,Sony,FALSE,Active,$182.75,$51.99,Damaged,A,Functional,,,,,N,2026-09-02
+TRG00254,00100000254,Item 254 Tablets,WFS-OVERFLOW,Open Box Returns,Tablets,HP,FALSE,Active,$244.98,$168.96,Very Good,C,Functional,,RTV Liquidate,,,N,2026-08-23
+TRG00255,00100000255,Item 255 Monitors,WFS-OVERFLOW,Walmart Monitors (Finished),Monitors,Samsung,FALSE,Active,$256.79,$167.46,Fair,A,Functional,PAL-21,,,,N,2026-08-13
+TRG00255,00100000255,Item 255 duplicate last,WFS-OVERFLOW,Walmart Monitors (Finished),Monitors,Dell,FALSE,Active,$256.79,$167.46,Fair,A,Functional,PAL-21,,,,N,2026-08-13
+TRG00256,00100000256,Item 256 Accessories,MILON-WM-DOTCA-RTV,Warehouse Direct,Accessories,HP,FALSE,Active,$85.24,$169.36,Good,C,Functional,PAL-43,,,,N,2026-08-23
+TRG00257,00100000257,Item 257 TVs,BRTON-WM-FOO,Open Box Returns,TVs,Samsung,FALSE,Active,$214.49,$140.79,Good,B,Functional,PAL-79,Non RTV,,,Y,2026-08-26
+TRG00258,00100000258,Item 258 Accessories,MILON-WM-DOTCA-RTV,Warehouse Direct,Accessories,HP,FALSE,Active,$230.37,$139.45,Damaged,A,Functional,,Non RTV,,,Y,2026-08-17
+TRG00259,00100000259,Item 259 Monitors,BRTON-LENOVO-DC-400,Walmart Finished Goods Wide Sku (Finished),Monitors,Samsung,FALSE,Active,$256.12,$115.71,Good,B,Functional,,Non RTV,,,N,2026-08-25
+TRG00260,00100000260,Item 260 Accessories,WFS-OVERFLOW,Walmart Monitors (Finished),Accessories,Samsung,FALSE,Active,$199.45,$206.73,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-16
+TRG00261,00100000261,Item 261 Headphones,PHXAZ-RETURNS,Open Box Returns,Headphones,Samsung,FALSE,Active,$208.67,$180.71,Very Good,C,Functional,,Non RTV,,,N,2026-08-14
+TRG00262,00100000262,Item 262 Accessories,BRTON-WM-FOO,Warehouse Direct,Accessories,Samsung,FALSE,Active,$76.11,$189.55,Good,B,Functional,,Non RTV,,,N,2026-08-21
+TRG00263,00100000263,Item 263 Computers,WFS-OVERFLOW,Warehouse Direct,Computers,Sony,FALSE,Active,$129.54,$82.17,Fair,B,Functional,,,,,N,2026-09-01
+TRG00264,00100000264,Item 264 Tablets,BRTON-WM-FOO,Walmart Computers Parts (Finished),Tablets,Samsung,FALSE,Active,$163.93,$228.94,Fair,C,Functional,,RTV Approved,,,N,2026-08-06
+TRG00265,00100000265,Item 265 Computers,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Computers,Samsung,FALSE,Active,$180.11,$50.32,Good,C,Functional,,Research,,,N,2026-08-23
+TRG00266,00100000266,Item 266 Headphones,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Headphones,HP,FALSE,Active,$168.84,$204.35,Damaged,B,Functional,,Non RTV,,,N,2026-08-28
+TRG00267,00100000267,Item 267 Computers,BRTON-WM-BAR,Walmart Computers Parts (Finished),Computers,HP,FALSE,Active,$57.88,$129.67,Damaged,A,Functional,,Non RTV,,,Y,2026-08-16
+TRG00268,00100000268,Item 268 Tablets,BRTON-WM-BAR,Specialty,Tablets,HP,FALSE,Active,$67.20,$96.70,Fair,A,Functional,,RTV Liquidate,,,Y,2026-09-03
+TRG00269,00100000269,Item 269 Tablets,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,HP,FALSE,Active,$115.78,$45.13,Fair,B,Functional,,RTV Liquidate,,,N,2026-08-27
+TRG00270,00100000270,Item 270 Tablets,BRTON-WM-BAR,Specialty,Tablets,Lenovo,FALSE,Active,$136.55,$193.80,Good,A,Functional,,,,,Y,2026-08-16
+TRG00271,00100000271,Item 271 Computers,BRTON-WM-FOO,Specialty,Computers,Sony,FALSE,Active,$83.01,$122.16,Damaged,C,Functional,,Non RTV,,,N,2026-09-04
+TRG00272,00100000272,Item 272 Monitors,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Monitors,Samsung,FALSE,Active,$80.71,$173.54,Fair,C,Functional,,Non RTV,,,Y,2026-09-02
+TRG00272,00100000272,Item 272 duplicate last,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,FALSE,Active,$80.71,$173.54,Fair,C,Functional,,Non RTV,,,N,2026-09-02
+TRG00273,00100000273,Item 273 TVs,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Lenovo,FALSE,Active,$158.62,$248.51,Damaged,A,Functional,,Non RTV,,,N,2026-08-26
+TRG00274,00100000274,Item 274 Monitors,MILON-WM-DOTCA-RTV,Open Box Returns,Monitors,Dell,FALSE,Active,$129.09,$158.19,Fair,A,Functional,PAL-80,Non RTV,,,N,2026-08-26
+TRG00275,00100000275,Item 275 Headphones,BRTON-WM-FOO,Walmart Computer Parts (Finished),Headphones,Dell,FALSE,Active,$162.86,$133.29,Good,B,Functional,,,,,N,2026-08-18
+TRG00276,00100000276,Item 276 Monitors,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Monitors,Dell,TRUE,Active,$218.24,$197.67,Good,C,Functional,PAL-18,Research,,,N,2026-08-07
+TRG00277,00100000277,Item 277 Monitors,BRTON-WM-FOO,Walmart Computer Parts (Finished),Monitors,Sony,FALSE,Active,$66.94,$180.98,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-08
+TRG00278,00100000278,Item 278 TVs,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Samsung,FALSE,Active,$138.93,$37.37,Fair,C,Functional,,RTV Liquidate,,,N,2026-09-15
+TRG00279,00100000279,Item 279 TVs,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),TVs,Samsung,FALSE,Active,$195.20,$268.75,Very Good,C,Functional,,RTV Liquidate,,,N,2026-08-27
+TRG00280,00100000280,Item 280 Computers,WFS-OVERFLOW,Walmart Monitors (Finished),Computers,Lenovo,FALSE,Active,$89.63,$75.97,Very Good,C,Functional,PAL-61,Non RTV,,,N,2026-09-03
+TRG00281,00100000281,Item 281 Monitors,BRTON-WM-BAR,Walmart Monitors (Finished),Monitors,Lenovo,FALSE,Active,$202.57,$56.86,Very Good,C,Functional,,,,,N,2026-08-14
+TRG00282,00100000282,Item 282 Tablets,BRTON-WM-BAR,Open Box Returns,Tablets,Samsung,FALSE,Active,$207.82,$179.14,Good,A,Functional,,RTV Liquidate,,,N,2026-08-20
+TRG00283,00100000283,Item 283 Accessories,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Accessories,HP,FALSE,Active,$240.03,$42.09,Very Good,C,Functional,,Non RTV,,,N,2026-08-06
+TRG00284,00100000284,Item 284 Accessories,WFS-OVERFLOW,Walmart Monitors (Finished),Accessories,Lenovo,FALSE,Active,$138.18,$198.32,Fair,A,Functional,,Research,,,N,2026-08-12
+TRG00285,00100000285,Item 285 Monitors,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Monitors,Sony,FALSE,Active,$154.42,$265.33,Damaged,A,Functional,PAL-72,Return to Stock,,,N,2026-08-08
+TRG00286,00100000286,Item 286 Computers,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Computers,Dell,FALSE,Active,$52.44,$178.32,Very Good,B,Functional,,,,,N,2026-08-11
+TRG00287,00100000287,Item 287 Computers,DS-MONTERREY,Warehouse Direct,Computers,Dell,FALSE,Active,$127.18,$172.94,Damaged,B,Functional,,Non RTV,,,N,2026-09-03
+TRG00288,00100000288,Item 288 Monitors,MILON-WM-DOTCA-RTV,Warehouse Direct,Monitors,Lenovo,FALSE,Active,$129.57,$218.22,Very Good,A,Functional,,RTV Liquidate,,,N,2026-09-13
+TRG00289,00100000289,Item 289 Computers,BRTON-WM-FOO,Open Box Returns,Computers,HP,FALSE,Active,$216.70,$74.62,Fair,B,Functional,,Non RTV,,,N,2026-09-10
+TRG00289,00100000289,Item 289 duplicate last,BRTON-WM-FOO,Open Box Returns,Computers,Dell,FALSE,Active,$216.70,$74.62,Fair,B,Functional,,Non RTV,,,N,2026-09-10
+TRG00290,00100000290,Item 290 Monitors,MIAFL-HEAD-OFFICE,Warehouse Direct,Monitors,Samsung,FALSE,Active,$77.81,$208.88,Very Good,C,Functional,,,,,N,2026-08-18
+TRG00291,00100000291,Item 291 Computers,MIAFL-HEAD-OFFICE,Open Box Returns,Computers,Sony,TRUE,Active,$46.80,$228.35,Very Good,B,Functional,PAL-56,Non RTV,,,N,2026-08-18
+TRG00292,00100000292,Item 292 Tablets,WFS-OVERFLOW,Specialty,Tablets,Samsung,FALSE,Active,$213.50,$117.81,Damaged,C,Functional,PAL-69,RTV,,,N,2026-08-23
+TRG00293,00100000293,Item 293 Computers,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Computers,HP,FALSE,Active,$82.35,$83.07,Good,B,Functional,PAL-7,Non RTV,,,N,2026-09-05
+TRG00294,00100000294,Item 294 Accessories,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Accessories,HP,FALSE,Active,$82.67,$133.53,Damaged,B,Functional,,RTV Liquidate,,,Y,2026-09-04
+TRG00295,00100000295,Item 295 Tablets,PHXAZ-RETURNS,Open Box Returns,Tablets,HP,FALSE,Active,$152.91,$122.97,Good,A,Functional,,Non RTV,,,N,2026-09-10
+TRG00296,00100000296,Item 296 Tablets,BRTON-LENOVO-DC-400,Open Box Returns,Tablets,Dell,FALSE,Active,$118.09,$167.36,Very Good,C,Functional,,Non RTV,,,N,2026-08-16
+TRG00297,00100000297,Item 297 Tablets,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Sony,FALSE,Active,$63.86,$130.24,Very Good,A,Functional,,,,,N,2026-08-12
+TRG00298,00100000298,Item 298 Accessories,BRTON-WM-FOO,Warehouse Direct,Accessories,Lenovo,FALSE,Active,$231.89,$265.42,Good,A,Functional,,Non RTV,,,N,2026-08-27
+TRG00299,00100000299,Item 299 TVs,MILON-WM-DOTCA-RTV,Specialty,TVs,Lenovo,FALSE,Active,$81.36,$259.38,Fair,C,Functional,PAL-21,Non RTV,,,N,2026-09-07
+TRG00300,00100000300,Item 300 Accessories,MIAFL-HEAD-OFFICE,Specialty,Accessories,HP,FALSE,Active,$135.15,$61.34,Fair,B,Functional,PAL-58,,,,N,2026-08-28
+TRG00301,00100000301,Item 301 Headphones,PHXAZ-RETURNS,Walmart Monitors (Finished),Headphones,Lenovo,FALSE,Active,$251.88,$111.93,Very Good,A,Functional,,,,,N,2026-08-21
+TRG00302,00100000302,Item 302 Headphones,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Headphones,HP,FALSE,Active,$79.22,$234.91,Very Good,C,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00303,00100000303,Item 303 Computers,WFS-OVERFLOW,Walmart Computers Parts (Finished),Computers,Dell,FALSE,Active,$95.19,$220.42,Good,C,Functional,,RTV Liquidate,,,N,2026-08-26
+TRG00304,00100000304,Item 304 Monitors,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Monitors,Dell,FALSE,Active,$53.62,$199.87,Damaged,A,Functional,,,,,N,2026-08-31
+TRG00305,00100000305,Item 305 Tablets,MILON-WM-DOTCA-RTV,Open Box Returns,Tablets,Lenovo,FALSE,Active,$119.94,$229.27,Good,B,Functional,,Non RTV,,,N,2026-08-13
+TRG00306,00100000306,Item 306 Computers,WFS-OVERFLOW,Walmart Computer Parts (Finished),Computers,Samsung,FALSE,Active,$90.28,$116.32,Good,C,Functional,,Non RTV,,,N,2026-09-14
+TRG00306,00100000306,Item 306 duplicate last,WFS-OVERFLOW,Walmart Computer Parts (Finished),Computers,Dell,FALSE,Active,$90.28,$116.32,Good,C,Functional,,Non RTV,,,N,2026-09-14
+TRG00307,00100000307,Item 307 Headphones,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Headphones,Dell,FALSE,Active,$164.13,$31.22,Good,C,Functional,PAL-55,RTV Liquidate,,,N,2026-08-08
+TRG00308,00100000308,Item 308 Monitors,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Monitors,HP,FALSE,Active,$149.37,$165.41,Damaged,A,Functional,,RTV Liquidate,,,Y,2026-09-11
+TRG00309,00100000309,Item 309 Tablets,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Tablets,Sony,FALSE,Active,$56.75,$45.76,Damaged,B,Functional,,,,,N,2026-08-17
+TRG00310,00100000310,Item 310 TVs,BRTON-WM-FOO,Warehouse Direct,TVs,Sony,FALSE,Active,$236.77,$262.25,Fair,C,Functional,,Non RTV,,,N,2026-08-06
+TRG00311,00100000311,Item 311 Accessories,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Accessories,Lenovo,FALSE,Active,$67.27,$208.04,Damaged,C,Functional,,Return to Stock,,,N,2026-08-08
+TRG00312,00100000312,Item 312 Headphones,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Headphones,HP,FALSE,Active,$245.85,$253.05,Very Good,B,Functional,,RTV Liquidate,,,N,2026-09-15
+TRG00313,00100000313,Item 313 TVs,BRTON-WM-FOO,Walmart Monitors (Finished),TVs,HP,FALSE,Active,$196.52,$258.53,Damaged,A,Functional,,,,,N,2026-09-14
+TRG00314,00100000314,Item 314 Headphones,DALLX-HEADPHONES,Specialty,Headphones,HP,FALSE,Active,$97.26,$244.42,Fair,A,Functional,,Non RTV,,,N,2026-08-14
+TRG00315,00100000315,Item 315 TVs,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),TVs,Sony,FALSE,Active,$156.98,$151.43,Good,A,Functional,,RTV Liquidate,,,N,2026-08-17
+TRG00316,00100000316,Item 316 Computers,BRTON-WM-BAR,Walmart Computers Parts (Finished),Computers,Samsung,FALSE,Active,$216.96,$165.38,Damaged,B,Functional,,Return to Stock,,,N,2026-09-12
+TRG00317,00100000317,Item 317 TVs,WFS-OVERFLOW,Walmart Computers Parts (Finished),TVs,Lenovo,TRUE,Active,$196.66,$150.41,Very Good,C,Functional,,RTV Approved,,,N,2026-08-13
+TRG00318,00100000318,Item 318 Monitors,BRTON-WM-FOO,Warehouse Direct,Monitors,Samsung,FALSE,Active,$190.80,$40.20,Good,A,Functional,,,,,N,2026-08-27
+TRG00319,00100000319,Item 319 Tablets,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Lenovo,FALSE,Active,$70.35,$39.71,Very Good,C,Functional,,,,,N,2026-09-04
+TRG00320,00100000320,Item 320 Tablets,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Tablets,Lenovo,FALSE,Active,$43.66,$265.59,Damaged,B,Functional,PAL-49,,,,Y,2026-09-14
+TRG00321,00100000321,Item 321 Monitors,WFS-OVERFLOW,Warehouse Direct,Monitors,Dell,FALSE,Active,$131.62,$41.80,Damaged,A,Functional,,Non RTV,,,N,2026-08-07
+TRG00322,00100000322,Item 322 TVs,BRTON-WM-FOO,Walmart Computers Parts (Finished),TVs,HP,FALSE,Active,$149.64,$113.25,Damaged,A,Functional,PAL-77,Non RTV,,,N,2026-08-16
+TRG00323,00100000323,Item 323 Headphones,PHXAZ-RETURNS,Warehouse Direct,Headphones,HP,FALSE,Active,$158.05,$109.45,Fair,B,Functional,PAL-58,Non RTV,,,N,2026-08-19
+TRG00323,00100000323,Item 323 duplicate last,PHXAZ-RETURNS,Warehouse Direct,Headphones,Dell,FALSE,Active,$158.05,$109.45,Fair,B,Functional,PAL-58,Non RTV,,,N,2026-08-19
+TRG00324,00100000324,Item 324 TVs,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,FALSE,Active,$118.57,$74.67,Fair,C,Functional,,Return to Stock,,,Y,2026-09-08
+TRG00325,00100000325,Item 325 Computers,WFS-OVERFLOW,Warehouse Direct,Computers,Sony,FALSE,Active,$60.86,$42.47,Damaged,B,Functional,PAL-68,RTV Liquidate,,,Y,2026-08-10
+TRG00326,00100000326,Item 326 Headphones,BRTON-WM-BAR,Warehouse Direct,Headphones,Lenovo,FALSE,Active,$124.09,$194.91,Fair,B,Functional,,RTV Liquidate,,,N,2026-08-21
+TRG00327,00100000327,Item 327 Tablets,DALLX-HEADPHONES,Warehouse Direct,Tablets,Dell,FALSE,Active,$116.32,$85.71,Fair,A,Functional,,RTV,,,N,2026-08-15
+TRG00328,00100000328,Item 328 Headphones,DS-MONTERREY,Specialty,Headphones,HP,FALSE,Active,$113.06,$117.08,Fair,A,Functional,,Return to Stock,,,N,2026-09-10
+TRG00329,00100000329,Item 329 Accessories,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Accessories,Dell,FALSE,Active,$142.92,$91.03,Damaged,B,Functional,,Non RTV,,,N,2026-09-15
+TRG00330,00100000330,Item 330 Accessories,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Accessories,HP,FALSE,Active,$51.56,$118.98,Damaged,A,Functional,,RTV Liquidate,,,Y,2026-09-03
+TRG00331,00100000331,Item 331 Headphones,BRTON-WM-BAR,Specialty,Headphones,Samsung,FALSE,Active,$78.58,$219.36,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00332,00100000332,Item 332 Monitors,MIAFL-HEAD-OFFICE,Specialty,Monitors,Lenovo,FALSE,Active,$51.74,$40.58,Damaged,B,Functional,,Non RTV,,,N,2026-08-28
+TRG00333,00100000333,Item 333 Headphones,BRTON-LENOVO-DC-400,Walmart Monitors (Finished),Headphones,Dell,FALSE,Active,$135.51,$215.44,Very Good,C,Functional,,Non RTV,,,N,2026-08-12
+TRG00334,00100000334,Item 334 Headphones,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Headphones,Sony,FALSE,Active,$253.02,$159.28,Damaged,A,Functional,,RTV Approved,,,N,2026-08-15
+TRG00335,00100000335,Item 335 Accessories,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Samsung,FALSE,Active,$97.69,$123.06,Very Good,C,Functional,,RTV Liquidate,,,N,2026-09-05
+TRG00336,00100000336,Item 336 TVs,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),TVs,Lenovo,FALSE,Active,$223.26,$136.21,Fair,B,Functional,PAL-31,RTV Liquidate,,,N,2026-09-10
+TRG00337,00100000337,Item 337 Monitors,BRTON-WM-BAR,Warehouse Direct,Monitors,HP,TRUE,Active,$78.99,$109.18,Damaged,A,Functional,PAL-4,,,,N,2026-09-14
+TRG00338,00100000338,Item 338 Accessories,BRTON-WM-FOO,Walmart Monitors (Finished),Accessories,Sony,FALSE,Active,$257.76,$164.48,Damaged,C,Functional,,RTV Liquidate,,,N,2026-09-05
+TRG00339,00100000339,Item 339 Monitors,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Monitors,Sony,FALSE,Active,$89.84,$35.27,Damaged,A,Functional,,RTV Liquidate,,,N,2026-09-10
+TRG00340,00100000340,Item 340 Accessories,BRTON-WM-FOO,Walmart Monitors (Finished),Accessories,Lenovo,TRUE,Active,$176.98,$141.48,Damaged,B,Functional,,RTV Liquidate,,,N,2026-09-15
+TRG00340,00100000340,Item 340 duplicate last,BRTON-WM-FOO,Walmart Monitors (Finished),Accessories,Dell,TRUE,Active,$176.98,$141.48,Damaged,B,Functional,,RTV Liquidate,,,N,2026-09-15
+TRG00341,00100000341,Item 341 Tablets,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Tablets,Lenovo,FALSE,Active,$181.89,$177.66,Fair,B,Functional,,Non RTV,,,N,2026-08-18
+TRG00342,00100000342,Item 342 Computers,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Computers,Sony,FALSE,Active,$60.74,$83.62,Fair,A,Functional,,Non RTV,,,N,2026-08-25
+TRG00343,00100000343,Item 343 Computers,BRTON-WM-BAR,Walmart Monitors (Finished),Computers,HP,FALSE,Active,$248.24,$47.33,Damaged,B,Functional,PAL-43,,,,N,2026-09-09
+TRG00344,00100000344,Item 344 Monitors,DALLX-HEADPHONES,Specialty,Monitors,Lenovo,FALSE,Active,$228.78,$227.90,Damaged,A,Functional,,Non RTV,,,Y,2026-08-09
+TRG00345,00100000345,Item 345 TVs,PHXAZ-RETURNS,Open Box Returns,TVs,Samsung,FALSE,Active,$197.05,$128.09,Damaged,A,Functional,,RTV Liquidate,,,N,2026-08-23
+TRG00346,00100000346,Item 346 Computers,BRTON-WM-BAR,Walmart Computers Parts (Finished),Computers,Dell,FALSE,Active,$255.33,$151.57,Good,C,Functional,PAL-60,,,,N,2026-09-03
+TRG00347,00100000347,Item 347 Monitors,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Monitors,Lenovo,FALSE,Active,$57.23,$70.06,Good,A,Functional,,Non RTV,,,Y,2026-08-10
+TRG00348,00100000348,Item 348 Computers,BRTON-WM-FOO,Open Box Returns,Computers,Sony,FALSE,Active,$230.40,$119.46,Very Good,A,Functional,,,,,N,2026-08-26
+TRG00349,00100000349,Item 349 TVs,PHXAZ-RETURNS,Walmart Monitors (Finished),TVs,HP,FALSE,Active,$245.38,$215.79,Good,C,Functional,PAL-59,Research,,,Y,2026-08-31
+TRG00350,00100000350,Item 350 TVs,WFS-OVERFLOW,Open Box Returns,TVs,Sony,FALSE,Active,$49.73,$158.66,Good,A,Functional,,Non RTV,,,N,2026-09-01
+TRG00351,00100000351,Item 351 Accessories,MIAFL-HEAD-OFFICE,Specialty,Accessories,Sony,FALSE,Active,$46.13,$94.98,Good,B,Functional,,RTV Liquidate,,,N,2026-08-26
+TRG00352,00100000352,Item 352 Monitors,PHXAZ-RETURNS,Warehouse Direct,Monitors,Sony,FALSE,Active,$87.17,$56.10,Damaged,A,Functional,,Non RTV,,,N,2026-09-12
+TRG00353,00100000353,Item 353 Accessories,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Accessories,HP,FALSE,Active,$77.48,$41.11,Damaged,B,Functional,PAL-45,RTV Liquidate,,,N,2026-08-18
+TRG00354,00100000354,Item 354 Computers,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Computers,Lenovo,FALSE,Active,$159.96,$72.47,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-11
+TRG00355,00100000355,Item 355 Monitors,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Monitors,HP,FALSE,Active,$146.35,$124.98,Fair,B,Functional,,Non RTV,,,N,2026-08-31
+TRG00356,00100000356,Item 356 Computers,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Computers,HP,FALSE,Active,$202.30,$126.53,Fair,C,Functional,,Non RTV,,,N,2026-08-12
+TRG00357,00100000357,Item 357 Accessories,WFS-OVERFLOW,Walmart Computer Parts (Finished),Accessories,Lenovo,FALSE,Active,$42.77,$159.25,Damaged,A,Functional,,,,,Y,2026-08-18
+TRG00357,00100000357,Item 357 duplicate last,WFS-OVERFLOW,Walmart Computer Parts (Finished),Accessories,Dell,FALSE,Active,$42.77,$159.25,Damaged,A,Functional,,,,,N,2026-08-18
+TRG00358,00100000358,Item 358 Accessories,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Accessories,Lenovo,FALSE,Active,$49.17,$213.73,Good,B,Functional,,,,,N,2026-09-11
+TRG00359,00100000359,Item 359 Headphones,WFS-OVERFLOW,Open Box Returns,Headphones,HP,FALSE,Active,$245.73,$241.39,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-19
+TRG00360,00100000360,Item 360 Accessories,WFS-OVERFLOW,Walmart Monitors (Finished),Accessories,HP,FALSE,Active,$148.48,$54.86,Damaged,B,Functional,PAL-56,RTV Liquidate,,,N,2026-08-31
+TRG00361,00100000361,Item 361 Tablets,BRTON-WM-FOO,Open Box Returns,Tablets,Sony,FALSE,Active,$55.58,$96.04,Very Good,A,Functional,PAL-71,RTV Liquidate,,,N,2026-08-06
+TRG00362,00100000362,Item 362 TVs,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),TVs,Lenovo,FALSE,Active,$85.20,$169.85,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-23
+TRG00363,00100000363,Item 363 Computers,BRTON-WM-FOO,Walmart Monitors (Finished),Computers,Dell,FALSE,Active,$147.72,$138.97,Very Good,C,Functional,,RTV Liquidate,,,N,2026-09-14
+TRG00364,00100000364,Item 364 Accessories,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Accessories,Dell,FALSE,Active,$87.84,$208.48,Very Good,A,Functional,,RTV Liquidate,,,Y,2026-08-06
+TRG00365,00100000365,Item 365 Tablets,BRTON-WM-FOO,Warehouse Direct,Tablets,Samsung,FALSE,Active,$111.12,$209.38,Good,B,Functional,,,,,N,2026-08-25
+TRG00366,00100000366,Item 366 Computers,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Lenovo,FALSE,Active,$41.65,$63.98,Damaged,C,Functional,,Non RTV,,,N,2026-08-30
+TRG00367,00100000367,Item 367 TVs,BRTON-WM-BAR,Warehouse Direct,TVs,Lenovo,FALSE,Active,$135.96,$188.24,Fair,A,Functional,,Return to Stock,,,Y,2026-09-10
+TRG00368,00100000368,Item 368 TVs,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,FALSE,Active,$217.48,$126.45,Good,C,Functional,,RTV Liquidate,,,N,2026-08-28
+TRG00369,00100000369,Item 369 TVs,DS-MONTERREY,Walmart Monitors (Finished),TVs,Sony,FALSE,Active,$62.65,$134.84,Fair,C,Functional,,,,,N,2026-08-09
+TRG00370,00100000370,Item 370 Monitors,BRTON-LENOVO-DC-400,Walmart Computer Parts (Finished),Monitors,HP,FALSE,Active,$161.85,$44.20,Very Good,C,Functional,,RTV Liquidate,,,N,2026-08-06
+TRG00371,00100000371,Item 371 Monitors,WFS-OVERFLOW,Walmart Monitors (Finished),Monitors,Samsung,FALSE,Active,$178.76,$261.49,Good,C,Functional,,RTV Liquidate,,,N,2026-09-09
+TRG00372,00100000372,Item 372 Accessories,DALLX-HEADPHONES,Specialty,Accessories,HP,FALSE,Active,$116.26,$124.65,Good,A,Functional,,,,,N,2026-08-11
+TRG00373,00100000373,Item 373 TVs,BRTON-WM-BAR,Specialty,TVs,Samsung,FALSE,Active,$194.45,$193.11,Good,B,Functional,,,,,Y,2026-08-15
+TRG00374,00100000374,Item 374 Monitors,WFS-OVERFLOW,Walmart Monitors (Finished),Monitors,Samsung,FALSE,Active,$51.33,$88.83,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-07
+TRG00374,00100000374,Item 374 duplicate last,WFS-OVERFLOW,Walmart Monitors (Finished),Monitors,Dell,FALSE,Active,$51.33,$88.83,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-07
+TRG00375,00100000375,Item 375 Tablets,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Dell,TRUE,Active,$107.42,$196.17,Good,A,Functional,,RTV,,,N,2026-08-16
+TRG00376,00100000376,Item 376 TVs,WFS-OVERFLOW,Walmart Computer Parts (Finished),TVs,Sony,FALSE,Active,$135.32,$204.41,Damaged,B,Functional,,,,,N,2026-08-28
+TRG00377,00100000377,Item 377 Computers,DALLX-HEADPHONES,Specialty,Computers,Sony,FALSE,Active,$98.72,$240.92,Fair,A,Functional,PAL-25,,,,Y,2026-08-19
+TRG00378,00100000378,Item 378 TVs,WFS-OVERFLOW,Walmart Computer Parts (Finished),TVs,HP,FALSE,Active,$208.41,$99.92,Damaged,B,Functional,,RTV Liquidate,,,N,2026-09-08
+TRG00379,00100000379,Item 379 Computers,DALLX-HEADPHONES,Walmart Monitors (Finished),Computers,Sony,FALSE,Active,$248.48,$129.49,Very Good,B,Functional,PAL-20,Non RTV,,,N,2026-08-26
+TRG00380,00100000380,Item 380 Headphones,WFS-OVERFLOW,Warehouse Direct,Headphones,Dell,FALSE,Active,$228.25,$222.66,Damaged,A,Functional,,,,,N,2026-08-23
+TRG00381,00100000381,Item 381 Computers,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Sony,FALSE,Active,$251.80,$174.49,Good,C,Functional,,RTV Liquidate,,,N,2026-09-01
+TRG00382,00100000382,Item 382 Tablets,MIAFL-HEAD-OFFICE,Open Box Returns,Tablets,Dell,FALSE,Active,$92.67,$161.30,Damaged,B,Functional,,RTV,,,N,2026-08-18
+TRG00383,00100000383,Item 383 TVs,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,FALSE,Active,$134.86,$74.68,Damaged,A,Functional,,RTV Liquidate,,,N,2026-08-09
+TRG00384,00100000384,Item 384 Headphones,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Headphones,Dell,FALSE,Active,$72.85,$191.28,Fair,C,Functional,,,,,N,2026-09-14
+TRG00385,00100000385,Item 385 Tablets,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Tablets,Lenovo,FALSE,Active,$256.27,$110.82,Good,A,Functional,,,,,N,2026-08-30
+TRG00386,00100000386,Item 386 Tablets,BRTON-WM-FOO,Open Box Returns,Tablets,HP,FALSE,Active,$108.71,$178.90,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-26
+TRG00387,00100000387,Item 387 Headphones,BRTON-WM-BAR,Specialty,Headphones,HP,FALSE,Active,$207.86,$241.42,Fair,C,Functional,PAL-36,,,,N,2026-08-06
+TRG00388,00100000388,Item 388 Computers,BRTON-WM-FOO,Walmart Computers Parts (Finished),Computers,HP,FALSE,Active,$69.79,$227.89,Very Good,C,Functional,,,,,Y,2026-08-24
+TRG00389,00100000389,Item 389 Monitors,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,FALSE,Active,$72.18,$106.90,Damaged,C,Functional,,,,,N,2026-08-06
+TRG00390,00100000390,Item 390 Computers,WFS-OVERFLOW,Open Box Returns,Computers,HP,FALSE,Active,$106.63,$250.36,Fair,A,Functional,,RTV Liquidate,,,N,2026-08-28
+TRG00391,00100000391,Item 391 Computers,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Computers,Sony,FALSE,Active,$66.65,$196.45,Good,A,Functional,,Non RTV,,,Y,2026-08-12
+TRG00391,00100000391,Item 391 duplicate last,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Computers,Dell,FALSE,Active,$66.65,$196.45,Good,A,Functional,,Non RTV,,,N,2026-08-12
+TRG00392,00100000392,Item 392 Monitors,MIAFL-HEAD-OFFICE,Open Box Returns,Monitors,HP,FALSE,Active,$250.71,$155.13,Good,C,Functional,PAL-20,RTV,,,N,2026-09-10
+TRG00393,00100000393,Item 393 TVs,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),TVs,Sony,FALSE,Active,$71.20,$60.95,Good,B,Functional,,,,,N,2026-08-10
+TRG00394,00100000394,Item 394 TVs,DALLX-HEADPHONES,Open Box Returns,TVs,Dell,FALSE,Active,$110.73,$227.85,Fair,A,Functional,,RTV Liquidate,,,N,2026-08-08
+TRG00395,00100000395,Item 395 Headphones,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Sony,FALSE,Active,$100.04,$239.62,Damaged,B,Functional,,RTV Liquidate,,,N,2026-08-07
+TRG00396,00100000396,Item 396 Headphones,WFS-OVERFLOW,Walmart Computers Parts (Finished),Headphones,HP,FALSE,Active,$155.17,$130.31,Good,A,Functional,,Non RTV,,,N,2026-09-08
+TRG00397,00100000397,Item 397 Computers,BRTON-WM-FOO,Warehouse Direct,Computers,Dell,FALSE,Active,$234.37,$202.72,Good,C,Functional,,,,,N,2026-09-07
+TRG00398,00100000398,Item 398 Monitors,BRTON-WM-BAR,Walmart Computers Parts (Finished),Monitors,HP,FALSE,Active,$124.67,$61.81,Damaged,B,Functional,,RTV Liquidate,,,N,2026-08-06
+TRG00399,00100000399,Item 399 TVs,PHXAZ-RETURNS,Warehouse Direct,TVs,Dell,FALSE,Active,$41.67,$46.42,Fair,C,Functional,,RTV Liquidate,,,N,2026-09-10
+TRG00400,00100000400,Item 400 Tablets,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Samsung,TRUE,Active,$205.80,$106.02,Good,B,Functional,,RTV Liquidate,,,N,2026-08-25
+TRG00401,00100000401,Item 401 Tablets,DALLX-HEADPHONES,Walmart Monitors (Finished),Tablets,Dell,FALSE,Active,$70.24,$262.14,Good,A,Functional,,,,,N,2026-08-16
+TRG00402,00100000402,Item 402 TVs,WFS-OVERFLOW,Open Box Returns,TVs,Sony,FALSE,Active,$214.30,$108.34,Very Good,C,Functional,,RTV Liquidate,,,Y,2026-09-09
+TRG00403,00100000403,Item 403 Computers,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Dell,FALSE,Active,$251.39,$224.72,Very Good,A,Functional,PAL-80,RTV Liquidate,,,N,2026-09-12
+TRG00404,00100000404,Item 404 Headphones,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Headphones,HP,FALSE,Active,$91.23,$71.06,Fair,B,Functional,,Non RTV,,,Y,2026-08-15
+TRG00405,00100000405,Item 405 Monitors,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Monitors,Lenovo,TRUE,Active,$95.41,$124.22,Fair,B,Functional,,Non RTV,,,N,2026-09-14
+TRG00406,00100000406,Item 406 Computers,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Samsung,FALSE,Active,$140.89,$243.82,Damaged,B,Functional,PAL-52,Non RTV,,,N,2026-09-14
+TRG00407,00100000407,Item 407 Headphones,BRTON-LENOVO-DC-400,Walmart Computers Parts (Finished),Headphones,Samsung,TRUE,Active,$78.79,$261.08,Very Good,A,Functional,,,,,N,2026-09-13
+TRG00408,00100000408,Item 408 Monitors,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Monitors,Lenovo,FALSE,Active,$186.78,$138.78,Damaged,A,Functional,,,,,Y,2026-08-26
+TRG00408,00100000408,Item 408 duplicate last,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,FALSE,Active,$186.78,$138.78,Damaged,A,Functional,,,,,N,2026-08-26
+TRG00409,00100000409,Item 409 Headphones,BRTON-WM-FOO,Walmart Computer Parts (Finished),Headphones,Dell,FALSE,Active,$121.65,$83.27,Fair,A,Functional,,,,,N,2026-09-15
+TRG00410,00100000410,Item 410 Monitors,DS-MONTERREY,Specialty,Monitors,HP,FALSE,Active,$55.73,$60.76,Good,C,Functional,PAL-66,Non RTV,,,N,2026-08-12
+TRG00411,00100000411,Item 411 Headphones,PHXAZ-RETURNS,Walmart Monitors (Finished),Headphones,Lenovo,FALSE,Active,$159.83,$189.37,Fair,A,Functional,PAL-45,Non RTV,,,N,2026-08-13
+TRG00412,00100000412,Item 412 Tablets,WFS-OVERFLOW,Walmart Computers Parts (Finished),Tablets,Dell,TRUE,Active,$122.40,$98.34,Very Good,B,Functional,,Non RTV,,,N,2026-08-28
+TRG00413,00100000413,Item 413 Computers,DALLX-HEADPHONES,Open Box Returns,Computers,Lenovo,FALSE,Active,$50.86,$171.34,Damaged,B,Functional,,Non RTV,,,N,2026-08-23
+TRG00414,00100000414,Item 414 Headphones,MILON-WM-DOTCA-RTV,Open Box Returns,Headphones,Sony,FALSE,Active,$162.94,$209.47,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-18
+TRG00415,00100000415,Item 415 Tablets,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Samsung,FALSE,Active,$134.54,$78.82,Very Good,C,Functional,PAL-61,Non RTV,,,N,2026-08-06
+TRG00416,00100000416,Item 416 Computers,WFS-OVERFLOW,Specialty,Computers,HP,FALSE,Active,$155.55,$246.74,Good,B,Functional,,RTV,,,N,2026-08-23
+TRG00417,00100000417,Item 417 Computers,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Computers,Lenovo,FALSE,Active,$114.17,$193.46,Fair,A,Functional,,,,,N,2026-08-08
+TRG00418,00100000418,Item 418 Computers,PHXAZ-RETURNS,Open Box Returns,Computers,HP,FALSE,Active,$112.33,$132.51,Damaged,B,Functional,PAL-47,RTV Liquidate,,,N,2026-08-25
+TRG00419,00100000419,Item 419 Monitors,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,Dell,FALSE,Active,$238.49,$77.20,Very Good,C,Functional,,,,,N,2026-09-02
+TRG00420,00100000420,Item 420 Tablets,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Tablets,Samsung,FALSE,Active,$79.17,$118.19,Damaged,A,Functional,,,,,N,2026-09-07
+TRG00421,00100000421,Item 421 Monitors,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Sony,FALSE,Active,$47.98,$229.07,Very Good,B,Functional,PAL-50,Non RTV,,,N,2026-08-17
+TRG00422,00100000422,Item 422 TVs,BRTON-WM-FOO,Specialty,TVs,Sony,FALSE,Active,$55.71,$106.51,Fair,A,Functional,,RTV Liquidate,,,N,2026-08-18
+TRG00423,00100000423,Item 423 Monitors,BRTON-WM-BAR,Open Box Returns,Monitors,Dell,FALSE,Active,$90.70,$219.34,Fair,A,Functional,,Non RTV,,,N,2026-09-14
+TRG00424,00100000424,Item 424 Computers,BRTON-WM-FOO,Open Box Returns,Computers,Dell,FALSE,Active,$112.84,$72.66,Fair,B,Functional,,Non RTV,,,N,2026-09-01
+TRG00425,00100000425,Item 425 Monitors,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,HP,FALSE,Active,$169.84,$163.67,Damaged,A,Functional,,RTV Liquidate,,,N,2026-08-19
+TRG00425,00100000425,Item 425 duplicate last,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,Dell,FALSE,Active,$169.84,$163.67,Damaged,A,Functional,,RTV Liquidate,,,N,2026-08-19
+TRG00426,00100000426,Item 426 Accessories,BRTON-WM-FOO,Walmart Computer Parts (Finished),Accessories,Lenovo,FALSE,Active,$248.06,$238.17,Fair,C,Functional,,RTV Liquidate,,,Y,2026-09-04
+TRG00427,00100000427,Item 427 Monitors,BRTON-WM-BAR,Walmart Monitors (Finished),Monitors,HP,FALSE,Active,$175.70,$212.35,Damaged,A,Functional,,Non RTV,,,N,2026-09-15
+TRG00428,00100000428,Item 428 TVs,DALLX-HEADPHONES,Walmart Monitors (Finished),TVs,Samsung,FALSE,Active,$160.61,$195.60,Very Good,C,Functional,PAL-5,RTV Liquidate,,,N,2026-08-28
+TRG00429,00100000429,Item 429 TVs,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),TVs,Sony,FALSE,Active,$57.41,$108.02,Very Good,A,Functional,,,,,N,2026-09-14
+TRG00430,00100000430,Item 430 TVs,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),TVs,HP,FALSE,Active,$145.55,$208.62,Damaged,C,Functional,,,,,N,2026-08-06
+TRG00431,00100000431,Item 431 Headphones,MIAFL-HEAD-OFFICE,Warehouse Direct,Headphones,HP,FALSE,Active,$64.20,$269.02,Very Good,B,Functional,PAL-6,,,,Y,2026-08-09
+TRG00432,00100000432,Item 432 Monitors,BRTON-WM-FOO,Walmart Computer Parts (Finished),Monitors,Samsung,FALSE,Active,$253.60,$100.79,Good,B,Functional,PAL-30,RTV Liquidate,,,N,2026-08-24
+TRG00433,00100000433,Item 433 Computers,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Lenovo,FALSE,Active,$98.59,$74.21,Very Good,A,Functional,,Non RTV,,,Y,2026-09-04
+TRG00434,00100000434,Item 434 Accessories,PHXAZ-RETURNS,Walmart Monitors (Finished),Accessories,Sony,FALSE,Active,$157.23,$116.04,Damaged,A,Functional,,RTV Liquidate,,,N,2026-09-12
+TRG00435,00100000435,Item 435 Monitors,WFS-OVERFLOW,Specialty,Monitors,HP,FALSE,Active,$62.32,$189.44,Fair,B,Functional,,Research,,,N,2026-09-03
+TRG00436,00100000436,Item 436 Computers,DALLX-HEADPHONES,Warehouse Direct,Computers,Sony,FALSE,Active,$139.99,$91.70,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00437,00100000437,Item 437 Monitors,DALLX-HEADPHONES,Specialty,Monitors,Samsung,FALSE,Active,$49.53,$159.33,Very Good,B,Functional,,Return to Stock,,,N,2026-09-12
+TRG00438,00100000438,Item 438 Headphones,BRTON-WM-FOO,Walmart Computers Parts (Finished),Headphones,Samsung,FALSE,Active,$116.88,$47.28,Fair,C,Functional,PAL-48,RTV Liquidate,,,Y,2026-09-05
+TRG00439,00100000439,Item 439 Computers,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Computers,HP,FALSE,Active,$155.52,$210.64,Damaged,B,Functional,,,,,Y,2026-08-19
+TRG00440,00100000440,Item 440 Computers,BRTON-WM-BAR,Walmart Computers Parts (Finished),Computers,HP,FALSE,Active,$67.14,$267.92,Fair,B,Functional,PAL-47,RTV Approved,,,Y,2026-08-27
+TRG00441,00100000441,Item 441 Computers,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Computers,HP,FALSE,Active,$65.66,$149.53,Damaged,C,Functional,PAL-50,Non RTV,,,N,2026-09-12
+TRG00442,00100000442,Item 442 Headphones,BRTON-WM-BAR,Walmart Computer Parts (Finished),Headphones,HP,FALSE,Active,$169.49,$160.01,Good,B,Functional,PAL-70,,,,N,2026-09-14
+TRG00442,00100000442,Item 442 duplicate last,BRTON-WM-BAR,Walmart Computer Parts (Finished),Headphones,Dell,FALSE,Active,$169.49,$160.01,Good,B,Functional,PAL-70,,,,N,2026-09-14
+TRG00443,00100000443,Item 443 Accessories,PHXAZ-RETURNS,Walmart Monitors (Finished),Accessories,Sony,FALSE,Active,$114.52,$34.40,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-09
+TRG00444,00100000444,Item 444 Headphones,BRTON-LENOVO-DC-400,Walmart Computer Parts (Finished),Headphones,Samsung,FALSE,Active,$133.96,$216.20,Very Good,A,Functional,,,,,Y,2026-08-07
+TRG00445,00100000445,Item 445 Computers,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Computers,Sony,FALSE,Active,$207.59,$175.77,Damaged,C,Functional,PAL-41,,,,N,2026-09-13
+TRG00446,00100000446,Item 446 Accessories,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Accessories,Sony,FALSE,Active,$150.40,$216.46,Damaged,B,Functional,,RTV Liquidate,,,N,2026-09-11
+TRG00447,00100000447,Item 447 Accessories,PHXAZ-RETURNS,Warehouse Direct,Accessories,Dell,FALSE,Active,$108.35,$46.00,Very Good,C,Functional,,RTV Liquidate,,,Y,2026-08-07
+TRG00448,00100000448,Item 448 Accessories,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Accessories,Samsung,FALSE,Active,$128.93,$197.51,Damaged,B,Functional,,RTV Liquidate,,,N,2026-08-11
+TRG00449,00100000449,Item 449 Accessories,DALLX-HEADPHONES,Warehouse Direct,Accessories,HP,FALSE,Active,$133.25,$231.04,Fair,A,Functional,PAL-75,,,,Y,2026-08-23
+TRG00450,00100000450,Item 450 TVs,DALLX-HEADPHONES,Open Box Returns,TVs,Samsung,FALSE,Active,$236.02,$102.77,Damaged,B,Functional,,,,,N,2026-09-15
+TRG00451,00100000451,Item 451 Monitors,DS-MONTERREY,Specialty,Monitors,Samsung,FALSE,Active,$166.11,$71.31,Damaged,B,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00452,00100000452,Item 452 Headphones,DALLX-HEADPHONES,Open Box Returns,Headphones,Lenovo,FALSE,Active,$93.22,$166.51,Very Good,B,Functional,PAL-11,RTV Liquidate,,,N,2026-08-18
+TRG00453,00100000453,Item 453 Accessories,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Accessories,HP,FALSE,Active,$106.10,$71.46,Damaged,A,Functional,,RTV Liquidate,,,Y,2026-08-06
+TRG00454,00100000454,Item 454 TVs,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,FALSE,Active,$124.69,$204.54,Very Good,C,Functional,,Non RTV,,,N,2026-08-30
+TRG00455,00100000455,Item 455 Accessories,BRTON-WM-BAR,Warehouse Direct,Accessories,Sony,FALSE,Active,$179.39,$103.37,Damaged,C,Functional,,,,,N,2026-08-17
+TRG00456,00100000456,Item 456 Accessories,WFS-OVERFLOW,Warehouse Direct,Accessories,HP,FALSE,Active,$121.08,$211.30,Fair,B,Functional,,RTV Liquidate,,,N,2026-09-06
+TRG00457,00100000457,Item 457 Computers,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Computers,HP,FALSE,Active,$176.75,$120.07,Fair,B,Functional,,,,,N,2026-08-17
+TRG00458,00100000458,Item 458 Tablets,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Samsung,FALSE,Active,$118.10,$129.62,Very Good,B,Functional,,RTV Liquidate,,,N,2026-09-06
+TRG00459,00100000459,Item 459 Tablets,BRTON-WM-FOO,Warehouse Direct,Tablets,Dell,FALSE,Active,$181.40,$32.88,Fair,B,Functional,,,,,N,2026-08-26
+TRG00459,00100000459,Item 459 duplicate last,BRTON-WM-FOO,Warehouse Direct,Tablets,Dell,FALSE,Active,$181.40,$32.88,Fair,B,Functional,,,,,N,2026-08-26
+TRG00460,00100000460,Item 460 Computers,WFS-OVERFLOW,Warehouse Direct,Computers,HP,FALSE,Active,$104.38,$68.21,Fair,A,Functional,,Non RTV,,,N,2026-08-20
+TRG00461,00100000461,Item 461 Monitors,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,Lenovo,FALSE,Active,$60.09,$156.34,Very Good,A,Functional,PAL-78,,,,N,2026-09-06
+TRG00462,00100000462,Item 462 Accessories,BRTON-WM-FOO,Walmart Monitors (Finished),Accessories,Dell,FALSE,Active,$98.80,$99.89,Very Good,A,Functional,PAL-20,Non RTV,,,N,2026-08-22
+TRG00463,00100000463,Item 463 Computers,BRTON-WM-FOO,Open Box Returns,Computers,Samsung,FALSE,Active,$234.35,$217.95,Good,A,Functional,,RTV Approved,,,N,2026-08-07
+TRG00464,00100000464,Item 464 Computers,WFS-OVERFLOW,Specialty,Computers,Samsung,FALSE,Active,$182.54,$158.49,Good,C,Functional,,,,,N,2026-09-12
+TRG00465,00100000465,Item 465 TVs,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),TVs,Lenovo,FALSE,Active,$224.21,$59.18,Very Good,B,Functional,,RTV Approved,,,N,2026-09-14
+TRG00466,00100000466,Item 466 Tablets,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Tablets,Sony,FALSE,Active,$244.90,$116.89,Fair,B,Functional,,Non RTV,,,N,2026-08-23
+TRG00467,00100000467,Item 467 Headphones,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Lenovo,FALSE,Active,$181.01,$64.13,Very Good,C,Functional,PAL-6,Return to Stock,,,Y,2026-09-04
+TRG00468,00100000468,Item 468 Computers,WFS-OVERFLOW,Open Box Returns,Computers,HP,TRUE,Active,$92.11,$162.93,Very Good,B,Functional,PAL-29,Non RTV,,,N,2026-08-25
+TRG00469,00100000469,Item 469 TVs,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),TVs,HP,FALSE,Active,$41.60,$195.24,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-28
+TRG00470,00100000470,Item 470 TVs,DALLX-HEADPHONES,Specialty,TVs,HP,FALSE,Active,$249.90,$113.25,Fair,B,Functional,PAL-79,RTV Liquidate,,,Y,2026-09-15
+TRG00471,00100000471,Item 471 Headphones,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Headphones,HP,FALSE,Active,$207.26,$196.75,Very Good,A,Functional,PAL-10,Research,,,N,2026-08-28
+TRG00472,00100000472,Item 472 Headphones,PHXAZ-RETURNS,Specialty,Headphones,Samsung,FALSE,Active,$154.89,$122.69,Good,A,Functional,,RTV Liquidate,,,Y,2026-08-24
+TRG00473,00100000473,Item 473 Monitors,BRTON-WM-FOO,Walmart Computers Parts (Finished),Monitors,HP,FALSE,Active,$203.95,$182.41,Fair,A,Functional,,Non RTV,,,Y,2026-09-14
+TRG00474,00100000474,Item 474 Monitors,MIAFL-HEAD-OFFICE,Open Box Returns,Monitors,Sony,FALSE,Active,$55.05,$109.26,Fair,C,Functional,PAL-24,,,,Y,2026-08-21
+TRG00475,00100000475,Item 475 Accessories,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Sony,TRUE,Active,$159.57,$248.25,Damaged,A,Functional,,RTV Approved,,,N,2026-08-15
+TRG00476,00100000476,Item 476 Accessories,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Dell,FALSE,Active,$130.19,$32.75,Very Good,A,Functional,,Non RTV,,,N,2026-09-15
+TRG00476,00100000476,Item 476 duplicate last,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Dell,FALSE,Active,$130.19,$32.75,Very Good,A,Functional,,Non RTV,,,N,2026-09-15
+TRG00477,00100000477,Item 477 TVs,WFS-OVERFLOW,Open Box Returns,TVs,Samsung,FALSE,Active,$253.56,$208.61,Good,B,Functional,,Research,,,N,2026-08-30
+TRG00478,00100000478,Item 478 Tablets,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Tablets,Dell,FALSE,Active,$139.15,$154.51,Damaged,B,Functional,PAL-35,,,,N,2026-08-27
+TRG00479,00100000479,Item 479 TVs,DALLX-HEADPHONES,Specialty,TVs,Sony,FALSE,Active,$118.21,$201.59,Fair,C,Functional,,Research,,,N,2026-08-12
+TRG00480,00100000480,Item 480 TVs,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),TVs,Samsung,TRUE,Active,$119.25,$202.59,Fair,A,Functional,,,,,Y,2026-09-06
+TRG00481,00100000481,Item 481 Monitors,BRTON-LENOVO-DC-400,Open Box Returns,Monitors,Sony,TRUE,Active,$188.62,$233.46,Damaged,C,Functional,PAL-37,,,,N,2026-08-15
+TRG00482,00100000482,Item 482 TVs,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),TVs,HP,FALSE,Active,$178.36,$61.49,Fair,C,Functional,PAL-50,Non RTV,,,N,2026-09-05
+TRG00483,00100000483,Item 483 Tablets,WFS-OVERFLOW,Walmart Computer Parts (Finished),Tablets,Sony,FALSE,Active,$41.58,$75.25,Fair,A,Functional,,,,,N,2026-08-09
+TRG00484,00100000484,Item 484 Tablets,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Tablets,Lenovo,FALSE,Active,$42.86,$116.16,Very Good,A,Functional,,Non RTV,,,N,2026-08-19
+TRG00485,00100000485,Item 485 Headphones,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Headphones,Dell,FALSE,Active,$56.36,$239.38,Very Good,C,Functional,,RTV Liquidate,,,N,2026-09-04
+TRG00486,00100000486,Item 486 Computers,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Computers,Samsung,FALSE,Active,$151.89,$85.29,Very Good,C,Functional,PAL-64,,,,N,2026-09-04
+TRG00487,00100000487,Item 487 Monitors,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Monitors,Samsung,FALSE,Active,$236.76,$123.58,Fair,C,Functional,,RTV Liquidate,,,Y,2026-08-15
+TRG00488,00100000488,Item 488 TVs,PHXAZ-RETURNS,Walmart Computers Parts (Finished),TVs,Sony,FALSE,Active,$205.33,$197.51,Damaged,B,Functional,,RTV Liquidate,,,Y,2026-08-10
+TRG00489,00100000489,Item 489 TVs,BRTON-WM-BAR,Walmart Monitors (Finished),TVs,HP,FALSE,Active,$144.72,$177.01,Fair,B,Functional,PAL-48,RTV Liquidate,,,N,2026-08-12
+TRG00490,00100000490,Item 490 Computers,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Dell,FALSE,Active,$89.97,$81.96,Good,C,Functional,,RTV Liquidate,,,N,2026-08-09
+TRG00491,00100000491,Item 491 Tablets,WFS-OVERFLOW,Open Box Returns,Tablets,Lenovo,FALSE,Active,$228.40,$41.53,Very Good,A,Functional,PAL-2,Return to Stock,,,N,2026-08-16
+TRG00492,00100000492,Item 492 Monitors,DS-MONTERREY,Walmart Computer Parts (Finished),Monitors,HP,FALSE,Active,$48.30,$50.35,Good,A,Functional,,RTV,,,N,2026-08-17
+TRG00493,00100000493,Item 493 TVs,PHXAZ-RETURNS,Walmart Computer Parts (Finished),TVs,Sony,FALSE,Active,$44.73,$163.20,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-31
+TRG00493,00100000493,Item 493 duplicate last,PHXAZ-RETURNS,Walmart Computer Parts (Finished),TVs,Dell,FALSE,Active,$44.73,$163.20,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-31
+TRG00494,00100000494,Item 494 TVs,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Lenovo,FALSE,Active,$239.05,$31.48,Damaged,C,Functional,PAL-35,RTV Liquidate,,,N,2026-09-11
+TRG00495,00100000495,Item 495 Tablets,MILON-WM-DOTCA-RTV,Warehouse Direct,Tablets,Lenovo,FALSE,Active,$185.24,$160.72,Good,A,Functional,,RTV Liquidate,,,N,2026-09-15
+TRG00496,00100000496,Item 496 Tablets,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Tablets,HP,FALSE,Active,$77.37,$94.83,Fair,A,Functional,PAL-47,RTV Liquidate,,,N,2026-08-19
+TRG00497,00100000497,Item 497 TVs,WFS-OVERFLOW,Walmart Computers Parts (Finished),TVs,Sony,FALSE,Active,$96.17,$159.47,Fair,C,Functional,PAL-17,Research,,,N,2026-08-24
+TRG00498,00100000498,Item 498 TVs,WFS-OVERFLOW,Open Box Returns,TVs,Lenovo,FALSE,Active,$220.68,$69.76,Fair,B,Functional,,Non RTV,,,N,2026-08-23
+TRG00499,00100000499,Item 499 Computers,BRTON-WM-BAR,Walmart Computer Parts (Finished),Computers,Samsung,FALSE,Active,$118.81,$190.67,Damaged,B,Functional,,,,,N,2026-09-06
+TRG00500,00100000500,Item 500 Accessories,WFS-OVERFLOW,Walmart Monitors (Finished),Accessories,HP,FALSE,Active,$88.77,$104.95,Good,A,Functional,,RTV Liquidate,,,Y,2026-09-07
+TRG00501,00100000501,Item 501 Tablets,BRTON-WM-FOO,Walmart Computer Parts (Finished),Tablets,HP,FALSE,Active,$162.56,$72.03,Very Good,B,Functional,,,,,N,2026-08-19
+TRG00502,00100000502,Item 502 Computers,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Sony,TRUE,Active,$237.69,$57.58,Fair,B,Functional,,,,,N,2026-08-29
+TRG00503,00100000503,Item 503 Accessories,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Accessories,Sony,FALSE,Active,$252.69,$164.78,Fair,C,Functional,,Research,,,N,2026-09-12
+TRG00504,00100000504,Item 504 Headphones,PHXAZ-RETURNS,Walmart Monitors (Finished),Headphones,Lenovo,FALSE,Active,$148.19,$63.55,Very Good,A,Functional,PAL-14,,,,Y,2026-08-22
+TRG00505,00100000505,Item 505 Monitors,WFS-OVERFLOW,Open Box Returns,Monitors,Dell,FALSE,Active,$225.26,$256.96,Very Good,A,Functional,,Non RTV,,,N,2026-09-09
+TRG00506,00100000506,Item 506 Accessories,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Accessories,Sony,FALSE,Active,$105.34,$187.05,Very Good,A,Functional,PAL-74,Non RTV,,,Y,2026-09-11
+TRG00507,00100000507,Item 507 Accessories,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,FALSE,Active,$211.43,$225.30,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-06
+TRG00508,00100000508,Item 508 Monitors,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,Sony,FALSE,Active,$45.66,$211.76,Damaged,A,Functional,PAL-75,Non RTV,,,N,2026-08-25
+TRG00509,00100000509,Item 509 Accessories,WFS-OVERFLOW,Walmart Monitors (Finished),Accessories,HP,FALSE,Active,$183.24,$136.35,Fair,A,Functional,,Non RTV,,,N,2026-08-18
+TRG00510,00100000510,Item 510 Headphones,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Headphones,HP,FALSE,Active,$163.92,$76.14,Damaged,B,Functional,,Research,,,Y,2026-09-10
+TRG00510,00100000510,Item 510 duplicate last,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Headphones,Dell,FALSE,Active,$163.92,$76.14,Damaged,B,Functional,,Research,,,N,2026-09-10
+TRG00511,00100000511,Item 511 Headphones,BRTON-WM-FOO,Specialty,Headphones,Dell,FALSE,Active,$158.62,$81.67,Good,B,Functional,PAL-59,,,,Y,2026-09-10
+TRG00512,00100000512,Item 512 Computers,WFS-OVERFLOW,Warehouse Direct,Computers,Lenovo,TRUE,Active,$186.14,$245.35,Very Good,B,Functional,,,,,N,2026-09-09
+TRG00513,00100000513,Item 513 Monitors,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Monitors,Lenovo,FALSE,Active,$133.44,$54.23,Damaged,C,Functional,,RTV Liquidate,,,N,2026-09-05
+TRG00514,00100000514,Item 514 Accessories,WFS-OVERFLOW,Walmart Computer Parts (Finished),Accessories,Dell,FALSE,Active,$79.07,$117.22,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-23
+TRG00515,00100000515,Item 515 Monitors,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,Sony,FALSE,Active,$167.02,$149.79,Fair,B,Functional,,Non RTV,,,Y,2026-09-01
+TRG00516,00100000516,Item 516 Computers,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Sony,FALSE,Active,$223.65,$38.42,Damaged,B,Functional,,Non RTV,,,N,2026-08-14
+TRG00517,00100000517,Item 517 Tablets,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Dell,FALSE,Active,$193.93,$50.23,Damaged,C,Functional,PAL-42,RTV Liquidate,,,N,2026-08-16
+TRG00518,00100000518,Item 518 Computers,BRTON-LENOVO-DC-400,Walmart Computers Parts (Finished),Computers,Dell,FALSE,Active,$240.72,$215.24,Good,B,Functional,,RTV Liquidate,,,Y,2026-09-15
+TRG00519,00100000519,Item 519 Headphones,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Headphones,Sony,FALSE,Active,$167.52,$149.24,Good,A,Functional,,Non RTV,,,N,2026-08-28
+TRG00520,00100000520,Item 520 Computers,BRTON-WM-BAR,Walmart Computer Parts (Finished),Computers,Sony,FALSE,Active,$136.41,$36.64,Very Good,B,Functional,,RTV Approved,,,N,2026-08-20
+TRG00521,00100000521,Item 521 TVs,DALLX-HEADPHONES,Open Box Returns,TVs,Dell,FALSE,Active,$198.30,$239.77,Fair,B,Functional,,RTV,,,N,2026-08-12
+TRG00522,00100000522,Item 522 Headphones,BRTON-WM-FOO,Specialty,Headphones,Lenovo,FALSE,Active,$142.19,$208.85,Fair,A,Functional,,Non RTV,,,N,2026-08-20
+TRG00523,00100000523,Item 523 TVs,BRTON-WM-FOO,Walmart Computers Parts (Finished),TVs,HP,FALSE,Active,$141.16,$164.97,Damaged,C,Functional,,RTV Liquidate,,,Y,2026-08-07
+TRG00524,00100000524,Item 524 Headphones,MILON-WM-DOTCA-RTV,Warehouse Direct,Headphones,Lenovo,FALSE,Active,$223.50,$231.30,Fair,A,Functional,PAL-34,RTV Liquidate,,,N,2026-08-09
+TRG00525,00100000525,Item 525 Tablets,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Dell,FALSE,Active,$118.21,$203.42,Good,A,Functional,PAL-22,Non RTV,,,N,2026-09-01
+TRG00526,00100000526,Item 526 Computers,DALLX-HEADPHONES,Specialty,Computers,Sony,TRUE,Active,$113.61,$224.98,Good,B,Functional,PAL-24,RTV Liquidate,,,N,2026-09-12
+TRG00527,00100000527,Item 527 Headphones,MIAFL-HEAD-OFFICE,Specialty,Headphones,Lenovo,FALSE,Active,$95.26,$65.99,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-12
+TRG00527,00100000527,Item 527 duplicate last,MIAFL-HEAD-OFFICE,Specialty,Headphones,Dell,FALSE,Active,$95.26,$65.99,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-12
+TRG00528,00100000528,Item 528 TVs,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,FALSE,Active,$115.17,$246.07,Very Good,A,Functional,,Research,,,N,2026-09-07
+TRG00529,00100000529,Item 529 TVs,DALLX-HEADPHONES,Warehouse Direct,TVs,HP,FALSE,Active,$188.62,$43.70,Fair,C,Functional,PAL-65,,,,N,2026-08-29
+TRG00530,00100000530,Item 530 Monitors,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,Samsung,FALSE,Active,$122.37,$139.68,Very Good,B,Functional,,,,,Y,2026-08-25
+TRG00531,00100000531,Item 531 Monitors,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Monitors,Dell,FALSE,Active,$126.18,$181.73,Good,A,Functional,,,,,N,2026-08-08
+TRG00532,00100000532,Item 532 TVs,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Sony,FALSE,Active,$160.29,$59.72,Good,A,Functional,,Non RTV,,,Y,2026-08-14
+TRG00533,00100000533,Item 533 Headphones,DS-MONTERREY,Warehouse Direct,Headphones,Dell,FALSE,Active,$111.09,$107.43,Good,B,Functional,,RTV Liquidate,,,N,2026-08-10
+TRG00534,00100000534,Item 534 TVs,WFS-OVERFLOW,Warehouse Direct,TVs,Dell,FALSE,Active,$51.39,$197.96,Fair,A,Functional,PAL-29,,,,N,2026-09-05
+TRG00535,00100000535,Item 535 Accessories,DALLX-HEADPHONES,Walmart Monitors (Finished),Accessories,Dell,FALSE,Active,$157.87,$97.70,Good,A,Functional,,Return to Stock,,,N,2026-09-01
+TRG00536,00100000536,Item 536 Tablets,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Tablets,HP,FALSE,Active,$211.78,$32.99,Very Good,A,Functional,,Non RTV,,,N,2026-08-14
+TRG00537,00100000537,Item 537 Monitors,MILON-WM-DOTCA-RTV,Warehouse Direct,Monitors,Samsung,FALSE,Active,$242.25,$256.89,Fair,C,Functional,PAL-22,Non RTV,,,N,2026-08-14
+TRG00538,00100000538,Item 538 TVs,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),TVs,Sony,FALSE,Active,$125.02,$138.00,Fair,C,Functional,,,,,N,2026-09-13
+TRG00539,00100000539,Item 539 Tablets,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Tablets,Sony,FALSE,Active,$161.40,$143.25,Very Good,B,Functional,,Research,,,N,2026-09-05
+TRG00540,00100000540,Item 540 Computers,WFS-OVERFLOW,Warehouse Direct,Computers,Lenovo,FALSE,Active,$189.03,$143.45,Good,C,Functional,,Non RTV,,,N,2026-08-07
+TRG00541,00100000541,Item 541 Monitors,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),Monitors,Dell,FALSE,Active,$58.11,$251.23,Good,B,Functional,,Non RTV,,,N,2026-08-27
+TRG00542,00100000542,Item 542 Tablets,WFS-OVERFLOW,Walmart Monitors (Finished),Tablets,Lenovo,FALSE,Active,$172.40,$224.86,Very Good,C,Functional,PAL-5,RTV Approved,,,N,2026-08-13
+TRG00543,00100000543,Item 543 Accessories,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Accessories,Lenovo,TRUE,Active,$240.17,$144.21,Fair,A,Functional,,Return to Stock,,,Y,2026-08-20
+TRG00544,00100000544,Item 544 Tablets,PHXAZ-RETURNS,Warehouse Direct,Tablets,Dell,FALSE,Active,$72.82,$158.03,Very Good,C,Functional,,,,,Y,2026-09-05
+TRG00544,00100000544,Item 544 duplicate last,PHXAZ-RETURNS,Warehouse Direct,Tablets,Dell,FALSE,Active,$72.82,$158.03,Very Good,C,Functional,,,,,N,2026-09-05
+TRG00545,00100000545,Item 545 Monitors,MILON-WM-DOTCA-RTV,Walmart Finished Goods Wide Sku (Finished),Monitors,HP,FALSE,Active,$60.03,$167.32,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-16
+TRG00546,00100000546,Item 546 Computers,PHXAZ-RETURNS,Walmart Monitors (Finished),Computers,Sony,FALSE,Active,$90.13,$137.68,Fair,C,Functional,,Research,,,Y,2026-09-09
+TRG00547,00100000547,Item 547 Accessories,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,FALSE,Active,$138.36,$156.16,Good,A,Functional,PAL-68,Return to Stock,,,N,2026-08-25
+TRG00548,00100000548,Item 548 Tablets,BRTON-WM-BAR,Walmart Computers Parts (Finished),Tablets,Samsung,FALSE,Active,$186.63,$79.19,Very Good,B,Functional,,RTV,,,N,2026-08-09
+TRG00549,00100000549,Item 549 Headphones,PHXAZ-RETURNS,Open Box Returns,Headphones,Lenovo,FALSE,Active,$182.53,$256.86,Very Good,A,Functional,,Non RTV,,,N,2026-09-03
+TRG00550,00100000550,Item 550 Computers,MIAFL-HEAD-OFFICE,Warehouse Direct,Computers,Lenovo,TRUE,Active,$63.90,$156.22,Fair,C,Functional,,,,,N,2026-08-06
+TRG00551,00100000551,Item 551 Accessories,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Accessories,Lenovo,FALSE,Active,$120.89,$155.86,Very Good,B,Functional,PAL-80,Research,,,Y,2026-08-29
+TRG00552,00100000552,Item 552 Computers,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Lenovo,FALSE,Active,$185.31,$259.55,Very Good,A,Functional,PAL-36,RTV Liquidate,,,N,2026-09-05
+TRG00553,00100000553,Item 553 Monitors,BRTON-WM-BAR,Warehouse Direct,Monitors,Dell,FALSE,Active,$41.35,$243.58,Very Good,B,Functional,PAL-19,,,,Y,2026-08-08
+TRG00554,00100000554,Item 554 Monitors,MIAFL-HEAD-OFFICE,Open Box Returns,Monitors,Lenovo,FALSE,Active,$139.03,$226.07,Fair,B,Functional,,Non RTV,,,N,2026-08-15
+TRG00555,00100000555,Item 555 TVs,BRTON-LENOVO-DC-400,Walmart Computer Parts (Finished),TVs,Samsung,FALSE,Active,$134.94,$84.69,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-22
+TRG00556,00100000556,Item 556 Tablets,PHXAZ-RETURNS,Warehouse Direct,Tablets,Sony,FALSE,Active,$144.46,$62.03,Damaged,A,Functional,,RTV Liquidate,,,N,2026-08-10
+TRG00557,00100000557,Item 557 Tablets,BRTON-WM-BAR,Walmart Computers Parts (Finished),Tablets,HP,TRUE,Active,$43.58,$112.51,Very Good,C,Functional,,,,,N,2026-09-14
+TRG00558,00100000558,Item 558 TVs,WFS-OVERFLOW,Specialty,TVs,Lenovo,FALSE,Active,$121.20,$188.19,Fair,A,Functional,,Non RTV,,,Y,2026-09-14
+TRG00559,00100000559,Item 559 Tablets,WFS-OVERFLOW,Specialty,Tablets,Samsung,FALSE,Active,$234.53,$146.34,Good,B,Functional,,Non RTV,,,N,2026-09-08
+TRG00560,00100000560,Item 560 Tablets,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Tablets,Lenovo,FALSE,Active,$115.49,$234.41,Damaged,C,Functional,PAL-80,RTV Liquidate,,,N,2026-09-15
+TRG00561,00100000561,Item 561 Computers,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Computers,Lenovo,FALSE,Active,$42.15,$151.35,Damaged,B,Functional,,,,,N,2026-08-25
+TRG00561,00100000561,Item 561 duplicate last,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Computers,Dell,FALSE,Active,$42.15,$151.35,Damaged,B,Functional,,,,,N,2026-08-25
+TRG00562,00100000562,Item 562 Monitors,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,Sony,FALSE,Active,$133.09,$256.21,Good,C,Functional,PAL-69,Non RTV,,,N,2026-09-07
+TRG00563,00100000563,Item 563 Computers,MILON-WM-DOTCA-RTV,Warehouse Direct,Computers,Lenovo,FALSE,Active,$203.04,$99.87,Good,A,Functional,,Non RTV,,,N,2026-09-12
+TRG00564,00100000564,Item 564 Monitors,MILON-WM-DOTCA-RTV,Open Box Returns,Monitors,Sony,FALSE,Active,$158.75,$121.73,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-16
+TRG00565,00100000565,Item 565 TVs,MILON-WM-DOTCA-RTV,Warehouse Direct,TVs,Samsung,FALSE,Active,$207.48,$44.76,Damaged,C,Functional,,,,,N,2026-08-24
+TRG00566,00100000566,Item 566 Accessories,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Accessories,Samsung,FALSE,Active,$211.74,$245.74,Very Good,A,Functional,,RTV,,,N,2026-09-13
+TRG00567,00100000567,Item 567 TVs,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),TVs,Dell,FALSE,Active,$179.49,$233.91,Fair,B,Functional,,Non RTV,,,N,2026-08-11
+TRG00568,00100000568,Item 568 TVs,MIAFL-HEAD-OFFICE,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Lenovo,FALSE,Active,$194.13,$45.54,Damaged,A,Functional,,Non RTV,,,N,2026-08-09
+TRG00569,00100000569,Item 569 Computers,PHXAZ-RETURNS,Warehouse Direct,Computers,Dell,FALSE,Active,$166.60,$151.90,Fair,B,Functional,,RTV Liquidate,,,N,2026-08-28
+TRG00570,00100000570,Item 570 Computers,DALLX-HEADPHONES,Specialty,Computers,Dell,FALSE,Active,$159.64,$70.71,Good,A,Functional,,,,,N,2026-08-14
+TRG00571,00100000571,Item 571 Computers,BRTON-WM-FOO,Walmart Monitors (Finished),Computers,Dell,FALSE,Active,$106.63,$64.15,Damaged,A,Functional,,RTV Liquidate,,,N,2026-08-22
+TRG00572,00100000572,Item 572 Computers,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Computers,Sony,FALSE,Active,$150.33,$69.26,Fair,B,Functional,PAL-46,Non RTV,,,Y,2026-09-02
+TRG00573,00100000573,Item 573 TVs,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,FALSE,Active,$246.95,$70.15,Good,B,Functional,PAL-58,,,,Y,2026-08-19
+TRG00574,00100000574,Item 574 Computers,DS-MONTERREY,Open Box Returns,Computers,Samsung,FALSE,Active,$172.23,$225.06,Very Good,A,Functional,,Non RTV,,,N,2026-08-20
+TRG00575,00100000575,Item 575 Tablets,WFS-OVERFLOW,Walmart Computers Parts (Finished),Tablets,Sony,FALSE,Active,$206.94,$116.90,Damaged,A,Functional,,Non RTV,,,N,2026-08-25
+TRG00576,00100000576,Item 576 Computers,PHXAZ-RETURNS,Specialty,Computers,Lenovo,FALSE,Active,$93.74,$131.58,Fair,C,Functional,,,,,N,2026-09-12
+TRG00577,00100000577,Item 577 Computers,BRTON-WM-BAR,Walmart Monitors (Finished),Computers,Sony,FALSE,Active,$47.21,$63.37,Fair,A,Functional,PAL-66,Return to Stock,,,N,2026-08-16
+TRG00578,00100000578,Item 578 Accessories,BRTON-WM-FOO,Walmart Computer Parts (Finished),Accessories,HP,FALSE,Active,$239.73,$154.43,Very Good,C,Functional,PAL-27,RTV Liquidate,,,N,2026-09-10
+TRG00578,00100000578,Item 578 duplicate last,BRTON-WM-FOO,Walmart Computer Parts (Finished),Accessories,Dell,FALSE,Active,$239.73,$154.43,Very Good,C,Functional,PAL-27,RTV Liquidate,,,N,2026-09-10
+TRG00579,00100000579,Item 579 TVs,BRTON-WM-BAR,Open Box Returns,TVs,HP,FALSE,Active,$204.43,$233.20,Fair,A,Functional,,Non RTV,,,N,2026-08-23
+TRG00580,00100000580,Item 580 Accessories,WFS-OVERFLOW,Walmart Computers Parts (Finished),Accessories,Lenovo,FALSE,Active,$122.51,$215.77,Fair,B,Functional,,Non RTV,,,Y,2026-08-24
+TRG00581,00100000581,Item 581 TVs,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),TVs,Lenovo,FALSE,Active,$148.09,$196.95,Fair,B,Functional,PAL-30,RTV Liquidate,,,Y,2026-08-07
+TRG00582,00100000582,Item 582 Monitors,DALLX-HEADPHONES,Specialty,Monitors,Sony,FALSE,Active,$224.98,$261.64,Good,A,Functional,,,,,N,2026-08-11
+TRG00583,00100000583,Item 583 Tablets,MILON-WM-DOTCA-RTV,Open Box Returns,Tablets,Lenovo,FALSE,Active,$151.45,$222.49,Very Good,C,Functional,PAL-78,,,,N,2026-08-09
+TRG00584,00100000584,Item 584 Accessories,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Accessories,Sony,FALSE,Active,$44.86,$189.58,Very Good,B,Functional,PAL-5,,,,N,2026-08-30
+TRG00585,00100000585,Item 585 Monitors,BRTON-WM-BAR,Walmart Computer Parts (Finished),Monitors,HP,FALSE,Active,$109.97,$134.97,Very Good,A,Functional,,,,,N,2026-09-10
+TRG00586,00100000586,Item 586 Accessories,BRTON-WM-BAR,Warehouse Direct,Accessories,Sony,FALSE,Active,$49.15,$221.16,Very Good,A,Functional,,Non RTV,,,Y,2026-09-15
+TRG00587,00100000587,Item 587 Tablets,DALLX-HEADPHONES,Specialty,Tablets,Samsung,FALSE,Active,$158.10,$147.37,Very Good,B,Functional,,Non RTV,,,N,2026-09-02
+TRG00588,00100000588,Item 588 Headphones,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Headphones,Sony,FALSE,Active,$203.94,$96.00,Damaged,C,Functional,PAL-6,Non RTV,,,N,2026-09-01
+TRG00589,00100000589,Item 589 Computers,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Sony,FALSE,Active,$109.62,$269.56,Damaged,C,Functional,,,,,N,2026-08-28
+TRG00590,00100000590,Item 590 Headphones,WFS-OVERFLOW,Walmart Computers Parts (Finished),Headphones,Dell,FALSE,Active,$168.02,$167.00,Fair,C,Functional,,Non RTV,,,N,2026-08-09
+TRG00591,00100000591,Item 591 Computers,BRTON-WM-FOO,Walmart Monitors (Finished),Computers,Dell,FALSE,Active,$69.30,$43.59,Fair,C,Functional,,Non RTV,,,N,2026-08-08
+TRG00592,00100000592,Item 592 TVs,BRTON-LENOVO-DC-400,Open Box Returns,TVs,HP,FALSE,Active,$114.63,$81.66,Very Good,A,Functional,PAL-6,,,,N,2026-09-05
+TRG00593,00100000593,Item 593 TVs,BRTON-WM-BAR,Warehouse Direct,TVs,Lenovo,FALSE,Active,$240.81,$75.81,Very Good,B,Functional,,,,,N,2026-08-15
+TRG00594,00100000594,Item 594 Computers,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Computers,Dell,FALSE,Active,$217.49,$143.98,Good,A,Functional,,Return to Stock,,,Y,2026-09-03
+TRG00595,00100000595,Item 595 TVs,BRTON-WM-BAR,Walmart Monitors (Finished),TVs,Sony,FALSE,Active,$141.85,$175.75,Damaged,B,Functional,,Non RTV,,,N,2026-09-12
+TRG00595,00100000595,Item 595 duplicate last,BRTON-WM-BAR,Walmart Monitors (Finished),TVs,Dell,FALSE,Active,$141.85,$175.75,Damaged,B,Functional,,Non RTV,,,N,2026-09-12
+TRG00596,00100000596,Item 596 Accessories,BRTON-WM-FOO,Walmart Monitors (Finished),Accessories,Samsung,FALSE,Active,$148.42,$87.96,Damaged,C,Functional,,,,,N,2026-09-02
+TRG00597,00100000597,Item 597 Tablets,BRTON-WM-FOO,Walmart Computer Parts (Finished),Tablets,Dell,FALSE,Active,$182.23,$132.83,Fair,B,Functional,PAL-14,RTV Liquidate,,,N,2026-08-20
+TRG00598,00100000598,Item 598 Accessories,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,FALSE,Active,$165.59,$144.96,Damaged,B,Functional,,RTV Approved,,,N,2026-09-15
+TRG00599,00100000599,Item 599 Computers,WFS-OVERFLOW,Walmart Computer Parts (Finished),Computers,Lenovo,FALSE,Active,$98.82,$48.15,Good,C,Functional,,RTV Liquidate,,,N,2026-09-12
+TRG00600,00100000600,Item 600 Computers,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Computers,Sony,FALSE,Active,$72.13,$245.09,Damaged,B,Functional,PAL-69,RTV Liquidate,,,N,2026-08-11
+TRG00601,00100000601,Item 601 Accessories,BRTON-WM-BAR,Walmart Computer Parts (Finished),Accessories,Sony,FALSE,Active,$114.42,$262.76,Good,C,Functional,PAL-20,RTV Liquidate,,,Y,2026-08-29
+TRG00602,00100000602,Item 602 TVs,BRTON-WM-FOO,Open Box Returns,TVs,Sony,FALSE,Active,$197.89,$50.15,Very Good,B,Functional,,Non RTV,,,N,2026-08-12
+TRG00603,00100000603,Item 603 Headphones,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Sony,FALSE,Active,$89.74,$51.83,Good,B,Functional,,Non RTV,,,Y,2026-08-08
+TRG00604,00100000604,Item 604 Monitors,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),Monitors,Samsung,FALSE,Active,$43.89,$140.95,Damaged,C,Functional,,,,,N,2026-08-12
+TRG00605,00100000605,Item 605 TVs,MIAFL-HEAD-OFFICE,Warehouse Direct,TVs,Sony,FALSE,Active,$154.34,$102.04,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-10
+TRG00606,00100000606,Item 606 Tablets,DALLX-HEADPHONES,Open Box Returns,Tablets,HP,FALSE,Active,$225.37,$142.58,Fair,A,Functional,,Non RTV,,,N,2026-08-21
+TRG00607,00100000607,Item 607 Accessories,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Accessories,Samsung,FALSE,Active,$194.30,$215.13,Good,A,Functional,,RTV Liquidate,,,N,2026-09-08
+TRG00608,00100000608,Item 608 TVs,DALLX-HEADPHONES,Warehouse Direct,TVs,HP,FALSE,Active,$163.91,$30.15,Very Good,A,Functional,PAL-66,RTV Liquidate,,,N,2026-08-30
+TRG00609,00100000609,Item 609 TVs,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Dell,FALSE,Active,$141.82,$77.03,Good,B,Functional,,Non RTV,,,N,2026-09-06
+TRG00610,00100000610,Item 610 Headphones,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Headphones,Samsung,FALSE,Active,$177.72,$142.52,Fair,A,Functional,PAL-79,Non RTV,,,Y,2026-08-14
+TRG00611,00100000611,Item 611 Computers,PHXAZ-RETURNS,Specialty,Computers,HP,FALSE,Active,$186.66,$149.80,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00612,00100000612,Item 612 Tablets,PHXAZ-RETURNS,Warehouse Direct,Tablets,Samsung,FALSE,Active,$135.58,$236.03,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00612,00100000612,Item 612 duplicate last,PHXAZ-RETURNS,Warehouse Direct,Tablets,Dell,FALSE,Active,$135.58,$236.03,Very Good,A,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00613,00100000613,Item 613 Computers,BRTON-WM-BAR,Walmart Computer Parts (Finished),Computers,Lenovo,FALSE,Active,$152.46,$251.03,Fair,A,Functional,,Non RTV,,,N,2026-09-02
+TRG00614,00100000614,Item 614 TVs,WFS-OVERFLOW,Walmart Monitors (Finished),TVs,Sony,FALSE,Active,$101.43,$163.05,Fair,B,Functional,PAL-19,RTV Approved,,,N,2026-08-16
+TRG00615,00100000615,Item 615 Headphones,DS-MONTERREY,Walmart Finished Goods Wide Sku (Finished),Headphones,Sony,FALSE,Active,$249.75,$176.71,Very Good,C,Functional,PAL-43,Non RTV,,,N,2026-08-17
+TRG00616,00100000616,Item 616 Accessories,MILON-WM-DOTCA-RTV,Warehouse Direct,Accessories,Sony,FALSE,Active,$116.74,$165.52,Very Good,C,Functional,,Non RTV,,,N,2026-08-10
+TRG00617,00100000617,Item 617 Accessories,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Accessories,HP,FALSE,Active,$162.65,$92.63,Damaged,C,Functional,,,,,N,2026-08-08
+TRG00618,00100000618,Item 618 Computers,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Computers,Lenovo,FALSE,Active,$119.63,$46.21,Good,A,Functional,PAL-70,RTV Liquidate,,,N,2026-09-12
+TRG00619,00100000619,Item 619 Headphones,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Sony,FALSE,Active,$257.69,$80.44,Damaged,C,Functional,,RTV Approved,,,Y,2026-08-08
+TRG00620,00100000620,Item 620 TVs,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),TVs,Lenovo,FALSE,Active,$215.74,$221.31,Fair,A,Functional,,RTV Approved,,,Y,2026-08-06
+TRG00621,00100000621,Item 621 Headphones,MILON-WM-DOTCA-RTV,Walmart Computer Parts (Finished),Headphones,HP,FALSE,Active,$195.82,$80.52,Very Good,C,Functional,,Return to Stock,,,N,2026-08-21
+TRG00622,00100000622,Item 622 Computers,DALLX-HEADPHONES,Walmart Monitors (Finished),Computers,Lenovo,FALSE,Active,$246.80,$242.16,Damaged,A,Functional,PAL-69,RTV Liquidate,,,N,2026-09-15
+TRG00623,00100000623,Item 623 TVs,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,HP,FALSE,Active,$177.32,$242.76,Damaged,A,Functional,,Non RTV,,,N,2026-09-11
+TRG00624,00100000624,Item 624 Monitors,BRTON-WM-BAR,Walmart Computers Parts (Finished),Monitors,Samsung,FALSE,Active,$134.57,$112.91,Very Good,C,Functional,,RTV,,,N,2026-09-12
+TRG00625,00100000625,Item 625 Monitors,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Monitors,Dell,FALSE,Active,$189.17,$187.24,Good,B,Functional,,Non RTV,,,N,2026-09-01
+TRG00626,00100000626,Item 626 Tablets,PHXAZ-RETURNS,Open Box Returns,Tablets,HP,FALSE,Active,$202.38,$185.63,Very Good,B,Functional,,RTV Liquidate,,,Y,2026-09-11
+TRG00627,00100000627,Item 627 Headphones,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Headphones,Dell,FALSE,Active,$86.83,$257.85,Good,C,Functional,PAL-48,Non RTV,,,N,2026-08-23
+TRG00628,00100000628,Item 628 Headphones,BRTON-WM-FOO,Warehouse Direct,Headphones,Lenovo,FALSE,Active,$48.62,$257.27,Good,A,Functional,,RTV Approved,,,N,2026-08-09
+TRG00629,00100000629,Item 629 Tablets,BRTON-LENOVO-DC-400,Specialty,Tablets,Dell,FALSE,Active,$52.94,$86.10,Fair,C,Functional,PAL-48,,,,N,2026-09-01
+TRG00629,00100000629,Item 629 duplicate last,BRTON-LENOVO-DC-400,Specialty,Tablets,Dell,FALSE,Active,$52.94,$86.10,Fair,C,Functional,PAL-48,,,,N,2026-09-01
+TRG00630,00100000630,Item 630 TVs,PHXAZ-RETURNS,Warehouse Direct,TVs,Samsung,FALSE,Active,$256.82,$68.57,Damaged,C,Functional,,Non RTV,,,N,2026-08-16
+TRG00631,00100000631,Item 631 TVs,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),TVs,Sony,FALSE,Active,$213.73,$136.16,Good,C,Functional,,,,,N,2026-09-15
+TRG00632,00100000632,Item 632 Computers,PHXAZ-RETURNS,Warehouse Direct,Computers,HP,FALSE,Active,$225.01,$238.18,Damaged,C,Functional,,RTV Liquidate,,,Y,2026-08-21
+TRG00633,00100000633,Item 633 Tablets,PHXAZ-RETURNS,Warehouse Direct,Tablets,Samsung,FALSE,Active,$87.18,$39.93,Good,B,Functional,,Non RTV,,,N,2026-08-24
+TRG00634,00100000634,Item 634 Computers,MIAFL-HEAD-OFFICE,Walmart Monitors (Finished),Computers,HP,FALSE,Active,$51.20,$30.45,Very Good,C,Functional,,Non RTV,,,N,2026-09-14
+TRG00635,00100000635,Item 635 Monitors,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,HP,FALSE,Active,$259.66,$164.44,Good,A,Functional,,RTV Liquidate,,,N,2026-08-06
+TRG00636,00100000636,Item 636 Accessories,BRTON-WM-BAR,Open Box Returns,Accessories,Dell,FALSE,Active,$131.18,$69.19,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-28
+TRG00637,00100000637,Item 637 Headphones,WFS-OVERFLOW,Specialty,Headphones,Samsung,FALSE,Active,$232.90,$205.55,Very Good,C,Functional,PAL-34,,,,Y,2026-08-26
+TRG00638,00100000638,Item 638 Tablets,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Tablets,HP,FALSE,Active,$50.02,$204.29,Very Good,B,Functional,PAL-3,Non RTV,,,N,2026-08-29
+TRG00639,00100000639,Item 639 Computers,DALLX-HEADPHONES,Warehouse Direct,Computers,Lenovo,FALSE,Active,$212.66,$177.77,Very Good,B,Functional,,Non RTV,,,N,2026-09-02
+TRG00640,00100000640,Item 640 Tablets,BRTON-WM-BAR,Walmart Monitors (Finished),Tablets,HP,FALSE,Active,$95.64,$115.45,Damaged,B,Functional,,RTV Liquidate,,,Y,2026-09-06
+TRG00641,00100000641,Item 641 Computers,DALLX-HEADPHONES,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Lenovo,FALSE,Active,$192.77,$144.89,Damaged,B,Functional,,,,,N,2026-09-02
+TRG00642,00100000642,Item 642 Accessories,MIAFL-HEAD-OFFICE,Walmart Finished Goods Wide Sku (Finished),Accessories,Samsung,FALSE,Active,$144.51,$96.64,Very Good,A,Functional,,Non RTV,,,N,2026-09-01
+TRG00643,00100000643,Item 643 Monitors,BRTON-WM-BAR,Walmart Monitors (Finished),Monitors,Lenovo,FALSE,Active,$256.34,$72.21,Fair,C,Functional,PAL-33,RTV Liquidate,,,N,2026-09-05
+TRG00644,00100000644,Item 644 TVs,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Lenovo,FALSE,Active,$258.61,$68.84,Good,B,Functional,,,,,N,2026-09-01
+TRG00645,00100000645,Item 645 TVs,DALLX-HEADPHONES,Warehouse Direct,TVs,Sony,FALSE,Active,$190.86,$82.15,Damaged,C,Functional,,RTV Liquidate,,,Y,2026-08-06
+TRG00646,00100000646,Item 646 Computers,WFS-OVERFLOW,Walmart Monitors (Finished),Computers,Sony,FALSE,Active,$205.07,$121.06,Damaged,B,Functional,,RTV Liquidate,,,Y,2026-09-12
+TRG00646,00100000646,Item 646 duplicate last,WFS-OVERFLOW,Walmart Monitors (Finished),Computers,Dell,FALSE,Active,$205.07,$121.06,Damaged,B,Functional,,RTV Liquidate,,,N,2026-09-12
+TRG00647,00100000647,Item 647 Tablets,DALLX-HEADPHONES,Specialty,Tablets,Sony,FALSE,Active,$196.76,$56.86,Damaged,B,Functional,,RTV Liquidate,,,N,2026-09-13
+TRG00648,00100000648,Item 648 Headphones,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Headphones,Samsung,FALSE,Active,$129.94,$225.55,Damaged,A,Functional,,,,,N,2026-09-12
+TRG00649,00100000649,Item 649 TVs,WFS-OVERFLOW,Specialty,TVs,Samsung,FALSE,Active,$74.04,$69.11,Good,A,Functional,PAL-33,RTV Approved,,,N,2026-08-11
+TRG00650,00100000650,Item 650 TVs,PHXAZ-RETURNS,Walmart Computer Parts (Finished),TVs,HP,FALSE,Active,$120.70,$119.93,Damaged,C,Functional,,RTV Liquidate,,,N,2026-08-30
+TRG00651,00100000651,Item 651 Accessories,BRTON-WM-FOO,Walmart Finished Goods Wide Sku (Finished),Accessories,Samsung,FALSE,Active,$218.54,$178.60,Fair,C,Functional,,Non RTV,,,Y,2026-08-22
+TRG00652,00100000652,Item 652 TVs,PHXAZ-RETURNS,Walmart Computers Parts (Finished),TVs,HP,FALSE,Active,$236.05,$157.14,Very Good,B,Functional,,RTV Approved,,,Y,2026-08-31
+TRG00653,00100000653,Item 653 Headphones,WFS-OVERFLOW,Walmart Headphones & Speakers (Not Apple) (Finished),Headphones,Samsung,FALSE,Active,$134.46,$70.57,Good,B,Functional,PAL-32,Non RTV,,,N,2026-08-31
+TRG00654,00100000654,Item 654 Tablets,MIAFL-HEAD-OFFICE,Warehouse Direct,Tablets,Sony,FALSE,Active,$205.05,$232.04,Very Good,C,Functional,PAL-25,RTV Liquidate,,,N,2026-09-12
+TRG00655,00100000655,Item 655 Monitors,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Monitors,Sony,FALSE,Active,$44.53,$86.76,Fair,A,Functional,,RTV,,,Y,2026-09-12
+TRG00656,00100000656,Item 656 TVs,DS-MONTERREY,Specialty,TVs,Sony,FALSE,Active,$240.66,$172.65,Damaged,C,Functional,,RTV Liquidate,,,Y,2026-09-13
+TRG00657,00100000657,Item 657 Headphones,BRTON-WM-FOO,Open Box Returns,Headphones,HP,FALSE,Active,$200.09,$232.86,Damaged,A,Functional,PAL-74,RTV Liquidate,,,N,2026-08-26
+TRG00658,00100000658,Item 658 Headphones,BRTON-WM-BAR,Walmart Monitors (Finished),Headphones,Dell,FALSE,Active,$142.23,$138.46,Damaged,B,Functional,PAL-55,RTV Liquidate,,,N,2026-09-02
+TRG00659,00100000659,Item 659 Accessories,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Accessories,Lenovo,FALSE,Active,$125.73,$184.96,Very Good,B,Functional,PAL-21,Non RTV,,,N,2026-08-06
+TRG00660,00100000660,Item 660 Computers,BRTON-WM-FOO,Warehouse Direct,Computers,HP,FALSE,Active,$162.64,$130.50,Fair,B,Functional,,Non RTV,,,N,2026-08-13
+TRG00661,00100000661,Item 661 Accessories,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,HP,FALSE,Active,$146.38,$101.77,Good,B,Functional,,Non RTV,,,N,2026-08-20
+TRG00662,00100000662,Item 662 Computers,BRTON-WM-BAR,Walmart Computers Parts (Finished),Computers,Sony,FALSE,Active,$220.26,$245.69,Very Good,B,Functional,,RTV,,,N,2026-08-19
+TRG00663,00100000663,Item 663 Computers,BRTON-WM-BAR,Specialty,Computers,Samsung,FALSE,Active,$206.59,$186.43,Damaged,C,Functional,,,,,N,2026-09-03
+TRG00663,00100000663,Item 663 duplicate last,BRTON-WM-BAR,Specialty,Computers,Dell,FALSE,Active,$206.59,$186.43,Damaged,C,Functional,,,,,N,2026-09-03
+TRG00664,00100000664,Item 664 Tablets,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Tablets,Sony,FALSE,Active,$238.33,$155.13,Very Good,C,Functional,,Non RTV,,,N,2026-08-14
+TRG00665,00100000665,Item 665 Monitors,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Monitors,Sony,FALSE,Active,$61.57,$161.60,Good,A,Functional,PAL-46,RTV Approved,,,N,2026-08-28
+TRG00666,00100000666,Item 666 Headphones,BRTON-LENOVO-DC-400,Open Box Returns,Headphones,HP,FALSE,Active,$215.75,$210.15,Damaged,A,Functional,PAL-76,,,,N,2026-08-14
+TRG00667,00100000667,Item 667 Computers,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Computers,Samsung,FALSE,Active,$68.10,$160.54,Very Good,B,Functional,,Non RTV,,,N,2026-08-20
+TRG00668,00100000668,Item 668 Computers,MIAFL-HEAD-OFFICE,Walmart Computers Parts (Finished),Computers,Lenovo,FALSE,Active,$221.36,$33.27,Good,C,Functional,,RTV Liquidate,,,N,2026-09-04
+TRG00669,00100000669,Item 669 Computers,WFS-OVERFLOW,Open Box Returns,Computers,Dell,TRUE,Active,$210.96,$35.34,Fair,B,Functional,PAL-13,,,,N,2026-09-09
+TRG00670,00100000670,Item 670 TVs,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,FALSE,Active,$250.67,$68.65,Good,A,Functional,,,,,N,2026-08-07
+TRG00671,00100000671,Item 671 Headphones,MIAFL-HEAD-OFFICE,Open Box Returns,Headphones,Samsung,FALSE,Active,$168.98,$65.55,Fair,A,Functional,PAL-61,Non RTV,,,Y,2026-08-16
+TRG00672,00100000672,Item 672 TVs,MIAFL-HEAD-OFFICE,Open Box Returns,TVs,Samsung,FALSE,Active,$243.12,$114.22,Very Good,A,Functional,PAL-7,RTV Liquidate,,,N,2026-09-14
+TRG00673,00100000673,Item 673 TVs,PHXAZ-RETURNS,Open Box Returns,TVs,Samsung,FALSE,Active,$215.79,$199.97,Damaged,C,Functional,,,,,Y,2026-08-13
+TRG00674,00100000674,Item 674 Computers,PHXAZ-RETURNS,Walmart Computer Parts (Finished),Computers,Sony,FALSE,Active,$175.79,$81.67,Very Good,C,Functional,,,,,N,2026-09-11
+TRG00675,00100000675,Item 675 TVs,MIAFL-HEAD-OFFICE,Walmart Computer Parts (Finished),TVs,HP,FALSE,Active,$135.51,$212.44,Fair,B,Functional,,,,,N,2026-08-25
+TRG00676,00100000676,Item 676 TVs,WFS-OVERFLOW,Walmart Computers Parts (Finished),TVs,Samsung,FALSE,Active,$210.70,$157.03,Fair,C,Functional,,RTV Liquidate,,,Y,2026-08-16
+TRG00677,00100000677,Item 677 Computers,BRTON-WM-BAR,Walmart Computer Parts (Finished),Computers,Sony,FALSE,Active,$70.57,$226.09,Damaged,A,Functional,,RTV Liquidate,,,N,2026-09-01
+TRG00678,00100000678,Item 678 Monitors,WFS-OVERFLOW,Walmart Monitors (Finished),Monitors,Sony,FALSE,Active,$139.96,$211.42,Good,B,Functional,,Research,,,N,2026-08-15
+TRG00679,00100000679,Item 679 TVs,DALLX-HEADPHONES,Walmart Monitors (Finished),TVs,Dell,FALSE,Active,$210.06,$39.19,Very Good,C,Functional,,RTV Liquidate,,,N,2026-08-24
+TRG00680,00100000680,Item 680 TVs,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),TVs,Lenovo,FALSE,Active,$196.65,$125.45,Very Good,C,Functional,,Non RTV,,,N,2026-09-08
+TRG00680,00100000680,Item 680 duplicate last,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),TVs,Dell,FALSE,Active,$196.65,$125.45,Very Good,C,Functional,,Non RTV,,,N,2026-09-08
+TRG00681,00100000681,Item 681 Accessories,BRTON-WM-FOO,Warehouse Direct,Accessories,Samsung,TRUE,Active,$109.07,$42.24,Damaged,A,Functional,,Non RTV,,,Y,2026-08-27
+TRG00682,00100000682,Item 682 Accessories,WFS-OVERFLOW,Walmart Computers Parts (Finished),Accessories,Dell,FALSE,Active,$204.02,$93.40,Very Good,A,Functional,PAL-56,Non RTV,,,N,2026-09-01
+TRG00683,00100000683,Item 683 Headphones,DALLX-HEADPHONES,Specialty,Headphones,HP,FALSE,Active,$149.54,$174.53,Good,A,Functional,PAL-36,Non RTV,,,N,2026-09-11
+TRG00684,00100000684,Item 684 Tablets,BRTON-WM-BAR,Walmart Computer Parts (Finished),Tablets,HP,FALSE,Active,$146.50,$86.12,Fair,A,Functional,PAL-15,,,,N,2026-08-25
+TRG00685,00100000685,Item 685 Monitors,PHXAZ-RETURNS,Walmart Finished Goods Wide Sku (Finished),Monitors,Lenovo,FALSE,Active,$175.08,$61.16,Fair,B,Functional,PAL-42,Non RTV,,,N,2026-08-10
+TRG00686,00100000686,Item 686 Accessories,BRTON-WM-FOO,Specialty,Accessories,Dell,FALSE,Active,$208.53,$168.51,Good,B,Functional,,,,,N,2026-09-02
+TRG00687,00100000687,Item 687 Accessories,DALLX-HEADPHONES,Open Box Returns,Accessories,Lenovo,FALSE,Active,$58.42,$238.70,Very Good,C,Functional,,Non RTV,,,N,2026-09-04
+TRG00688,00100000688,Item 688 Monitors,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Monitors,HP,TRUE,Active,$199.90,$263.80,Damaged,A,Functional,,RTV Approved,,,N,2026-09-05
+TRG00689,00100000689,Item 689 Headphones,MIAFL-HEAD-OFFICE,Open Box Returns,Headphones,Lenovo,FALSE,Active,$58.14,$117.32,Damaged,B,Functional,PAL-73,Non RTV,,,Y,2026-09-01
+TRG00690,00100000690,Item 690 Accessories,MILON-WM-DOTCA-RTV,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,HP,FALSE,Active,$225.31,$257.23,Damaged,C,Functional,,,,,N,2026-08-07
+TRG00691,00100000691,Item 691 TVs,WFS-OVERFLOW,Walmart Monitors (Finished),TVs,Samsung,FALSE,Active,$190.29,$201.13,Damaged,C,Functional,PAL-6,Return to Stock,,,N,2026-08-24
+TRG00692,00100000692,Item 692 Headphones,BRTON-WM-BAR,Walmart Monitors (Finished),Headphones,HP,FALSE,Active,$213.46,$41.24,Good,B,Functional,,,,,N,2026-09-08
+TRG00693,00100000693,Item 693 Headphones,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Headphones,Lenovo,FALSE,Active,$211.70,$117.62,Good,B,Functional,PAL-1,RTV Approved,,,N,2026-08-18
+TRG00694,00100000694,Item 694 Headphones,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Headphones,HP,FALSE,Active,$169.09,$37.86,Good,A,Functional,,RTV Approved,,,N,2026-09-13
+TRG00695,00100000695,Item 695 Tablets,BRTON-WM-FOO,Walmart Computer Parts (Finished),Tablets,Samsung,FALSE,Active,$114.69,$157.68,Fair,C,Functional,,Non RTV,,,N,2026-08-12
+TRG00696,00100000696,Item 696 Computers,DALLX-HEADPHONES,Walmart Computers Parts (Finished),Computers,HP,FALSE,Active,$129.38,$178.19,Damaged,B,Functional,,,,,N,2026-09-01
+TRG00697,00100000697,Item 697 TVs,DS-MONTERREY,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Dell,FALSE,Active,$47.23,$117.61,Fair,C,Functional,,RTV Liquidate,,,Y,2026-08-14
+TRG00697,00100000697,Item 697 duplicate last,DS-MONTERREY,Walmart Headphones & Speakers (Not Apple) (Finished),TVs,Dell,FALSE,Active,$47.23,$117.61,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00698,00100000698,Item 698 Computers,WFS-OVERFLOW,Warehouse Direct,Computers,Dell,FALSE,Active,$82.74,$245.93,Very Good,C,Functional,,RTV Liquidate,,,N,2026-09-09
+TRG00699,00100000699,Item 699 Tablets,BRTON-WM-BAR,Walmart Finished Goods Wide Sku (Finished),Tablets,Lenovo,FALSE,Active,$67.23,$217.74,Damaged,B,Functional,,RTV Liquidate,,,Y,2026-09-09
+TRG00700,00100000700,Item 700 Tablets,WFS-OVERFLOW,Walmart Computers Parts (Finished),Tablets,Lenovo,FALSE,Active,$201.12,$159.58,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-14
+TRG00701,00100000701,Item 701 Computers,PHXAZ-RETURNS,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Dell,FALSE,Active,$256.16,$207.42,Good,B,Functional,,RTV Liquidate,,,N,2026-08-26
+TRG00702,00100000702,Item 702 Headphones,BRTON-WM-FOO,Specialty,Headphones,HP,FALSE,Active,$55.03,$41.71,Fair,B,Functional,PAL-80,RTV Liquidate,,,N,2026-08-14
+TRG00703,00100000703,Item 703 TVs,BRTON-LENOVO-DC-400,Walmart Computers Parts (Finished),TVs,HP,FALSE,Active,$148.60,$111.41,Very Good,B,Functional,,Non RTV,,,Y,2026-08-23
+TRG00704,00100000704,Item 704 Computers,DALLX-HEADPHONES,Specialty,Computers,Dell,FALSE,Active,$163.17,$165.77,Damaged,C,Functional,,Non RTV,,,N,2026-08-31
+TRG00705,00100000705,Item 705 Monitors,DALLX-HEADPHONES,Walmart Computer Parts (Finished),Monitors,Lenovo,FALSE,Active,$68.67,$152.36,Fair,A,Functional,,Non RTV,,,N,2026-08-19
+TRG00706,00100000706,Item 706 Accessories,BRTON-WM-BAR,Open Box Returns,Accessories,HP,FALSE,Active,$136.59,$164.54,Damaged,A,Functional,PAL-10,Non RTV,,,N,2026-09-12
+TRG00707,00100000707,Item 707 Tablets,MILON-WM-DOTCA-RTV,Warehouse Direct,Tablets,Sony,FALSE,Active,$91.86,$248.87,Very Good,B,Functional,,RTV Liquidate,,,N,2026-08-28
+TRG00708,00100000708,Item 708 Tablets,PHXAZ-RETURNS,Walmart Computers Parts (Finished),Tablets,Lenovo,FALSE,Active,$108.11,$114.25,Fair,B,Functional,,RTV Liquidate,,,N,2026-09-02
+TRG00709,00100000709,Item 709 Computers,BRTON-WM-FOO,Walmart Headphones & Speakers (Not Apple) (Finished),Computers,Sony,FALSE,Active,$176.09,$118.40,Very Good,B,Functional,,RTV Approved,,,N,2026-08-25
+TRG00710,00100000710,Item 710 Monitors,BRTON-WM-BAR,Open Box Returns,Monitors,HP,FALSE,Active,$48.91,$196.85,Fair,C,Functional,,RTV Liquidate,,,N,2026-08-27
+TRG00711,00100000711,Item 711 Accessories,BRTON-WM-BAR,Open Box Returns,Accessories,Sony,FALSE,Active,$44.24,$31.30,Damaged,A,Functional,,Non RTV,,,Y,2026-08-12
+TRG00712,00100000712,Item 712 Monitors,MILON-WM-DOTCA-RTV,Specialty,Monitors,Sony,FALSE,Active,$239.90,$183.89,Very Good,B,Functional,PAL-80,Non RTV,,,Y,2026-09-14
+TRG00713,00100000713,Item 713 Headphones,MILON-WM-DOTCA-RTV,Walmart Monitors (Finished),Headphones,Lenovo,FALSE,Active,$136.78,$164.31,Good,A,Functional,,,,,N,2026-08-27
+TRG00714,00100000714,Item 714 Accessories,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Dell,FALSE,Active,$48.80,$49.25,Fair,B,Functional,,,,,Y,2026-08-11
+TRG00714,00100000714,Item 714 duplicate last,BRTON-WM-BAR,Walmart Headphones & Speakers (Not Apple) (Finished),Accessories,Dell,FALSE,Active,$48.80,$49.25,Fair,B,Functional,,,,,N,2026-08-11
+TRG00715,00100000715,Item 715 Accessories,WFS-OVERFLOW,Walmart Finished Goods Wide Sku (Finished),Accessories,Lenovo,FALSE,Active,$139.56,$252.50,Damaged,B,Functional,PAL-80,RTV Liquidate,,,N,2026-09-03
+TRG00716,00100000716,Item 716 Computers,BRTON-WM-FOO,Open Box Returns,Computers,Dell,FALSE,Active,$89.61,$88.26,Fair,B,Functional,PAL-79,,,,Y,2026-08-19
+TRG00717,00100000717,Item 717 TVs,MILON-WM-DOTCA-RTV,Walmart Computers Parts (Finished),TVs,HP,FALSE,Active,$206.40,$242.63,Damaged,C,Functional,,,,,N,2026-09-09
+TRG00718,00100000718,Item 718 Tablets,BRTON-WM-BAR,Open Box Returns,Tablets,Sony,FALSE,Active,$96.64,$263.06,Good,B,Functional,,Research,,,N,2026-08-31
+TRG00719,00100000719,Item 719 Headphones,DALLX-HEADPHONES,Walmart Finished Goods Wide Sku (Finished),Headphones,Lenovo,FALSE,Active,$47.23,$137.41,Damaged,A,Functional,,RTV Liquidate,,,Y,2026-09-08
+TRG00720,00100000720,Item 720 TVs,BRTON-WM-BAR,Specialty,TVs,Samsung,FALSE,Active,$111.28,$248.34,Good,B,Functional,,Non RTV,,,N,2026-08-15
+,000,Blank TRGID,BRTON-WM-FOO,Specialty,Computers,Dell,FALSE,Active,$10.00,$10.00,Good,A,Functional,,Non RTV,,,N,2026-09-14

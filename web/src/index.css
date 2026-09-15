@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --produced: #7eafd4;
+  --sold: #2f8f5b;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  background: #f6f7f9;
+  color: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
