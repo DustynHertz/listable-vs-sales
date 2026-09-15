@@ -390,7 +390,12 @@ export async function processUpload(
       progress: 10,
       message: "Parsing file on the server…",
     });
+    client.on("error", (err) => {
+      console.error("Postgres client error during upload", err);
+    });
     await client.query("BEGIN");
+    await client.query("SET LOCAL statement_timeout = 0");
+    await client.query("SET LOCAL idle_in_transaction_session_timeout = 0");
     await client.query(uploadType === "listable" ? LISTABLE_STAGE_SQL : SOLD_STAGE_SQL);
 
     const staged = await copyRecords(client, uploadType, filePath, jobId);
@@ -406,10 +411,44 @@ export async function processUpload(
       message: `Staging ${staged.toLocaleString()} rows. Committing in one transaction…`,
     });
 
-    const upsert = await client.query(
-      uploadType === "listable" ? LISTABLE_UPSERT_SQL : SOLD_UPSERT_SQL,
+    const upsertSql = uploadType === "listable" ? LISTABLE_UPSERT_SQL : SOLD_UPSERT_SQL;
+    await client.query(`
+      CREATE TEMP TABLE stage_dedup ON COMMIT DROP AS
+      SELECT DISTINCT ON (trgid) *
+      FROM stage
+      ORDER BY trgid, row_num DESC
+    `);
+    await client.query(`CREATE INDEX ON stage_dedup (row_num)`);
+    const bounds = await client.query<{ mn: string; mx: string; cnt: string }>(
+      `SELECT MIN(row_num)::text AS mn, MAX(row_num)::text AS mx, COUNT(*)::text AS cnt FROM stage_dedup`,
     );
-    const committed = upsert.rowCount ?? 0;
+    const minRow = Number(bounds.rows[0]?.mn ?? 0);
+    const maxRow = Number(bounds.rows[0]?.mx ?? 0);
+    const total = Number(bounds.rows[0]?.cnt ?? 0);
+    const batchSize = 5_000;
+    let committed = 0;
+    let batch = 0;
+    for (let startRow = minRow; startRow <= maxRow; startRow += batchSize) {
+      const endRow = startRow + batchSize - 1;
+      batch += 1;
+      const upsert = await client.query(
+        upsertSql.replace(
+          /FROM \(\s*SELECT DISTINCT ON \(trgid\) \*\s*FROM stage\s*ORDER BY trgid, row_num DESC\s*\) s/s,
+          `FROM (
+  SELECT *
+  FROM stage_dedup
+  WHERE row_num BETWEEN ${startRow} AND ${endRow}
+) s`,
+        ),
+      );
+      committed += upsert.rowCount ?? 0;
+      const pct = Math.min(98, 85 + Math.floor((committed / Math.max(1, total)) * 13));
+      void updateJob(jobId, {
+        status: "committing",
+        progress: pct,
+        message: `Committing batch ${batch} (${committed.toLocaleString()} / ${total.toLocaleString()} TRGIDs)…`,
+      }).catch(() => undefined);
+    }
 
     await client.query(
       `INSERT INTO upload_history (filename, upload_type, row_count)

@@ -13,6 +13,9 @@ export const pool = new Pool({
   max: 10,
   idleTimeoutMillis: 30_000,
   connectionTimeoutMillis: 30_000,
-  statement_timeout: 0,
   ...(needsSsl ? { ssl: { rejectUnauthorized: false } } : {}),
+});
+
+pool.on("error", (err) => {
+  console.error("Unexpected Postgres pool error", err);
 });
