@@ -27,7 +27,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({
   storage,
-  limits: { fileSize: 120 * 1024 * 1024 },
+  limits: { fileSize: 300 * 1024 * 1024 },
   fileFilter: (_req, file, cb) => {
     const ext = path.extname(file.originalname).toLowerCase();
     if (ext === ".csv" || ext === ".xlsx") {
@@ -46,7 +46,7 @@ function receiveFile(req: Request, res: Response, next: NextFunction) {
       const message = err instanceof Error ? err.message : "Upload failed.";
       res.status(400).json({
         error: message.includes("File too large")
-          ? "File is too large. Maximum size is 120 MB."
+          ? "File is too large. Maximum size is 300 MB."
           : message,
       });
       return;
