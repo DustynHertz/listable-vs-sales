@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { parse } from "csv-parse";
-import ExcelJS from "exceljs";
+import * as XLSX from "xlsx";
 import type { ListableRow, SoldRow, UploadType } from "../types";
 import { mapHeaders, requireTrgid, type ColumnMap } from "../utils/headers";
 import {
@@ -77,107 +77,49 @@ export function rowFromCells(
   return record as unknown as ParsedRecord;
 }
 
-function excelRowToCells(row: ExcelJS.Row): unknown[] {
-  const values = Array.isArray(row.values) ? row.values : [];
-  const cells: unknown[] = [];
-  const last = row.cellCount || values.length;
-  for (let i = 1; i <= last; i++) {
-    const v = values[i];
-    if (v && typeof v === "object" && "result" in (v as object)) {
-      cells.push((v as { result: unknown }).result);
-    } else if (v && typeof v === "object" && "text" in (v as object)) {
-      cells.push((v as { text: unknown }).text);
-    } else {
-      cells.push(v ?? null);
-    }
-  }
-  return cells;
-}
-
-export async function* parseFile(
-  filePath: string,
-  uploadType: UploadType,
-): AsyncGenerator<ParsedRecord> {
-  const ext = path.extname(filePath).toLowerCase();
-  if (ext === ".csv") {
-    yield* parseCsv(filePath, uploadType);
-    return;
-  }
-  if (ext === ".xlsx") {
-    yield* parseXlsx(filePath, uploadType);
-    return;
-  }
-  throw new Error("Please upload a .xlsx or .csv file.");
-}
-
-async function* parseCsv(
-  filePath: string,
-  uploadType: UploadType,
-): AsyncGenerator<ParsedRecord> {
-  const parser = fs.createReadStream(filePath).pipe(
-    parse({
-      bom: true,
-      relaxColumnCount: true,
-      skipEmptyLines: true,
-      relaxQuotes: true,
-    }),
-  );
-
-  let columns: ColumnMap | null = null;
-  for await (const record of parser) {
-    const cells = record as unknown[];
-    if (!columns) {
-      columns = mapHeaders(cells, uploadType);
-      requireTrgid(columns);
-      continue;
-    }
-    const row = rowFromCells(cells, columns, uploadType);
-    if (row) yield row;
-  }
-
-  if (!columns) {
-    throw new Error("The file is empty.");
-  }
-}
 
 async function* parseXlsx(
   filePath: string,
   uploadType: UploadType,
 ): AsyncGenerator<ParsedRecord> {
-  const stream = fs.createReadStream(filePath);
-  const reader = new ExcelJS.stream.xlsx.WorkbookReader(stream, {
-    entries: "emit",
-    sharedStrings: "cache",
-    hyperlinks: "ignore",
-    styles: "ignore",
-    worksheets: "emit",
+  // SheetJS is used because some Recommerce exports break ExcelJS streaming/model parsers.
+  const workbook = XLSX.readFile(filePath, {
+    cellDates: true,
+    dense: true,
+  });
+  const sheetName = workbook.SheetNames[0];
+  if (!sheetName) {
+    throw new Error("The workbook has no worksheets.");
+  }
+  const sheet = workbook.Sheets[sheetName];
+  const rows = XLSX.utils.sheet_to_json<unknown[]>(sheet, {
+    header: 1,
+    defval: null,
+    raw: true,
+    blankrows: false,
   });
 
-  let parsedSheet = false;
-  for await (const worksheetReader of reader) {
-    if (parsedSheet) continue;
-    parsedSheet = true;
-    let columns: ColumnMap | null = null;
-    for await (const row of worksheetReader) {
-      const cells = excelRowToCells(row as ExcelJS.Row);
-      if (cells.every((c) => c === null || c === undefined || String(c).trim() === "")) {
-        continue;
-      }
-      if (!columns) {
-        columns = mapHeaders(cells, uploadType);
-        requireTrgid(columns);
-        continue;
-      }
-      const parsed = rowFromCells(cells, columns, uploadType);
-      if (parsed) yield parsed;
-    }
-    if (!columns) {
-      throw new Error("The file is empty.");
-    }
+  if (rows.length === 0) {
+    throw new Error("The file is empty.");
   }
 
-  if (!parsedSheet) {
-    throw new Error("The workbook has no worksheets.");
+  let columns: ColumnMap | null = null;
+  for (const cells of rows) {
+    if (!Array.isArray(cells)) continue;
+    if (cells.every((c) => c === null || c === undefined || String(c).trim() === "")) {
+      continue;
+    }
+    if (!columns) {
+      columns = mapHeaders(cells, uploadType);
+      requireTrgid(columns);
+      continue;
+    }
+    const parsed = rowFromCells(cells, columns, uploadType);
+    if (parsed) yield parsed;
+  }
+
+  if (!columns) {
+    throw new Error("The file is empty.");
   }
 }
 

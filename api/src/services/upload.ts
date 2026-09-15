@@ -1,5 +1,4 @@
 import fs from "node:fs";
-import { once } from "node:events";
 import { finished } from "node:stream/promises";
 import type { PoolClient } from "pg";
 import { from as copyFrom } from "pg-copy-streams";
@@ -315,9 +314,32 @@ async function copyRecords(
 
   let rowNum = 0;
   let lastProgress = Date.now();
+  let streamError: Error | null = null;
+  copyStream.on("error", (err: Error) => {
+    streamError = err;
+  });
+
+  const waitForDrain = () =>
+    new Promise<void>((resolve, reject) => {
+      const onDrain = () => {
+        cleanup();
+        resolve();
+      };
+      const onError = (err: Error) => {
+        cleanup();
+        reject(err);
+      };
+      const cleanup = () => {
+        copyStream.off("drain", onDrain);
+        copyStream.off("error", onError);
+      };
+      copyStream.once("drain", onDrain);
+      copyStream.once("error", onError);
+    });
 
   try {
     for await (const record of parseFile(filePath, uploadType)) {
+      if (streamError) throw streamError;
       rowNum += 1;
       const fields =
         uploadType === "listable"
@@ -325,25 +347,33 @@ async function copyRecords(
           : soldToCopyFields(record as SoldRow, rowNum);
       const line = fields.map((v) => csvField(v as never)).join(",") + "\n";
       if (!copyStream.write(line)) {
-        await once(copyStream, "drain");
+        await waitForDrain();
       }
-      if (rowNum % 5000 === 0 && Date.now() - lastProgress > 400) {
+      if (rowNum % 5000 === 0 && Date.now() - lastProgress > 800) {
         lastProgress = Date.now();
         const pct = Math.min(75, 15 + Math.floor((rowNum / 5000) * 2));
-        await updateJob(jobId, {
+        // Fire-and-forget progress so we do not interleave awaits with COPY.
+        void updateJob(jobId, {
           status: "parsing",
           progress: pct,
           message: `Parsed ${rowNum.toLocaleString()} rows…`,
-        });
+        }).catch(() => undefined);
       }
     }
 
+    if (streamError) throw streamError;
     copyStream.end();
     await finished(copyStream);
     return rowNum;
   } catch (err) {
-    copyStream.destroy();
-    throw err;
+    if (!copyStream.destroyed) {
+      try {
+        copyStream.destroy(err instanceof Error ? err : undefined);
+      } catch {
+        /* ignore */
+      }
+    }
+    throw streamError ?? err;
   }
 }
 
