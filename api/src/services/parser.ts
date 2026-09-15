@@ -1,5 +1,7 @@
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
+import { Worker } from "node:worker_threads";
 import { parse } from "csv-parse";
 import * as XLSX from "xlsx";
 import type { ListableRow, SoldRow, UploadType } from "../types";
@@ -125,48 +127,37 @@ async function* parseCsv(
   }
 }
 
+
+function xlsxToCsvInWorker(inputPath: string, outputPath: string): Promise<void> {
+  return new Promise((resolve, reject) => {
+    const worker = new Worker(new URL("../workers/xlsxToCsv.mjs", import.meta.url), {
+      workerData: { inputPath, outputPath },
+    });
+    worker.on("message", (msg: { ok: boolean; error?: string }) => {
+      if (msg.ok) resolve();
+      else reject(new Error(msg.error || "Failed to convert Excel workbook."));
+    });
+    worker.on("error", reject);
+    worker.on("exit", (code) => {
+      if (code !== 0) reject(new Error(`Excel conversion worker exited with code ${code}`));
+    });
+  });
+}
+
 async function* parseXlsx(
   filePath: string,
   uploadType: UploadType,
 ): AsyncGenerator<ParsedRecord> {
-  // SheetJS is used because some Recommerce exports break ExcelJS streaming/model parsers.
-  const workbook = XLSX.readFile(filePath, {
-    cellDates: true,
-    dense: true,
-  });
-  const sheetName = workbook.SheetNames[0];
-  if (!sheetName) {
-    throw new Error("The workbook has no worksheets.");
-  }
-  const sheet = workbook.Sheets[sheetName];
-  const rows = XLSX.utils.sheet_to_json<unknown[]>(sheet, {
-    header: 1,
-    defval: null,
-    raw: true,
-    blankrows: false,
-  });
-
-  if (rows.length === 0) {
-    throw new Error("The file is empty.");
-  }
-
-  let columns: ColumnMap | null = null;
-  for (const cells of rows) {
-    if (!Array.isArray(cells)) continue;
-    if (cells.every((c) => c === null || c === undefined || String(c).trim() === "")) {
-      continue;
-    }
-    if (!columns) {
-      columns = mapHeaders(cells, uploadType);
-      requireTrgid(columns);
-      continue;
-    }
-    const parsed = rowFromCells(cells, columns, uploadType);
-    if (parsed) yield parsed;
-  }
-
-  if (!columns) {
-    throw new Error("The file is empty.");
+  // Convert in a worker so the HTTP event loop (health checks + job polling) stays responsive.
+  const csvPath = path.join(
+    os.tmpdir(),
+    `listable-${Date.now()}-${Math.random().toString(16).slice(2)}.csv`,
+  );
+  try {
+    await xlsxToCsvInWorker(filePath, csvPath);
+    yield* parseCsv(csvPath, uploadType);
+  } finally {
+    await fs.promises.unlink(csvPath).catch(() => undefined);
   }
 }
 
