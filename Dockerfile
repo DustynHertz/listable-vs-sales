@@ -1,7 +1,7 @@
 FROM node:22-alpine AS web-build
 WORKDIR /app/web
 COPY web/package.json web/package-lock.json ./
-RUN npm ci
+RUN npm ci --legacy-peer-deps
 COPY web/ ./
 RUN npm run build
 
