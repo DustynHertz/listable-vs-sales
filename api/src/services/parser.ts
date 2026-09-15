@@ -78,6 +78,53 @@ export function rowFromCells(
 }
 
 
+
+export async function* parseFile(
+  filePath: string,
+  uploadType: UploadType,
+): AsyncGenerator<ParsedRecord> {
+  const ext = path.extname(filePath).toLowerCase();
+  if (ext === ".csv") {
+    yield* parseCsv(filePath, uploadType);
+    return;
+  }
+  if (ext === ".xlsx") {
+    yield* parseXlsx(filePath, uploadType);
+    return;
+  }
+  throw new Error("Please upload a .xlsx or .csv file.");
+}
+
+async function* parseCsv(
+  filePath: string,
+  uploadType: UploadType,
+): AsyncGenerator<ParsedRecord> {
+  const parser = fs.createReadStream(filePath).pipe(
+    parse({
+      bom: true,
+      relaxColumnCount: true,
+      skipEmptyLines: true,
+      relaxQuotes: true,
+    }),
+  );
+
+  let columns: ColumnMap | null = null;
+  for await (const record of parser) {
+    const cells = record as unknown[];
+    if (!columns) {
+      columns = mapHeaders(cells, uploadType);
+      requireTrgid(columns);
+      continue;
+    }
+    const row = rowFromCells(cells, columns, uploadType);
+    if (row) yield row;
+  }
+
+  if (!columns) {
+    throw new Error("The file is empty.");
+  }
+}
+
 async function* parseXlsx(
   filePath: string,
   uploadType: UploadType,
