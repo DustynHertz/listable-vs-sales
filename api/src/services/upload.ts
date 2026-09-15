@@ -1,18 +1,13 @@
 import fs from "node:fs";
-import { finished } from "node:stream/promises";
-import type { PoolClient } from "pg";
-import { from as copyFrom } from "pg-copy-streams";
 import type { UploadType } from "../types";
 import { pool } from "../db/pool";
-import { csvField } from "../utils/values";
-import {
-  LISTABLE_COPY_COLUMNS,
-  SOLD_COPY_COLUMNS,
-  listableToCopyFields,
-  parseFile,
-  soldToCopyFields,
-} from "./parser";
+import { parseFile } from "./parser";
 import type { ListableRow, SoldRow } from "../types";
+import {
+  BATCH,
+  upsertListableBatch,
+  upsertSoldBatch,
+} from "./streamUpsert";
 
 export type JobStatus = {
   id: string;
@@ -149,234 +144,6 @@ export async function clearAllData(): Promise<void> {
   }
 }
 
-const LISTABLE_STAGE_SQL = `
-CREATE TEMP TABLE stage (
-  row_num BIGINT,
-  trgid TEXT,
-  upc TEXT,
-  title TEXT,
-  program_name TEXT,
-  master_program_name TEXT,
-  category_name TEXT,
-  manufacturer TEXT,
-  location_not_listable BOOLEAN,
-  product_status TEXT,
-  mr_lmr_upc_average_category_retail NUMERIC,
-  upc_retail NUMERIC,
-  classification_physical_condition TEXT,
-  classification_condition TEXT,
-  classification_technical_functionality TEXT,
-  pallet_location_id TEXT,
-  rtv_type TEXT,
-  tag_not_listed_reason TEXT,
-  tag_venue_exclusivity TEXT,
-  serialized TEXT,
-  first_stored_on_listable_location_on DATE,
-  facility TEXT
-) ON COMMIT DROP
-`;
-
-const SOLD_STAGE_SQL = `
-CREATE TEMP TABLE stage (
-  row_num BIGINT,
-  trgid TEXT,
-  program_name TEXT,
-  master_program_name TEXT,
-  category_name TEXT,
-  manufacturer TEXT,
-  classification_physical_condition TEXT,
-  classification_condition TEXT,
-  rtv_type TEXT,
-  order_number TEXT,
-  sale_price NUMERIC,
-  retail_price_on_sale_date NUMERIC,
-  mr_lmr_upc_average_category_retail NUMERIC,
-  upc_retail NUMERIC,
-  order_type_sold_on TEXT,
-  marketplace_sold_on TEXT,
-  order_customer_name TEXT,
-  order_customer_company_name TEXT,
-  marketplace_po_number TEXT,
-  sorting_index TEXT,
-  location_id TEXT,
-  order_created_date DATE,
-  facility TEXT
-) ON COMMIT DROP
-`;
-
-const LISTABLE_UPSERT_SQL = `
-INSERT INTO inventory_items (
-  trgid, has_putaway, upc, title, program_name, master_program_name, category_name,
-  manufacturer, location_not_listable, product_status,
-  mr_lmr_upc_average_category_retail, upc_retail,
-  classification_physical_condition, classification_condition,
-  classification_technical_functionality, pallet_location_id, rtv_type,
-  tag_not_listed_reason, tag_venue_exclusivity, serialized,
-  first_stored_on_listable_location_on, facility, updated_at
-)
-SELECT
-  trgid, TRUE, upc, title, program_name, master_program_name, category_name,
-  manufacturer, location_not_listable, product_status,
-  mr_lmr_upc_average_category_retail, upc_retail,
-  classification_physical_condition, classification_condition,
-  classification_technical_functionality, pallet_location_id, rtv_type,
-  tag_not_listed_reason, tag_venue_exclusivity, serialized,
-  first_stored_on_listable_location_on, facility, NOW()
-FROM (
-  SELECT DISTINCT ON (trgid) *
-  FROM stage
-  ORDER BY trgid, row_num DESC
-) s
-ON CONFLICT (trgid) DO UPDATE SET
-  has_putaway = TRUE,
-  upc = EXCLUDED.upc,
-  title = EXCLUDED.title,
-  program_name = EXCLUDED.program_name,
-  master_program_name = EXCLUDED.master_program_name,
-  category_name = EXCLUDED.category_name,
-  manufacturer = EXCLUDED.manufacturer,
-  location_not_listable = EXCLUDED.location_not_listable,
-  product_status = EXCLUDED.product_status,
-  mr_lmr_upc_average_category_retail = EXCLUDED.mr_lmr_upc_average_category_retail,
-  upc_retail = EXCLUDED.upc_retail,
-  classification_physical_condition = EXCLUDED.classification_physical_condition,
-  classification_condition = EXCLUDED.classification_condition,
-  classification_technical_functionality = EXCLUDED.classification_technical_functionality,
-  pallet_location_id = EXCLUDED.pallet_location_id,
-  rtv_type = EXCLUDED.rtv_type,
-  tag_not_listed_reason = EXCLUDED.tag_not_listed_reason,
-  tag_venue_exclusivity = EXCLUDED.tag_venue_exclusivity,
-  serialized = EXCLUDED.serialized,
-  first_stored_on_listable_location_on = EXCLUDED.first_stored_on_listable_location_on,
-  facility = EXCLUDED.facility,
-  updated_at = NOW()
-`;
-
-const SOLD_UPSERT_SQL = `
-INSERT INTO inventory_items (
-  trgid, has_sold_upload, program_name_sold, master_program_name_sold, category_name_sold,
-  manufacturer_sold, classification_physical_condition_sold, classification_condition_sold,
-  rtv_type_sold, order_number, sale_price, retail_price_on_sale_date,
-  mr_lmr_upc_average_category_retail_sold, upc_retail_sold, order_type_sold_on,
-  marketplace_sold_on, order_customer_name, order_customer_company_name,
-  marketplace_po_number, sorting_index, location_id, order_created_date, facility_sold,
-  updated_at
-)
-SELECT
-  trgid, TRUE, program_name, master_program_name, category_name,
-  manufacturer, classification_physical_condition, classification_condition,
-  rtv_type, order_number, sale_price, retail_price_on_sale_date,
-  mr_lmr_upc_average_category_retail, upc_retail, order_type_sold_on,
-  marketplace_sold_on, order_customer_name, order_customer_company_name,
-  marketplace_po_number, sorting_index, location_id, order_created_date, facility,
-  NOW()
-FROM (
-  SELECT DISTINCT ON (trgid) *
-  FROM stage
-  ORDER BY trgid, row_num DESC
-) s
-ON CONFLICT (trgid) DO UPDATE SET
-  has_sold_upload = TRUE,
-  program_name_sold = EXCLUDED.program_name_sold,
-  master_program_name_sold = EXCLUDED.master_program_name_sold,
-  category_name_sold = EXCLUDED.category_name_sold,
-  manufacturer_sold = EXCLUDED.manufacturer_sold,
-  classification_physical_condition_sold = EXCLUDED.classification_physical_condition_sold,
-  classification_condition_sold = EXCLUDED.classification_condition_sold,
-  rtv_type_sold = EXCLUDED.rtv_type_sold,
-  order_number = EXCLUDED.order_number,
-  sale_price = EXCLUDED.sale_price,
-  retail_price_on_sale_date = EXCLUDED.retail_price_on_sale_date,
-  mr_lmr_upc_average_category_retail_sold = EXCLUDED.mr_lmr_upc_average_category_retail_sold,
-  upc_retail_sold = EXCLUDED.upc_retail_sold,
-  order_type_sold_on = EXCLUDED.order_type_sold_on,
-  marketplace_sold_on = EXCLUDED.marketplace_sold_on,
-  order_customer_name = EXCLUDED.order_customer_name,
-  order_customer_company_name = EXCLUDED.order_customer_company_name,
-  marketplace_po_number = EXCLUDED.marketplace_po_number,
-  sorting_index = EXCLUDED.sorting_index,
-  location_id = EXCLUDED.location_id,
-  order_created_date = EXCLUDED.order_created_date,
-  facility_sold = EXCLUDED.facility_sold,
-  updated_at = NOW()
-`;
-
-async function copyRecords(
-  client: PoolClient,
-  uploadType: UploadType,
-  filePath: string,
-  jobId: string,
-): Promise<number> {
-  const columns =
-    uploadType === "listable" ? LISTABLE_COPY_COLUMNS : SOLD_COPY_COLUMNS;
-  const copySql = `COPY stage (${columns.join(", ")}) FROM STDIN WITH (FORMAT csv, NULL '')`;
-  const copyStream = client.query(copyFrom(copySql));
-
-  let rowNum = 0;
-  let lastProgress = Date.now();
-  let streamError: Error | null = null;
-  copyStream.on("error", (err: Error) => {
-    streamError = err;
-  });
-
-  const waitForDrain = () =>
-    new Promise<void>((resolve, reject) => {
-      const onDrain = () => {
-        cleanup();
-        resolve();
-      };
-      const onError = (err: Error) => {
-        cleanup();
-        reject(err);
-      };
-      const cleanup = () => {
-        copyStream.off("drain", onDrain);
-        copyStream.off("error", onError);
-      };
-      copyStream.once("drain", onDrain);
-      copyStream.once("error", onError);
-    });
-
-  try {
-    for await (const record of parseFile(filePath, uploadType)) {
-      if (streamError) throw streamError;
-      rowNum += 1;
-      const fields =
-        uploadType === "listable"
-          ? listableToCopyFields(record as ListableRow, rowNum)
-          : soldToCopyFields(record as SoldRow, rowNum);
-      const line = fields.map((v) => csvField(v as never)).join(",") + "\n";
-      if (!copyStream.write(line)) {
-        await waitForDrain();
-      }
-      if (rowNum % 5000 === 0 && Date.now() - lastProgress > 800) {
-        lastProgress = Date.now();
-        const pct = Math.min(75, 15 + Math.floor((rowNum / 5000) * 2));
-        // Fire-and-forget progress so we do not interleave awaits with COPY.
-        void updateJob(jobId, {
-          status: "parsing",
-          progress: pct,
-          message: `Parsed ${rowNum.toLocaleString()} rows…`,
-        }).catch(() => undefined);
-      }
-    }
-
-    if (streamError) throw streamError;
-    copyStream.end();
-    await finished(copyStream);
-    return rowNum;
-  } catch (err) {
-    if (!copyStream.destroyed) {
-      try {
-        copyStream.destroy(err instanceof Error ? err : undefined);
-      } catch {
-        /* ignore */
-      }
-    }
-    throw streamError ?? err;
-  }
-}
-
 export async function processUpload(
   jobId: string,
   uploadType: UploadType,
@@ -384,69 +151,68 @@ export async function processUpload(
   filePath: string,
 ): Promise<void> {
   const client = await pool.connect();
+  client.on("error", (err) => {
+    console.error("Postgres client error during upload", err);
+  });
   try {
     await updateJob(jobId, {
       status: "parsing",
-      progress: 10,
+      progress: 5,
       message: "Parsing file on the server…",
     });
-    client.on("error", (err) => {
-      console.error("Postgres client error during upload", err);
-    });
-    await client.query("BEGIN");
-    await client.query("SET LOCAL statement_timeout = 0");
-    await client.query("SET LOCAL idle_in_transaction_session_timeout = 0");
-    await client.query(uploadType === "listable" ? LISTABLE_STAGE_SQL : SOLD_STAGE_SQL);
 
-    const staged = await copyRecords(client, uploadType, filePath, jobId);
-    if (staged === 0) {
+    // Last-row-wins in memory, then batch upsert. Avoids huge Postgres temp tables
+    // that exhaust Railway Hobby disk (0.5 GB).
+    const byTrgid = new Map<string, ListableRow | SoldRow>();
+    let seen = 0;
+    let lastProgress = Date.now();
+    for await (const record of parseFile(filePath, uploadType)) {
+      seen += 1;
+      byTrgid.set(record.trgid, record);
+      if (seen % 5000 === 0 && Date.now() - lastProgress > 800) {
+        lastProgress = Date.now();
+        void updateJob(jobId, {
+          status: "parsing",
+          progress: Math.min(40, 5 + Math.floor(seen / 5000)),
+          message: `Parsed ${seen.toLocaleString()} rows (${byTrgid.size.toLocaleString()} unique TRGIDs)…`,
+        }).catch(() => undefined);
+      }
+    }
+
+    if (byTrgid.size === 0) {
       throw new Error(
         "No rows were imported. Check that TRGID is populated and ProgramName is not on the exclusion list.",
       );
     }
 
+    const rows = Array.from(byTrgid.values());
     await updateJob(jobId, {
       status: "committing",
-      progress: 85,
-      message: `Staging ${staged.toLocaleString()} rows. Committing in one transaction…`,
+      progress: 45,
+      message: `Committing ${rows.length.toLocaleString()} unique TRGIDs in batches…`,
     });
 
-    const upsertSql = uploadType === "listable" ? LISTABLE_UPSERT_SQL : SOLD_UPSERT_SQL;
-    await client.query(`
-      CREATE TEMP TABLE stage_dedup ON COMMIT DROP AS
-      SELECT DISTINCT ON (trgid) *
-      FROM stage
-      ORDER BY trgid, row_num DESC
-    `);
-    await client.query(`CREATE INDEX ON stage_dedup (row_num)`);
-    const bounds = await client.query<{ mn: string; mx: string; cnt: string }>(
-      `SELECT MIN(row_num)::text AS mn, MAX(row_num)::text AS mx, COUNT(*)::text AS cnt FROM stage_dedup`,
-    );
-    const minRow = Number(bounds.rows[0]?.mn ?? 0);
-    const maxRow = Number(bounds.rows[0]?.mx ?? 0);
-    const total = Number(bounds.rows[0]?.cnt ?? 0);
-    const batchSize = 5_000;
     let committed = 0;
-    let batch = 0;
-    for (let startRow = minRow; startRow <= maxRow; startRow += batchSize) {
-      const endRow = startRow + batchSize - 1;
-      batch += 1;
-      const upsert = await client.query(
-        upsertSql.replace(
-          /FROM \(\s*SELECT DISTINCT ON \(trgid\) \*\s*FROM stage\s*ORDER BY trgid, row_num DESC\s*\) s/s,
-          `FROM (
-  SELECT *
-  FROM stage_dedup
-  WHERE row_num BETWEEN ${startRow} AND ${endRow}
-) s`,
-        ),
-      );
-      committed += upsert.rowCount ?? 0;
-      const pct = Math.min(98, 85 + Math.floor((committed / Math.max(1, total)) * 13));
+    for (let i = 0; i < rows.length; i += BATCH) {
+      const chunk = rows.slice(i, i + BATCH);
+      await client.query("BEGIN");
+      await client.query("SET LOCAL statement_timeout = 0");
+      try {
+        if (uploadType === "listable") {
+          committed += await upsertListableBatch(client, chunk as ListableRow[]);
+        } else {
+          committed += await upsertSoldBatch(client, chunk as SoldRow[]);
+        }
+        await client.query("COMMIT");
+      } catch (err) {
+        await client.query("ROLLBACK");
+        throw err;
+      }
+      const pct = Math.min(98, 45 + Math.floor((committed / rows.length) * 50));
       void updateJob(jobId, {
         status: "committing",
         progress: pct,
-        message: `Committing batch ${batch} (${committed.toLocaleString()} / ${total.toLocaleString()} TRGIDs)…`,
+        message: `Committed ${committed.toLocaleString()} / ${rows.length.toLocaleString()} TRGIDs…`,
       }).catch(() => undefined);
     }
 
@@ -455,7 +221,6 @@ export async function processUpload(
        VALUES ($1, $2, $3)`,
       [filename, uploadType, committed],
     );
-    await client.query("COMMIT");
 
     await updateJob(jobId, {
       status: "completed",
@@ -465,18 +230,13 @@ export async function processUpload(
       completed: true,
     });
   } catch (err) {
-    try {
-      await client.query("ROLLBACK");
-    } catch {
-      /* already aborted */
-    }
     const message =
       err instanceof Error ? err.message : "Upload failed for an unknown reason.";
     await updateJob(jobId, {
       status: "failed",
       progress: 0,
       error: message,
-      message: "Import rolled back. No rows from this file were saved.",
+      message: "Import failed. Already-committed batches (if any) were kept.",
       completed: true,
     });
   } finally {

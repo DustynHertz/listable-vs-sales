@@ -130,7 +130,7 @@ async function* parseCsv(
 
 function xlsxToCsvInWorker(inputPath: string, outputPath: string): Promise<void> {
   return new Promise((resolve, reject) => {
-    const worker = new Worker(new URL("../workers/xlsxToCsv.mjs", import.meta.url), {
+    const worker = new Worker(path.join(process.cwd(), "src/workers/xlsxToCsv.mjs"), {
       workerData: { inputPath, outputPath },
     });
     worker.on("message", (msg: { ok: boolean; error?: string }) => {
